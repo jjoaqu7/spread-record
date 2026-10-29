@@ -1,0 +1,147 @@
+{
+  "checked_at": "2026-10-29T19:12:34.808551+00:00",
+  "rules": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending.",
+  "totals": {
+    "pending": 1
+  },
+  "results": [
+    {
+      "game_id": "401873023",
+      "league": "nfl",
+      "starts_at": "2026-10-30T00:15:00+00:00",
+      "teams": {
+        "home": {
+          "id": "9",
+          "name": "Green Bay Packers",
+          "leader_ids": [
+            "4036378",
+            "4248528",
+            "4429023"
+          ]
+        },
+        "away": {
+          "id": "29",
+          "name": "Carolina Panthers",
+          "leader_ids": [
+            "4241416",
+            "4685472",
+            "4685720"
+          ]
+        }
+      },
+      "team_id": "29",
+      "team": "Carolina Panthers",
+      "side": "away",
+      "spread": 3.5,
+      "decimal_odds": 1.98,
+      "quotes": [
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-10-29T19:11:38+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.88
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.93
+            }
+          }
+        },
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-10-29T19:11:38+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-10-29T19:11:39+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.89
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.92
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-10-29T19:11:39+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.8
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.82
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-10-29T19:11:14+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.93
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.98
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-10-29T19:12:03+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -3.5,
+              "decimal_price": 1.89
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": 3.5,
+              "decimal_price": 1.93
+            }
+          }
+        }
+      ],
+      "published_at": "2026-10-29T19:12:33Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-29",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED"
+    }
+  ]
+}
