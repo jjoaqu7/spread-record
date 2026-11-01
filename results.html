@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="The complete public record of published pregame spread picks, scores and results across NBA, NFL and NHL.">
+  <title>Spread record · Results</title>
+  <style>
+    :root{--ink:#162827;--muted:#536964;--paper:#f5f6f2;--white:#fff;--line:#dce3dc;--green:#165b45;--mint:#dff0df;--red:#a33439;--amber:#80550a}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--green);text-underline-offset:4px}a:hover{color:#0b3727}button,input,select{font:inherit}button,select,summary{cursor:pointer}button,input,select{min-height:44px}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #a66815;outline-offset:4px}[hidden]{display:none!important}.skip{position:absolute;left:12px;top:-60px;padding:10px;background:white;z-index:2}.skip:focus{top:12px}
+    .wrap{max-width:1200px;margin:auto;padding:0 32px}header{border-bottom:1px solid var(--line);background:#fbfcf8}.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:80px}.brand{display:flex;align-items:center;gap:12px;font-weight:750;font-size:17px;letter-spacing:-.5px}.brand-mark{display:grid;place-items:center;width:34px;height:34px;background:var(--green);color:#fff;border-radius:9px;font-size:22px}.topbar nav{display:flex;gap:24px}.topbar a{font-size:13px;text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;padding:52px 0 30px;align-items:end}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--green);font-weight:750;margin:0 0 12px}h1{font-size:clamp(38px,6vw,60px);line-height:1.05;letter-spacing:-2.5px;margin:0 0 18px;font-weight:650}.intro{color:var(--muted);max-width:540px;font-size:16px;margin:0}.updated{font-size:12px;color:var(--muted);text-align:right;margin:0 0 4px}.updated b{display:block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--ink);margin-bottom:6px}
+    .metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--green);color:white;border-radius:16px;padding:25px 8px;margin:5px 0 22px}.metric{padding:0 24px;border-right:1px solid #ffffff30;min-width:0}.metric:last-child{border:0}.metric>span{font-size:12px;color:#d2e6db}.metric strong{display:block;font-size:42px;line-height:1.2;font-weight:600;letter-spacing:-1px;margin:6px 0}.metric small{font-size:11px;color:#d2e6db}.rate-note{font-size:12px;color:var(--muted);margin:0 0 28px}
+    .league-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.league-summary{border:1px solid var(--line);padding:20px;border-radius:12px;background:#ffffff80}.league-summary>div:first-child{display:flex;align-items:center;gap:15px}.league-summary b{font-size:13px;letter-spacing:1px}.league-summary span{font-size:12px;color:var(--muted)}.league-summary strong{margin-left:auto;font-size:15px}.bar{background:#e2e8df;height:5px;border-radius:4px;margin:16px 0 10px;overflow:hidden}.bar span{display:block;height:100%;background:var(--green);border-radius:4px}.league-summary small{font-size:11px;color:var(--muted)}
+    .section-heading{display:flex;align-items:end;justify-content:space-between;margin:42px 0 18px;gap:20px}h2{font-size:25px;letter-spacing:-.8px;margin:0}.section-heading p{margin:3px 0 0;color:var(--muted);font-size:12px}.total{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:5px 12px;white-space:nowrap}.filters{display:flex;gap:12px;align-items:end;padding:16px;background:#eaf0e6;border-radius:12px;margin-bottom:12px}.filters label{font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:5px;font-weight:600}.search-label{flex:1}.filters input,.filters select{border:1px solid #ccd7ca;border-radius:7px;padding:10px 12px;background:white;color:var(--ink);width:100%}.filters select{min-width:145px}.filters button{background:transparent;border:1px solid #b8c8b7;border-radius:7px;padding:10px 15px;color:var(--green);font-weight:600}.filter-count{font-size:12px;color:var(--muted);margin:12px 0}.day-group h3{font-size:13px;font-weight:600;color:var(--muted);margin:26px 0 14px;display:flex;align-items:center;gap:14px}.day-group h3:after{content:"";height:1px;background:var(--line);flex:1}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+    .pick-card{background:var(--white);border:1px solid var(--line);border-radius:13px;overflow:hidden;min-width:0;box-shadow:0 3px 8px #203e2704}.card-top{display:flex;justify-content:space-between;align-items:center;padding:18px 20px 0}.league{font-size:11px;font-weight:750;letter-spacing:1px}.badge{font-size:11px;border-radius:5px;padding:4px 9px;font-weight:700;background:#eef0ed;color:#53635e}.badge.win{background:#e2f1e5;color:#175435}.badge.loss{background:#fae8e9;color:var(--red)}.badge.pending{background:#fff1d7;color:var(--amber)}.badge.ineligible{background:#f3e8f5;color:#6a3475}.game-time{font-size:11px;color:var(--muted);padding:0 20px;margin:9px 0 20px}.scoreboard{padding:0 20px 20px;display:grid;gap:13px}.team{display:flex;align-items:center;justify-content:space-between;gap:12px}.team>span{display:flex;flex-wrap:wrap;align-items:center;gap:3px 7px;min-width:0}.side{font-size:9px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);width:100%}.team-name{font-weight:600;font-size:14px;overflow-wrap:anywhere}.team>b{font-variant-numeric:tabular-nums;font-size:25px;font-weight:600}.selection{font-size:9px;color:var(--green);border:1px solid #d1e4d1;border-radius:4px;padding:0 5px}.pick-line{background:#f2f6ef;border-top:1px solid #e7ede3;border-bottom:1px solid #e7ede3;padding:13px 20px;min-height:79px}.pick-line>span{display:block;font-size:10px;color:var(--muted);margin-bottom:5px}.pick-line strong{font-size:13px}.spread{color:var(--green);white-space:nowrap}.card-stats{display:flex;padding:15px 20px;gap:34px}.card-stats span{display:block;font-size:10px;color:var(--muted)}.card-stats strong{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}details{border-top:1px solid #edf0e9}summary{font-size:11px;font-weight:600;color:var(--muted);padding:13px 20px}summary:hover{color:var(--green);background:#f8faf5}.evidence{font-size:11px;padding:0 20px 15px;overflow-wrap:anywhere}.evidence p{margin:8px 0}.muted,.note{color:var(--muted)}.empty{text-align:center;padding:48px 20px;border:1px dashed #b8c8b7;border-radius:12px;color:var(--muted)}
+    .method{margin:42px 0 0;border-top:1px solid var(--line);padding:25px 0}.method summary{font-size:13px;padding:0;color:var(--ink)}.method div{max-width:800px;font-size:12px;color:var(--muted);padding-top:10px}footer{margin-top:12px;padding:22px 0 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px}footer p{margin:0}footer a{margin-left:16px}.no-js{padding:12px 16px;border:1px solid var(--line);border-radius:8px;font-size:12px;color:var(--muted)}
+    @media(min-width:900px){.pick-card:hover{border-color:#a8bea7;box-shadow:0 5px 18px #203e2709}}
+    @media(max-width:1000px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{padding:0 18px}.metric strong{font-size:36px}}
+    @media(max-width:700px){.wrap{padding:0 20px}.hero{grid-template-columns:1fr;padding-top:32px;gap:20px}.updated{text-align:left}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));padding:6px 0;gap:0}.metric{padding:18px 20px}.metric:nth-child(2){border:0}.metric:nth-child(-n+2){border-bottom:1px solid #ffffff30}.metric strong{font-size:34px}.league-grid{grid-template-columns:1fr;gap:9px}.league-summary{padding:15px 18px}.bar{margin:10px 0 6px}.filters{flex-wrap:wrap}.search-label{flex-basis:100%}.filters label:not(.search-label){flex:1;min-width:0}.filters select{min-width:0}.filters button{padding:10px}.cards{grid-template-columns:1fr}.topbar{min-height:66px}.topbar nav{gap:16px}.topbar a{font-size:11px}.brand{font-size:15px}.brand-mark{width:29px;height:29px}.section-heading{margin-top:32px}footer{flex-direction:column;gap:12px}footer a{margin:0 16px 0 0}}
+    @media print{body{background:white}.filters,.topbar nav,.filter-count{display:none!important}.wrap{padding:0}.metrics{background:white;color:black;border:1px solid #ccc}.metric>span,.metric small{color:#444}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.pick-card{break-inside:avoid;box-shadow:none}.hero{padding-top:20px}.day-group h3{break-after:avoid}footer{padding-bottom:0}}
+  </style>
+</head>
+<body>
+<a class="skip" href="#results">Skip to results</a>
+<header><div class="wrap topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">↗</span> Spread record</div><nav aria-label="Main"><a href="#results">Results</a><a href="https://github.com/jjoaqu7/spread-record/releases">Original picks ↗</a></nav></div></header>
+<main class="wrap">
+  <section class="hero" aria-labelledby="title"><div><p class="eyebrow">NBA / NFL / NHL · Public record</p><h1>Every pick.<br>Every result.</h1><p class="intro">A clear view of the record, from the published spread to the final score. All picks stay on the board.</p></div><p class="updated"><b>Last checked</b>Oct 31, 2026 · 09:59 AM EDT<br>Updated by the grading job · All times Toronto</p></section>
+  <section class="metrics" aria-label="All-time performance"><div class="metric"><span>Record</span><strong>4–1</strong><small>Wins – losses</small></div><div class="metric"><span>Win rate</span><strong>80.0%</strong><small>Wins ÷ decided picks</small></div><div class="metric"><span>Pending</span><strong>3</strong><small>Awaiting verified finals</small></div><div class="metric"><span>Other outcomes</span><strong>0</strong><small>0 push · 0 void · 0 ineligible</small></div></section>
+  <p class="rate-note">All-time totals. Win rate excludes pushes, pending, void and ineligible picks. Filters below only affect the picks shown.</p>
+  <section class="league-grid" aria-label="Performance by league"><div class="league-summary"><div><b>NBA</b><span>3W / 0L / 0P</span><strong>100.0%</strong></div><div class="bar" role="img" aria-label="NBA win rate 100.0%"><span style="width:100.00%"></span></div><small>3 pending · 0 void · 0 ineligible</small></div><div class="league-summary"><div><b>NFL</b><span>0W / 1L / 0P</span><strong>0.0%</strong></div><div class="bar" role="img" aria-label="NFL win rate 0.0%"><span style="width:0.00%"></span></div><small>0 pending · 0 void · 0 ineligible</small></div><div class="league-summary"><div><b>NHL</b><span>1W / 0L / 0P</span><strong>100.0%</strong></div><div class="bar" role="img" aria-label="NHL win rate 100.0%"><span style="width:100.00%"></span></div><small>0 pending · 0 void · 0 ineligible</small></div></section>
+  <section id="results" aria-labelledby="results-title">
+    <div class="section-heading"><div><h2 id="results-title">The pick history</h2><p>Newest games first. Expand a card for publication details.</p></div><span class="total">8 published picks</span></div>
+    <form class="filters" id="filters" role="search" hidden>
+      <label class="search-label">Search teams or date<input id="search" type="search" placeholder="Team name or YYYY-MM-DD" autocomplete="off"></label>
+      <label>League<select id="league"><option value="">All leagues</option><option value="nba">NBA</option><option value="nfl">NFL</option><option value="nhl">NHL</option></select></label>
+      <label>Outcome<select id="outcome"><option value="">All outcomes</option><option value="win">Won</option><option value="loss">Lost</option><option value="push">Push</option><option value="pending">Pending</option><option value="void">Void</option><option value="ineligible">Ineligible</option></select></label>
+      <button type="reset">Clear</button>
+    </form>
+    <noscript><p class="no-js">All picks are shown below. Enable JavaScript to search and filter.</p></noscript>
+    <p class="filter-count" id="filter-count" role="status" aria-live="polite" aria-atomic="true">Showing 8 of 8 picks</p>
+    <div id="history"><section class="day-group" aria-label="2026-10-31"><h3>Saturday, October 31, 2026</h3><div class="cards"><article class="pick-card" data-league="nba" data-result="pending" data-search="Oklahoma City Thunder Houston Rockets Oklahoma City Thunder 2026-10-31">
+      <div class="card-top"><span class="league">NBA</span><span class="badge pending">Pending</span></div>
+      <p class="game-time">08:30 PM EDT · Scheduled start</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Oklahoma City Thunder</span><span class=selection>Pick</span></span><b>—</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Houston Rockets</span></span><b>—</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Oklahoma City Thunder <span class="spread">+2.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.95</strong></div><div><span>Cover margin</span><strong>—</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 31, 2026 · 09:59 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31">Original locked prediction ↗</a></p>
+      <p>Final not verified</p><p class="note">STATUS_SCHEDULED</p><p class="muted">Event 401909902 · NBA</p></div></details>
+    </article><article class="pick-card" data-league="nba" data-result="pending" data-search="Milwaukee Bucks Milwaukee Bucks Cleveland Cavaliers 2026-10-31">
+      <div class="card-top"><span class="league">NBA</span><span class="badge pending">Pending</span></div>
+      <p class="game-time">08:00 PM EDT · Scheduled start</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Cleveland Cavaliers</span></span><b>—</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Milwaukee Bucks</span><span class=selection>Pick</span></span><b>—</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Milwaukee Bucks <span class="spread">+9.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.95</strong></div><div><span>Cover margin</span><strong>—</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 31, 2026 · 09:59 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31">Original locked prediction ↗</a></p>
+      <p>Final not verified</p><p class="note">STATUS_SCHEDULED</p><p class="muted">Event 401909900 · NBA</p></div></details>
+    </article><article class="pick-card" data-league="nba" data-result="pending" data-search="Portland Trail Blazers Utah Jazz Portland Trail Blazers 2026-10-31">
+      <div class="card-top"><span class="league">NBA</span><span class="badge pending">Pending</span></div>
+      <p class="game-time">03:00 PM EDT · Scheduled start</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Portland Trail Blazers</span><span class=selection>Pick</span></span><b>—</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Utah Jazz</span></span><b>—</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Portland Trail Blazers <span class="spread">-8.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.93</strong></div><div><span>Cover margin</span><strong>—</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 31, 2026 · 09:59 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31">Original locked prediction ↗</a></p>
+      <p>Final not verified</p><p class="note">STATUS_SCHEDULED</p><p class="muted">Event 401909896 · NBA</p></div></details>
+    </article></div></section><section class="day-group" aria-label="2026-10-30"><h3>Friday, October 30, 2026</h3><div class="cards"><article class="pick-card" data-league="nba" data-result="win" data-search="Golden State Warriors Golden State Warriors Los Angeles Lakers 2026-10-30">
+      <div class="card-top"><span class="league">NBA</span><span class="badge win">Won</span></div>
+      <p class="game-time">10:00 PM EDT · Verified final</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Los Angeles Lakers</span></span><b>95</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Golden State Warriors</span><span class=selection>Pick</span></span><b>112</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Golden State Warriors <span class="spread">+2.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.95</strong></div><div><span>Cover margin</span><strong>+19.5</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 30, 2026 · 10:41 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-30">Original locked prediction ↗</a></p>
+      <p><a href="https://www.espn.com/nba/game/_/gameId/401909285">ESPN final ↗</a></p><p class="muted">Event 401909285 · NBA</p></div></details>
+    </article><article class="pick-card" data-league="nhl" data-result="win" data-search="Calgary Flames Calgary Flames Seattle Kraken 2026-10-30">
+      <div class="card-top"><span class="league">NHL</span><span class="badge win">Won</span></div>
+      <p class="game-time">08:00 PM EDT · Verified final</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Seattle Kraken</span></span><b>2</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Calgary Flames</span><span class=selection>Pick</span></span><b>6</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Calgary Flames <span class="spread">+1.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.40</strong></div><div><span>Cover margin</span><strong>+5.5</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 30, 2026 · 10:41 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-30">Original locked prediction ↗</a></p>
+      <p><a href="https://www.espn.com/nhl/game/_/gameId/401892613">ESPN final ↗</a></p><p class="muted">Event 401892613 · NHL</p></div></details>
+    </article><article class="pick-card" data-league="nba" data-result="win" data-search="Orlando Magic Toronto Raptors Orlando Magic 2026-10-30">
+      <div class="card-top"><span class="league">NBA</span><span class="badge win">Won</span></div>
+      <p class="game-time">07:30 PM EDT · Verified final</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Orlando Magic</span><span class=selection>Pick</span></span><b>121</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Toronto Raptors</span></span><b>114</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Orlando Magic <span class="spread">+5.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.95</strong></div><div><span>Cover margin</span><strong>+12.5</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 30, 2026 · 10:41 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-30">Original locked prediction ↗</a></p>
+      <p><a href="https://www.espn.com/nba/game/_/gameId/401909281">ESPN final ↗</a></p><p class="muted">Event 401909281 · NBA</p></div></details>
+    </article><article class="pick-card" data-league="nba" data-result="win" data-search="Chicago Bulls Boston Celtics Chicago Bulls 2026-10-30">
+      <div class="card-top"><span class="league">NBA</span><span class="badge win">Won</span></div>
+      <p class="game-time">07:30 PM EDT · Verified final</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Chicago Bulls</span><span class=selection>Pick</span></span><b>111</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Boston Celtics</span></span><b>125</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Chicago Bulls <span class="spread">+14.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.95</strong></div><div><span>Cover margin</span><strong>+0.5</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 30, 2026 · 10:41 AM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-30">Original locked prediction ↗</a></p>
+      <p><a href="https://www.espn.com/nba/game/_/gameId/401909278">ESPN final ↗</a></p><p class="muted">Event 401909278 · NBA</p></div></details>
+    </article></div></section><section class="day-group" aria-label="2026-10-29"><h3>Thursday, October 29, 2026</h3><div class="cards"><article class="pick-card" data-league="nfl" data-result="loss" data-search="Carolina Panthers Green Bay Packers Carolina Panthers 2026-10-29">
+      <div class="card-top"><span class="league">NFL</span><span class="badge loss">Lost</span></div>
+      <p class="game-time">08:15 PM EDT · Verified final</p>
+      <div class="scoreboard"><div class="team"><span><span class="side">Away</span><span class="team-name">Carolina Panthers</span><span class=selection>Pick</span></span><b>19</b></div><div class="team"><span><span class="side">Home</span><span class="team-name">Green Bay Packers</span></span><b>27</b></div></div>
+      <div class="pick-line"><span>Published pick</span><strong>Carolina Panthers <span class="spread">+3.5</span></strong></div>
+      <div class="card-stats"><div><span>Decimal odds</span><strong>1.98</strong></div><div><span>Cover margin</span><strong>-4.5</strong></div></div>
+      <details><summary>Publication &amp; sources</summary><div class="evidence">
+      <p>Published Oct 29, 2026 · 03:12 PM EDT</p><p><a href="https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-29">Original locked prediction ↗</a></p>
+      <p><a href="https://www.espn.com/nfl/game/_/gameId/401873023">ESPN final ↗</a></p><p class="muted">Event 401873023 · NFL</p></div></details>
+    </article></div></section></div>
+    <p class="empty" id="empty" hidden>No matches. Try another team or clear your filters.</p>
+  </section>
+  <details class="method"><summary>How picks are published &amp; graded</summary><div><p>Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending.</p><p>Publication target: 4:00 a.m. America/Toronto. Only picks published at least 30 minutes before game start are eligible. Original predictions are attached to dated immutable GitHub releases.</p><p>Cover margin = selected team’s final score + published spread − opponent’s final score. Positive is a win, negative is a loss, and zero is a push. A final score is shown away team first, then home team.</p><p>This page is a reproducible results summary. Original prediction attachments remain locked. GitHub allows deletion of an entire release, so this is not an indestructible archive. Results reflect the last check shown above.</p></div></details>
+  <footer><p>Published before the game. Recorded after the final.</p><div><a href="https://github.com/jjoaqu7/spread-record">View repository ↗</a><a href="https://github.com/jjoaqu7/spread-record/blob/HEAD/results.json">Raw results ↗</a></div></footer>
+</main>
+<script>
+  (() => {
+    const form = document.getElementById('filters');
+    const search = document.getElementById('search');
+    const league = document.getElementById('league');
+    const outcome = document.getElementById('outcome');
+    const cards = [...document.querySelectorAll('.pick-card')];
+    const groups = [...document.querySelectorAll('.day-group')];
+    const count = document.getElementById('filter-count');
+    const empty = document.getElementById('empty');
+    function filter() {
+      const query = search.value.trim().toLocaleLowerCase();
+      let shown = 0;
+      cards.forEach(card => {
+        const match = (!league.value || card.dataset.league === league.value)
+          && (!outcome.value || card.dataset.result === outcome.value)
+          && (!query || card.dataset.search.toLocaleLowerCase().includes(query));
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      groups.forEach(group => { group.hidden = !group.querySelector('.pick-card:not([hidden])'); });
+      count.textContent = `Showing ${shown} of ${cards.length} picks`;
+      empty.hidden = shown > 0;
+    }
+    form.hidden = false;
+    form.addEventListener('submit', event => event.preventDefault());
+    form.addEventListener('input', filter);
+    form.addEventListener('change', filter);
+    form.addEventListener('reset', () => { search.value = ''; league.value = ''; outcome.value = ''; filter(); });
+  })();
+</script>
+</body>
+</html>
