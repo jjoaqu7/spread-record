@@ -6,17 +6,17 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **4** | **1** | **0** | **3** | **80.0%** |
+| **5** | **3** | **0** | **0** | **62.5%** |
 
 8 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Oct 31, 2026 · 09:59 AM EDT**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 01, 2026 · 09:43 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 3 | 0 | 0 | 3 | 0 | 0 | 100.0% |
+| **NBA** | 4 | 2 | 0 | 0 | 0 | 0 | 66.7% |
 | **NFL** | 0 | 1 | 0 | 0 | 0 | 0 | 0.0% |
 | **NHL** | 1 | 0 | 0 | 0 | 0 | 0 | 100.0% |
 
@@ -27,9 +27,9 @@ Last checked: **Oct 31, 2026 · 09:59 AM EDT**. Times below use America/Toronto.
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 08:30 PM EDT | NBA | Oklahoma City Thunder @ Houston Rockets | **[Oklahoma City Thunder +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 08:00 PM EDT | NBA | Cleveland Cavaliers @ Milwaukee Bucks | **[Milwaukee Bucks +9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 03:00 PM EDT | NBA | Portland Trail Blazers @ Utah Jazz | **[Portland Trail Blazers -8.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:30 PM EDT | NBA | Oklahoma City Thunder @ Houston Rockets | **[Oklahoma City Thunder +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.95 decimal | 98 · 119 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909902>) |
+| 08:00 PM EDT | NBA | Cleveland Cavaliers @ Milwaukee Bucks | **[Milwaukee Bucks +9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.95 decimal | 136 · 111 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909900>) |
+| 03:00 PM EDT | NBA | Portland Trail Blazers @ Utah Jazz | **[Portland Trail Blazers -8.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31>)**<br>1.93 decimal | 112 · 90 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909896>) |
 
 #### 2026-10-30
 
