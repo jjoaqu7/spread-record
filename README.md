@@ -6,22 +6,30 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **5** | **3** | **0** | **0** | **62.5%** |
+| **5** | **3** | **0** | **3** | **62.5%** |
 
-8 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+11 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 01, 2026 · 09:43 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 01, 2026 · 10:33 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 4 | 2 | 0 | 0 | 0 | 0 | 66.7% |
-| **NFL** | 0 | 1 | 0 | 0 | 0 | 0 | 0.0% |
+| **NBA** | 4 | 2 | 0 | 1 | 0 | 0 | 66.7% |
+| **NFL** | 0 | 1 | 0 | 2 | 0 | 0 | 0.0% |
 | **NHL** | 1 | 0 | 0 | 0 | 0 | 0 | 100.0% |
 
 ### All picks
 
+
+#### 2026-11-01
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 08:30 PM EST | NBA | LA Clippers @ Golden State Warriors | **[LA Clippers +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 04:25 PM EST | NFL | Kansas City Chiefs @ Denver Broncos | **[Denver Broncos +1](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 01:00 PM EST | NFL | Baltimore Ravens @ Buffalo Bills | **[Baltimore Ravens +3](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.98 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
 
 #### 2026-10-31
 
