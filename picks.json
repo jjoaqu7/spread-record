@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T21:22:26.683765+00:00",
+  "checked_at": "2026-11-01T22:20:36.921014+00:00",
   "picks": [
     {
       "game_id": "401909905",
@@ -227,7 +227,7 @@
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
       "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "note": "STATUS_IN_PROGRESS",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -335,8 +335,12 @@
       ],
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
-      "result": "pending",
-      "note": "STATUS_IN_PROGRESS",
+      "result": "loss",
+      "scores": {
+        "2": 36,
+        "33": 10
+      },
+      "source": "https://www.espn.com/nfl/game/_/gameId/401873026",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",

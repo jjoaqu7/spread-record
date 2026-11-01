@@ -8,25 +8,422 @@
   ],
   "selected": [
     {
+      "id": "away_run_before_game",
+      "purpose": "test"
+    },
+    {
+      "id": "coach_change",
+      "purpose": "test"
+    },
+    {
+      "id": "confirmed_absences",
+      "purpose": "test"
+    },
+    {
+      "id": "crowd_context",
+      "purpose": "test"
+    },
+    {
+      "id": "days_since_home_game",
+      "purpose": "test"
+    },
+    {
+      "id": "elimination_game",
+      "purpose": "test"
+    },
+    {
       "id": "home_after_four_away",
       "purpose": "test"
     },
     {
+      "id": "home_game",
+      "purpose": "test"
+    },
+    {
+      "id": "last_game_blowout_loss",
+      "purpose": "test"
+    },
+    {
+      "id": "lineup_continuity",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_assist_ratio",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_bench_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_blocks",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_clutch",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_def_efficiency",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_dreb_rate",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_efg",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_fastbreak_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_forced_turnovers",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_ft_pct",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_ft_rate",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_lineup_results",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_off_efficiency",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_opp_efg",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_opp_fastbreak_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_opp_ft_rate",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_opp_paint_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_oreb_rate",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_pace",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_paint_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_play_types",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_shot_zones",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_steals",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_three_pct",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_three_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_turnover_points",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_turnovers",
+      "purpose": "test"
+    },
+    {
+      "id": "nba_two_pct",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_air_yards",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_completion",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_coverage",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_explosive",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_hits",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_pass",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_redzone",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_rush",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_def_sacks",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_drive_points",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_early_pass",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_explosive_pass",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_explosive_rush",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_fg",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_field_position",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_first_down",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_hit_allowed",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_net_dropback",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_no_huddle",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_own_epa",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_pass_yards",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_pressure",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_redzone",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_routes",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_rush_stuff",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_rush_yards",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_sack_allowed",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_shotgun",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_takeaways",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_third_down",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_turnovers",
+      "purpose": "test"
+    },
+    {
+      "id": "nfl_yac",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_5v5_goals",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_5v5_shots",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_attempt_share",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_empty_net",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_faceoffs",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_goalie_save",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_goalie_workload",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_line_usage",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_own_xg",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_penalties",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_pk",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_pp",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_rebound_proxy",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_rush_proxy",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shooting",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shot_angle",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shot_distance",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shot_type",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shots_against",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_shots_for",
+      "purpose": "test"
+    },
+    {
+      "id": "nhl_unblocked_share",
+      "purpose": "test"
+    },
+    {
+      "id": "opponent_loss_last_meeting",
+      "purpose": "test"
+    },
+    {
+      "id": "playoff_status",
+      "purpose": "test"
+    },
+    {
       "id": "points_against",
-      "purpose": "track"
+      "purpose": "test"
     },
     {
       "id": "points_for",
-      "purpose": "track"
+      "purpose": "test"
+    },
+    {
+      "id": "public_milestone",
+      "purpose": "test"
+    },
+    {
+      "id": "recent_margin_5",
+      "purpose": "test"
+    },
+    {
+      "id": "recent_margin_7",
+      "purpose": "test"
+    },
+    {
+      "id": "returning_star",
+      "purpose": "test"
+    },
+    {
+      "id": "rivalry",
+      "purpose": "test"
+    },
+    {
+      "id": "road_trip_distance",
+      "purpose": "test"
     },
     {
       "id": "scoring_margin",
-      "purpose": "track"
+      "purpose": "test"
+    },
+    {
+      "id": "time_zone_shift",
+      "purpose": "test"
     },
     {
       "id": "win_rate",
-      "purpose": "track"
+      "purpose": "test"
     }
   ],
-  "custom": []
+  "custom": [],
+  "preset_version": 2
 }

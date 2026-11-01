@@ -73,14 +73,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Your hypothesis; exact rule unvalidated",
-        "finding": "No direct evidence was located for a performance effect at exactly four consecutive away games, or for the proposed family-reunion explanation.",
-        "reason": "The schedule condition is observable before tipoff and can be compared with opponent-adjusted expectations.",
-        "limits": "Games away do not establish continuous travel or private emotions. Test either direction; do not assume a boost. Few qualifying current-season games may make an effect impossible to estimate.",
-        "references": []
-      }
+      ]
     },
     {
       "id": "away_run_before_game",
@@ -140,14 +133,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Observable result; bounce-back effect unvalidated",
-        "finding": "A heavy loss is recorded, but this search did not establish that it produces a next-game motivational boost.",
-        "reason": "Test whether the preceding result adds information beyond current-season strength and recent performance.",
-        "limits": "A rebound may reflect opponent changes, shooting variation or regression toward typical performance. Do not label the flag as measured anger or determination.",
-        "references": []
-      }
+      ]
     },
     {
       "id": "opponent_loss_last_meeting",
@@ -162,14 +148,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Observable result; revenge explanation unvalidated",
-        "finding": "A prior same-season loss is observable; it does not establish a revenge emotion or a predictive advantage.",
-        "reason": "It provides a reproducible rematch hypothesis to compare with the baseline, without importing previous-season meetings.",
-        "limits": "A rematch differs in venue, lineup and underlying team strength. Rivalry studies do not validate a generic prior-loss bonus.",
-        "references": []
-      }
+      ]
     },
     {
       "id": "coach_change",
@@ -184,19 +163,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "NBA research; no general honeymoon bonus",
-        "finding": "An NBA coaching-change study found that most changes were not followed by a statistically distinguishable within-season performance change.",
-        "reason": "An official appointment date defines an observable transition that may alter tactics, roles or coordination. Fix the evaluation window before inspecting results.",
-        "limits": "Coaches are often replaced after unusually poor results. Regression toward typical performance and schedule changes can look like a motivational effect. A change is not evidence of renewed confidence.",
-        "references": [
-          {
-            "title": "New approaches to midseason NBA coaching changes (2017)",
-            "url": "https://dialnet.unirioja.es/descarga/articulo/6037555.pdf"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "rivalry",
@@ -211,23 +178,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Direct NFL and NBA research; behavior can change",
-        "finding": "NFL research links rivalry to greater risk-taking. NBA player-rivalry research finds that more visible scoring can coexist with a worse overall contribution to team performance.",
-        "reason": "Predeclare documented rivalry matchups and test changes in observable decisions, efficiency and penalties, rather than guessing motivation.",
-        "limits": "Player rivalry and team rivalry are different definitions. Neither study proves an automatic increase in win probability; avoid double-counting team strength or opponent familiarity.",
-        "references": [
-          {
-            "title": "To et al. (2018): Going for it on Fourth Down",
-            "url": "https://journals.aom.org/doi/10.5465/amj.2016.0850"
-          },
-          {
-            "title": "Thomas et al.: Outshining Your Rival (NBA)",
-            "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2024.18649"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "playoff_status",
@@ -272,23 +223,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Direct NBA, NFL and NHL studies; league-dependent",
-        "finding": "A North American study found that crowd absence reduced home performance in NBA/NFL, with no substantial NHL outcome effect. A separate NHL study found a change in home-favoring penalty calls without fans.",
-        "reason": "Record officially announced crowd restrictions and neutral venues as observable context for pressure and officiating.",
-        "limits": "Actual attendance is usually known after the game: never backfill it into a pregame forecast. Crowd effects overlap the existing home advantage. Pandemic comparisons have other confounders, and ordinary attendance differences need not have the same effect.",
-        "references": [
-          {
-            "title": "Szabo (2022): Differing audience sizes in North American sports",
-            "url": "https://www.sciencedirect.com/science/article/pii/S1469029222000309"
-          },
-          {
-            "title": "Guerette et al. (2021): NHL crowds and referee penalties",
-            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256568"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "elimination_game",
@@ -303,19 +238,7 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Direct NBA research; no reliable must-win boost",
-        "finding": "An NBA study of 456 one-sided elimination games found no expected performance boost and only a slight detrimental effect from the extra pressure.",
-        "reason": "Whether losing ends a team's season is a clear pregame stakes indicator. Record each side's status separately.",
-        "limits": "This is a candidate control, not a proven useful forecast input. NBA evidence does not establish an NFL/NHL effect. Both teams face elimination in every NFL playoff game, so the flag alone cannot distinguish them. This season's playoffs must occur before this season can supply examples.",
-        "references": [
-          {
-            "title": "Morgulev et al. (2022): Fighting with their back to the wall",
-            "url": "https://www.tandfonline.com/doi/abs/10.1080/02640414.2022.2162243"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "rest_days",
@@ -390,19 +313,52 @@
         1,
         5,
         7
-      ],
-      "evidence": {
-        "level": "Professional hockey research; coordination proxy",
-        "finding": "A professional-hockey study associated injuries to central players with worse team performance even after controlling for individual performance. Changes in interaction patterns also mattered.",
-        "reason": "Track retained starting roles and current-season shared playing time to investigate coordination after lineup changes.",
-        "limits": "Starter retention is a simpler proxy than the paper's interaction network. It does not measure morale or establish a causal effect. Separate missing-player skill from coordination; unconfirmed future starters remain unknown.",
-        "references": [
-          {
-            "title": "Stuart (2017): Structural Disruption and Professional Hockey Teams",
-            "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2017.1112"
-          }
-        ]
-      }
+      ]
+    },
+    {
+      "id": "returning_star",
+      "name": "Star returning after a prolonged absence",
+      "league": "all",
+      "group": "Availability",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "flag",
+      "definition": "Confirmed return of a high-impact player after at least 14 days and two missed team games. Identify the player's role from this season before the absence. Track the first return game and the next five/seven team games, minutes restrictions, role changes, team results and spread results only where a dated pregame line exists. Returning is not assumed to help or hurt; player history and pregame confirmation are required.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "recent_margin_5",
+      "name": "Last 5 margin versus season",
+      "league": "all",
+      "group": "Recent form",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Average capped scoring margin over the last five completed games minus the current-season average capped margin. Requires five games. The cap is NBA 25 points, NFL 28 points or NHL 4 goals. Forecast inputs use earlier games only.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "recent_margin_7",
+      "name": "Last 7 margin versus season",
+      "league": "all",
+      "group": "Recent form",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Average capped scoring margin over the last seven completed games minus the current-season average capped margin. Requires seven games. The cap is NBA 25 points, NFL 28 points or NHL 4 goals. Forecast inputs use earlier games only.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
     },
     {
       "id": "nba_efg",
