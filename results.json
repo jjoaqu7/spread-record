@@ -1,10 +1,9 @@
 {
-  "checked_at": "2026-10-31T13:59:44.724560+00:00",
+  "checked_at": "2026-11-01T14:43:38.727808+00:00",
   "rules": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending.",
   "totals": {
-    "pending": 3,
-    "win": 4,
-    "loss": 1
+    "loss": 3,
+    "win": 5
   },
   "results": [
     {
@@ -140,8 +139,12 @@
       ],
       "published_at": "2026-10-31T13:59:43Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "loss",
+      "scores": {
+        "10": 119,
+        "25": 98
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909902"
     },
     {
       "game_id": "401909900",
@@ -277,8 +280,12 @@
       ],
       "published_at": "2026-10-31T13:59:43Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "loss",
+      "scores": {
+        "15": 111,
+        "5": 136
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909900"
     },
     {
       "game_id": "401909896",
@@ -413,8 +420,12 @@
       ],
       "published_at": "2026-10-31T13:59:43Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-10-31",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "win",
+      "scores": {
+        "26": 90,
+        "22": 112
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909896"
     },
     {
       "game_id": "401909285",
