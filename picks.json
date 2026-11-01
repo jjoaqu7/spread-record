@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T16:46:16.730396+00:00",
+  "checked_at": "2026-11-01T19:29:35.794731+00:00",
   "picks": [
     {
       "game_id": "401909905",
@@ -336,7 +336,7 @@
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
       "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "note": "STATUS_IN_PROGRESS",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",

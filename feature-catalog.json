@@ -1,0 +1,1550 @@
+{
+  "features": [
+    {
+      "id": "scoring_margin",
+      "name": "Scoring margin",
+      "league": "all",
+      "group": "Results",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Own final score minus opponent final score, including overtime and the league-recorded shootout score.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "points_for",
+      "name": "Scoring for",
+      "league": "all",
+      "group": "Results",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Own points or goals scored per completed game.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "points_against",
+      "name": "Scoring allowed",
+      "league": "all",
+      "group": "Results",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Opponent points or goals scored per completed game.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "win_rate",
+      "name": "Win rate",
+      "league": "all",
+      "group": "Results",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "rate",
+      "definition": "Wins divided by completed games; tied games contribute zero wins and one game. This team-strength statistic differs from pick win rate.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "home_after_four_away",
+      "name": "First home game after 4+ away games",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "flag",
+      "definition": "Home at a non-neutral venue, immediately after at least four consecutive completed away games. Neutral-site games interrupt this strictly-away sequence. A schedule proxy, not proof of a family reunion or psychological state.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "away_run_before_game",
+      "name": "Consecutive away games before this game",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Number of immediately preceding completed non-neutral away games before the current game. A genuine home game or neutral-site game interrupts the sequence.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "days_since_home_game",
+      "name": "Days since a recorded home game",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "mean",
+      "definition": "Elapsed days in 24-hour units since the last completed non-neutral home game's start in this season. Missing until a home game has been observed. This does not establish days continuously away.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "home_game",
+      "name": "Genuine home venue",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "flag",
+      "definition": "One for a non-neutral home game, zero for an away or neutral-site game.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "last_game_blowout_loss",
+      "name": "Previous-game blowout loss",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "flag",
+      "definition": "The preceding completed game was lost by at least NBA 20 points, NFL 21 points or NHL 5 goals; missing before the first recorded result.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "opponent_loss_last_meeting",
+      "name": "Lost the previous meeting this season",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "scores",
+      "status": "collected",
+      "aggregation": "flag",
+      "definition": "The last completed meeting against this opponent in the same season was a loss; missing when there is no earlier meeting. This records a situation, not a measured revenge emotion.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "coach_change",
+      "name": "First games under a new coach",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "event",
+      "definition": "Require an official change date and a definition of first one, three or another fixed number of games. No invented motivational boost.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "rivalry",
+      "name": "Predeclared rivalry matchup",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "event",
+      "definition": "Maintain a rivalry list before evaluating outcomes. Membership is a contextual label, not evidence of extra effort.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "playoff_status",
+      "name": "Clinched or eliminated before the game",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "event",
+      "definition": "Use a verified status known before the game. Do not infer motivation from a final-season table.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "public_milestone",
+      "name": "Publicly announced team milestone",
+      "league": "all",
+      "group": "Situations to investigate",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "event",
+      "definition": "Require a dated public source and an observable definition. Do not collect private family or relationship information.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "rest_days",
+      "name": "Rest days (off by default)",
+      "league": "all",
+      "group": "Schedule options",
+      "source": "scores",
+      "status": "access",
+      "aggregation": "mean",
+      "definition": "Elapsed full days between games. Not selected by default because the owner does not prioritize it.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "road_trip_distance",
+      "name": "Distance between game venues",
+      "league": "all",
+      "group": "Schedule options",
+      "source": "scores",
+      "status": "access",
+      "aggregation": "mean",
+      "definition": "Requires verified venue coordinates; straight-line venue distance is not an actual itinerary.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "time_zone_shift",
+      "name": "Time-zone change between venues",
+      "league": "all",
+      "group": "Schedule options",
+      "source": "scores",
+      "status": "access",
+      "aggregation": "mean",
+      "definition": "Requires actual venue/time-zone mapping; do not infer sleep or jet lag directly.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "confirmed_absences",
+      "name": "Confirmed player absences",
+      "league": "all",
+      "group": "Availability",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "count",
+      "definition": "Player-level status and observation time before game start; separate confirmed out from questionable. Any impact estimate must be trained only on this season.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "lineup_continuity",
+      "name": "Starting lineup continuity",
+      "league": "all",
+      "group": "Availability",
+      "source": "manual",
+      "status": "manual",
+      "aggregation": "rate",
+      "definition": "Share of starting roles retained from the preceding game. Requires reliable starters and timestamps; future confirmed starters cannot be backfilled into earlier forecasts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_efg",
+      "name": "Effective shooting percentage",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "(Field goals made + 0.5 times made threes) divided by field-goal attempts. Pool numerator and denominator across each window.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_three_share",
+      "name": "Three-point attempt share",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Three-point attempts divided by all field-goal attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_three_pct",
+      "name": "Three-point shooting percentage",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Made threes divided by attempted threes; pool attempts rather than averaging game percentages.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_two_pct",
+      "name": "Two-point shooting percentage",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Made two-point shots divided by attempted two-point shots.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_ft_rate",
+      "name": "Free-throw attempt rate",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Free-throw attempts divided by field-goal attempts; label this exact convention.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_ft_pct",
+      "name": "Free-throw percentage",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Free throws made divided by attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_oreb_rate",
+      "name": "Offensive rebound share",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Own offensive rebounds divided by own offensive rebounds plus opponent defensive rebounds.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_assist_ratio",
+      "name": "Assists per made basket",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Assists divided by field goals made; this is not an official possession-based assist percentage.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_turnovers",
+      "name": "Turnovers per game",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Team total turnovers; retain opponent and pace context when interpreting this count.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_fastbreak_share",
+      "name": "Fast-break scoring share",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Fast-break points divided by total points; this is scoring share, not transition-possession frequency.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_paint_share",
+      "name": "Paint scoring share",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Paint points divided by total points.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_turnover_points",
+      "name": "Points from opponent turnovers",
+      "league": "nba",
+      "group": "Offense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Box-score points off turnovers; distinguish forced opportunities from shooting conversion.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_opp_efg",
+      "name": "Opponent effective shooting percentage",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent adjusted made shots divided by opponent field-goal attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_dreb_rate",
+      "name": "Defensive rebound share",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Own defensive rebounds divided by own defensive rebounds plus opponent offensive rebounds.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_forced_turnovers",
+      "name": "Opponent turnovers",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Opponent total turnovers; not every turnover is caused by pressure from the defense.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_opp_ft_rate",
+      "name": "Opponent free-throw attempt rate",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent free-throw attempts divided by opponent field-goal attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_opp_paint_share",
+      "name": "Opponent paint scoring share",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent paint points divided by opponent total points.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_opp_fastbreak_share",
+      "name": "Opponent fast-break scoring share",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent fast-break points divided by opponent total points.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_steals",
+      "name": "Steals per game",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Official steals; interpret with opponent possession opportunities.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_blocks",
+      "name": "Blocks per game",
+      "league": "nba",
+      "group": "Defense",
+      "source": "nba_box",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Official blocked shots; a count is not equivalent to overall defensive value.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_pace",
+      "name": "Possessions per game / pace",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "Use verified possession counts and game length; distinguish raw pace from per-48-minute pace.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_off_efficiency",
+      "name": "Points per 100 possessions",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "100 times points divided by actual possessions; do not import historically fitted possession estimates unnoticed.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_def_efficiency",
+      "name": "Points allowed per 100 possessions",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "100 times opponent points divided by opponent possessions.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_shot_zones",
+      "name": "Shot-location mix",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "distribution",
+      "definition": "Share of attempts at rim, other paint, midrange and three-point zones with explicit boundaries.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_play_types",
+      "name": "Offensive play-type mix",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "distribution",
+      "definition": "Transition, isolation, pick-and-roll, spot-up and other documented categories; current endpoint access must be verified.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_bench_share",
+      "name": "Bench minutes share",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "Bench minutes divided by all player minutes; do not assume bench scoring alone measures bench quality.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_lineup_results",
+      "name": "Lineup scoring margins",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "Possession-weighted scoring margin for identified five-player units; small samples and opponent context remain visible.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nba_clutch",
+      "name": "Close late-game performance",
+      "league": "nba",
+      "group": "Playing style and lineups",
+      "source": "nba_detail",
+      "status": "access",
+      "aggregation": "rate",
+      "definition": "Use a fixed clock/score definition declared before testing. Treat small samples as uncertain.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_completion",
+      "name": "Completion percentage",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Completions divided by pass attempts; exclude sacks from the attempt denominator.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_pass_yards",
+      "name": "Passing yards per attempt",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Passing yards divided by pass attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_net_dropback",
+      "name": "Net yards per dropback",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Pass and scramble yards minus sack yards, divided by a clearly defined dropback count.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_air_yards",
+      "name": "Air yards per targeted attempt",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Total reported air yards divided by attempts with valid air-yards data; missing values are not zero.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_yac",
+      "name": "Yards after catch per completion",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Yards after catch divided by completions with valid YAC data.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_early_pass",
+      "name": "Early-down pass tendency",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Dropbacks divided by eligible first/second-down pass-or-run plays, with kneels/spikes excluded by a declared rule.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_explosive_pass",
+      "name": "Explosive pass frequency",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Pass plays gaining at least 20 yards divided by eligible pass plays; threshold is a declared initial convention.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_sack_allowed",
+      "name": "Sacks allowed per dropback",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Sacks divided by eligible dropbacks. This is not full pressure rate.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_hit_allowed",
+      "name": "Quarterback hits allowed",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Reported QB hits divided by eligible dropbacks; unreported pressures are not treated as no pressure.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_rush_yards",
+      "name": "Rushing yards per carry",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Rushing yards divided by eligible carries, with QB kneels excluded.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_explosive_rush",
+      "name": "Explosive rush frequency",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Rushes gaining at least 10 yards divided by eligible carries; threshold is a declared initial convention.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_rush_stuff",
+      "name": "Rushes stopped at or behind the line",
+      "league": "nfl",
+      "group": "Passing and rushing",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Carries gaining zero or fewer yards divided by eligible carries.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_first_down",
+      "name": "First downs per eligible play",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Observed first-down conversions divided by eligible plays. Do not use EPA-defined success from a pretrained model.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_third_down",
+      "name": "Third-down conversion rate",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Observed third-down conversions divided by eligible third-down opportunities.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_redzone",
+      "name": "Red-zone drive touchdown rate",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Drives reaching the opponent 20-yard line and ending in a touchdown divided by qualifying drives.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_drive_points",
+      "name": "Points per offensive drive",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Offensive drive points divided by eligible drives; separate end-half kneel drives.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_field_position",
+      "name": "Average starting field position",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Drive-start distance to the opponent goal line, with a consistent orientation.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_turnovers",
+      "name": "Giveaways per game",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Interceptions thrown plus fumbles lost; distinguish opportunities and conversion luck in later analysis.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_no_huddle",
+      "name": "No-huddle frequency",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Eligible plays recorded as no-huddle divided by plays with that field available.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_shotgun",
+      "name": "Shotgun frequency",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Eligible plays recorded as shotgun divided by plays with that field available.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_fg",
+      "name": "Field-goal conversion by distance",
+      "league": "nfl",
+      "group": "Situational execution",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Made field goals divided by attempts in predeclared distance bins; extra points separate.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_pass",
+      "name": "Net passing yards allowed per dropback",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent net passing yards divided by opponent dropbacks.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_rush",
+      "name": "Rushing yards allowed per carry",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent rushing yards divided by eligible opponent carries.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_sacks",
+      "name": "Defensive sack rate",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Defensive sacks divided by opponent dropbacks.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_hits",
+      "name": "Defensive QB-hit rate",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Reported defensive QB hits divided by opponent dropbacks; not full pressure rate.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_explosive",
+      "name": "Explosive plays allowed",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Passes of at least 20 yards and rushes of at least 10 yards divided by eligible opponent plays.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_def_redzone",
+      "name": "Red-zone touchdowns allowed",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Opponent red-zone drives ending in touchdowns divided by eligible opponent red-zone drives.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_takeaways",
+      "name": "Takeaways per game",
+      "league": "nfl",
+      "group": "Defense",
+      "source": "nfl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Interceptions caught plus opponent fumbles recovered.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_coverage",
+      "name": "Man/zone and coverage tendencies",
+      "league": "nfl",
+      "group": "Charting and learned measures",
+      "source": "nfl_charting",
+      "status": "unavailable",
+      "aggregation": "distribution",
+      "definition": "Requires a verified current-season charting source; the documented public participation release is after the season.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_pressure",
+      "name": "Full pressure rate",
+      "league": "nfl",
+      "group": "Charting and learned measures",
+      "source": "nfl_charting",
+      "status": "unavailable",
+      "aggregation": "rate",
+      "definition": "Requires verified pressures beyond sacks and hits; cannot fill missing pressures with zeros.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_routes",
+      "name": "Routes and separation by route",
+      "league": "nfl",
+      "group": "Charting and learned measures",
+      "source": "nfl_charting",
+      "status": "unavailable",
+      "aggregation": "distribution",
+      "definition": "Requires current-season route charting/tracking coverage and permission to use it.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfl_own_epa",
+      "name": "Our current-season expected points",
+      "league": "nfl",
+      "group": "Charting and learned measures",
+      "source": "nfl_pbp",
+      "status": "train",
+      "aggregation": "model",
+      "definition": "Train and validate a new expected-points model on only this season's earlier raw plays. Do not load nflfastR's pretrained EPA, CPOE or win-probability columns as features.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shots_for",
+      "name": "Shots on goal per game",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Official shots on goal for the team, excluding shootout attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shots_against",
+      "name": "Shots on goal allowed",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Opponent shots on goal, excluding shootout attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_attempt_share",
+      "name": "Shot-attempt share",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Own shots on goal, misses and blocked attempts divided by both teams' attempts; verify event ownership for blocks.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_unblocked_share",
+      "name": "Unblocked shot-attempt share",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Own shots on goal and misses divided by both teams' unblocked attempts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shot_distance",
+      "name": "Average unblocked-shot distance",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Calculate from raw rink coordinates and attacking direction; do not import historically fitted venue corrections.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shot_angle",
+      "name": "Unblocked-shot angle distribution",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "distribution",
+      "definition": "Compute shot angles from raw coordinates and the goal location; retain coverage counts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shot_type",
+      "name": "Shot-type mix",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "distribution",
+      "definition": "Wrist, slap, backhand, tip, deflection and other recorded types.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_rebound_proxy",
+      "name": "Shots shortly after another shot",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Predeclare a time/ownership rule, such as a same-team shot within three seconds. Label this a sequence proxy, not verified rebound tracking.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_rush_proxy",
+      "name": "Event-sequence rush proxy",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Needs a validated event/time/zone rule. Public play-by-play does not fully observe puck possession or pre-shot passes.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_shooting",
+      "name": "Shooting percentage",
+      "league": "nhl",
+      "group": "Shot creation and style",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Goals divided by shots on goal; exclude shootouts and identify empty-net contexts.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_5v5_shots",
+      "name": "Five-on-five shot rate",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Shots divided by verified five-on-five minutes; separate offense and defense.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_5v5_goals",
+      "name": "Five-on-five goal rate",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Goals divided by verified five-on-five minutes; separate offense and defense.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_pp",
+      "name": "Power-play conversion",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Power-play goals divided by official opportunities; distinguish this from goals per power-play minute.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_pk",
+      "name": "Penalty-kill success",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Killed official opponent power plays divided by eligible opportunities.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_penalties",
+      "name": "Penalties taken and drawn",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Separate penalties taken/drawn and actual strength-changing penalties from coincidental penalties.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_faceoffs",
+      "name": "Faceoff win percentage",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Faceoffs won divided by recorded faceoffs taken; optionally split by zone.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_goalie_save",
+      "name": "Goalie save percentage",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Saves divided by shots faced by the identified goalie, excluding empty-net and shootout situations.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_goalie_workload",
+      "name": "Goalie shots faced and appearances",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "mean",
+      "definition": "Current-season shots faced and games started, with confirmed versus projected starter kept separate.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_empty_net",
+      "name": "Empty-net scoring exposure",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "rate",
+      "definition": "Scoring and shot events with a goalie absent, separated from normal play.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_line_usage",
+      "name": "Line and pairing usage",
+      "league": "nhl",
+      "group": "Strength states and goaltending",
+      "source": "nhl_pbp",
+      "status": "checked",
+      "aggregation": "distribution",
+      "definition": "Requires reliable current-season shift/ice-time data; do not infer line combinations from roster membership alone.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nhl_own_xg",
+      "name": "Our current-season shot-quality model",
+      "league": "nhl",
+      "group": "Learned shot quality",
+      "source": "nhl_pbp",
+      "status": "train",
+      "aggregation": "model",
+      "definition": "Fit a restrained shot-goal model only on earlier current-season raw shots. Published MoneyPuck/hockeyR xG and goalie goals-saved-above-expected use outside training and are not imported.",
+      "windows": [
+        1,
+        5,
+        7
+      ]
+    }
+  ],
+  "sources": {
+    "scores": {
+      "name": "Existing current-season schedules and finals",
+      "url": "https://www.espn.com/"
+    },
+    "nba_box": {
+      "name": "ESPN NBA box scores; representative response checked",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909896"
+    },
+    "nba_detail": {
+      "name": "NBA endpoint documentation; reliable access still needed",
+      "url": "https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/endpoint_guide.md"
+    },
+    "nba_pbp": {
+      "name": "Possession and lineup reconstruction; access still needed",
+      "url": "https://pbpstats.readthedocs.io/en/latest/"
+    },
+    "nfl_pbp": {
+      "name": "nflverse raw 2026 play-by-play; exclude pretrained derived columns",
+      "url": "https://github.com/nflverse/nflverse-data/releases/tag/pbp"
+    },
+    "nfl_injuries": {
+      "name": "nflverse 2026 injury reports; timestamp coverage required",
+      "url": "https://github.com/nflverse/nflverse-data/releases/tag/injuries"
+    },
+    "nfl_charting": {
+      "name": "Detailed participation is not a dependable public in-season source",
+      "url": "https://nflreadr.nflverse.com/articles/nflverse_data_schedule.html"
+    },
+    "nhl_pbp": {
+      "name": "NHL current-season game play-by-play; representative response checked",
+      "url": "https://api-web.nhle.com/v1/club-schedule-season/EDM/20262027"
+    },
+    "manual": {
+      "name": "Dated, verifiable public announcement required",
+      "url": ""
+    }
+  },
+  "statuses": {
+    "collected": "Tracked now",
+    "checked": "Source checked · collection needed",
+    "access": "Documented · access/coverage needed",
+    "train": "Needs a current-season model",
+    "manual": "Needs a dated verified event",
+    "unavailable": "Current-season source unavailable"
+  }
+}

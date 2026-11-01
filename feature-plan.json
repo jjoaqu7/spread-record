@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "current_season_only": true,
+  "windows": [
+    1,
+    5,
+    7
+  ],
+  "selected": [
+    {
+      "id": "home_after_four_away",
+      "purpose": "test"
+    },
+    {
+      "id": "points_against",
+      "purpose": "track"
+    },
+    {
+      "id": "points_for",
+      "purpose": "track"
+    },
+    {
+      "id": "scoring_margin",
+      "purpose": "track"
+    },
+    {
+      "id": "win_rate",
+      "purpose": "track"
+    }
+  ],
+  "custom": []
+}
