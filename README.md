@@ -6,30 +6,39 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **5** | **3** | **0** | **3** | **62.5%** |
+| **6** | **5** | **0** | **4** | **54.5%** |
 
-11 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+15 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 01, 2026 · 10:33 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 02, 2026 · 01:57 PM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 4 | 2 | 0 | 1 | 0 | 0 | 66.7% |
-| **NFL** | 0 | 1 | 0 | 2 | 0 | 0 | 0.0% |
+| **NBA** | 4 | 3 | 0 | 4 | 0 | 0 | 57.1% |
+| **NFL** | 1 | 2 | 0 | 0 | 0 | 0 | 33.3% |
 | **NHL** | 1 | 0 | 0 | 0 | 0 | 0 | 100.0% |
 
 ### All picks
 
 
+#### 2026-11-02
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 08:30 PM EST | NBA | Utah Jazz @ San Antonio Spurs | **[Utah Jazz +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:00 PM EST | NBA | Milwaukee Bucks @ Minnesota Timberwolves | **[Milwaukee Bucks +11.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:00 PM EST | NBA | Sacramento Kings @ Dallas Mavericks | **[Sacramento Kings +9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 07:30 PM EST | NBA | Atlanta Hawks @ Indiana Pacers | **[Atlanta Hawks -9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+
 #### 2026-11-01
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 08:30 PM EST | NBA | LA Clippers @ Golden State Warriors | **[LA Clippers +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 04:25 PM EST | NFL | Kansas City Chiefs @ Denver Broncos | **[Denver Broncos +1](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 01:00 PM EST | NFL | Baltimore Ravens @ Buffalo Bills | **[Baltimore Ravens +3](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.98 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:30 PM EST | NBA | LA Clippers @ Golden State Warriors | **[LA Clippers +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.91 decimal | 112 · 124 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909905>) |
+| 04:25 PM EST | NFL | Kansas City Chiefs @ Denver Broncos | **[Denver Broncos +1](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.93 decimal | 24 · 28 | [🟢 Won](<https://www.espn.com/nfl/game/_/gameId/401873033>) |
+| 01:00 PM EST | NFL | Baltimore Ravens @ Buffalo Bills | **[Baltimore Ravens +3](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01>)**<br>1.98 decimal | 10 · 36 | [🔴 Lost](<https://www.espn.com/nfl/game/_/gameId/401873026>) |
 
 #### 2026-10-31
 
