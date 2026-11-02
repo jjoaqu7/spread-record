@@ -1,12 +1,525 @@
 {
-  "checked_at": "2026-11-01T15:33:51.848532+00:00",
+  "checked_at": "2026-11-02T18:57:51.730929+00:00",
   "rules": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending.",
   "totals": {
-    "pending": 3,
-    "loss": 3,
-    "win": 5
+    "pending": 4,
+    "loss": 5,
+    "win": 6
   },
   "results": [
+    {
+      "game_id": "401909917",
+      "league": "nba",
+      "starts_at": "2026-11-03T01:30:00+00:00",
+      "teams": {
+        "home": {
+          "id": "24",
+          "name": "San Antonio Spurs",
+          "leader_ids": [
+            "4066259",
+            "5104157"
+          ]
+        },
+        "away": {
+          "id": "26",
+          "name": "Utah Jazz",
+          "leader_ids": [
+            "4433627",
+            "4873138"
+          ]
+        }
+      },
+      "team_id": "26",
+      "team": "Utah Jazz",
+      "side": "away",
+      "spread": 16.5,
+      "decimal_odds": 1.91,
+      "quotes": [
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-02T18:56:54+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "24",
+              "handicap": -16.5,
+              "decimal_price": 1.95
+            },
+            "away": {
+              "team_id": "26",
+              "handicap": 16.5,
+              "decimal_price": 1.87
+            }
+          }
+        },
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-02T18:56:29+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "24",
+              "handicap": -16.5,
+              "decimal_price": 1.95
+            },
+            "away": {
+              "team_id": "26",
+              "handicap": 16.5,
+              "decimal_price": 1.85
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "24",
+              "handicap": -16.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "26",
+              "handicap": 16.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "24",
+              "handicap": -16.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "26",
+              "handicap": 16.5,
+              "decimal_price": 1.91
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-02T18:57:47Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED"
+    },
+    {
+      "game_id": "401909915",
+      "league": "nba",
+      "starts_at": "2026-11-03T01:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "16",
+          "name": "Minnesota Timberwolves",
+          "leader_ids": [
+            "3032976",
+            "4431671",
+            "4432816"
+          ]
+        },
+        "away": {
+          "id": "15",
+          "name": "Milwaukee Bucks",
+          "leader_ids": [
+            "4395725",
+            "4591725",
+            "5105623"
+          ]
+        }
+      },
+      "team_id": "15",
+      "team": "Milwaukee Bucks",
+      "side": "away",
+      "spread": 11.5,
+      "decimal_odds": 1.93,
+      "quotes": [
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-02T18:56:54+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-02T18:56:29+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.88
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.93
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-02T18:57:41+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.82
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.8
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-02T18:57:42+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.92
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.89
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "16",
+              "handicap": -11.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "15",
+              "handicap": 11.5,
+              "decimal_price": 1.91
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-02T18:57:47Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED"
+    },
+    {
+      "game_id": "401909913",
+      "league": "nba",
+      "starts_at": "2026-11-03T01:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "6",
+          "name": "Dallas Mavericks",
+          "leader_ids": [
+            "4278078",
+            "5041939"
+          ]
+        },
+        "away": {
+          "id": "23",
+          "name": "Sacramento Kings",
+          "leader_ids": [
+            "3155942",
+            "5142620"
+          ]
+        }
+      },
+      "team_id": "23",
+      "team": "Sacramento Kings",
+      "side": "away",
+      "spread": 9.5,
+      "decimal_odds": 1.95,
+      "quotes": [
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-02T18:56:54+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 2.0
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.83
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-02T18:57:42+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-02T18:57:41+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 1.81
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.81
+            }
+          }
+        },
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-02T18:56:29+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 1.95
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.85
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 1.87
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.95
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "6",
+              "handicap": -9.5,
+              "decimal_price": 1.87
+            },
+            "away": {
+              "team_id": "23",
+              "handicap": 9.5,
+              "decimal_price": 1.95
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-02T18:57:47Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED"
+    },
+    {
+      "game_id": "401909909",
+      "league": "nba",
+      "starts_at": "2026-11-03T00:30:00+00:00",
+      "teams": {
+        "home": {
+          "id": "11",
+          "name": "Indiana Pacers",
+          "leader_ids": [
+            "4278355",
+            "4592829",
+            "5106060"
+          ]
+        },
+        "away": {
+          "id": "1",
+          "name": "Atlanta Hawks",
+          "leader_ids": [
+            "4278039",
+            "4701230"
+          ]
+        }
+      },
+      "team_id": "1",
+      "team": "Atlanta Hawks",
+      "side": "away",
+      "spread": -9.5,
+      "decimal_odds": 1.93,
+      "quotes": [
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-02T18:56:29+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.85
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.83
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-02T18:57:41+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.78
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.83
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-02T18:57:41+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.88
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.93
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-02T18:56:53+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-02T18:56:54+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "11",
+              "handicap": 9.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "1",
+              "handicap": -9.5,
+              "decimal_price": 1.91
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-02T18:57:47Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED"
+    },
     {
       "game_id": "401909905",
       "league": "nba",
@@ -123,8 +636,12 @@
       ],
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "loss",
+      "scores": {
+        "9": 124,
+        "12": 112
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909905"
     },
     {
       "game_id": "401873033",
@@ -227,8 +744,12 @@
       ],
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "win",
+      "scores": {
+        "7": 28,
+        "12": 24
+      },
+      "source": "https://www.espn.com/nfl/game/_/gameId/401873033"
     },
     {
       "game_id": "401873026",
@@ -331,8 +852,12 @@
       ],
       "published_at": "2026-11-01T15:33:48Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-01",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED"
+      "result": "loss",
+      "scores": {
+        "2": 36,
+        "33": 10
+      },
+      "source": "https://www.espn.com/nfl/game/_/gameId/401873026"
     },
     {
       "game_id": "401909902",
