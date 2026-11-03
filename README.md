@@ -6,17 +6,17 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **6** | **5** | **0** | **4** | **54.5%** |
+| **7** | **8** | **0** | **0** | **46.7%** |
 
 15 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 02, 2026 · 01:57 PM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 03, 2026 · 11:42 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 4 | 3 | 0 | 4 | 0 | 0 | 57.1% |
+| **NBA** | 5 | 6 | 0 | 0 | 0 | 0 | 45.5% |
 | **NFL** | 1 | 2 | 0 | 0 | 0 | 0 | 33.3% |
 | **NHL** | 1 | 0 | 0 | 0 | 0 | 0 | 100.0% |
 
@@ -27,10 +27,10 @@ Last checked: **Nov 02, 2026 · 01:57 PM EST**. Times below use America/Toronto.
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 08:30 PM EST | NBA | Utah Jazz @ San Antonio Spurs | **[Utah Jazz +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 08:00 PM EST | NBA | Milwaukee Bucks @ Minnesota Timberwolves | **[Milwaukee Bucks +11.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 08:00 PM EST | NBA | Sacramento Kings @ Dallas Mavericks | **[Sacramento Kings +9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:30 PM EST | NBA | Atlanta Hawks @ Indiana Pacers | **[Atlanta Hawks -9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:30 PM EST | NBA | Utah Jazz @ San Antonio Spurs | **[Utah Jazz +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.91 decimal | 97 · 119 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909917>) |
+| 08:00 PM EST | NBA | Milwaukee Bucks @ Minnesota Timberwolves | **[Milwaukee Bucks +11.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | 100 · 112 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909915>) |
+| 08:00 PM EST | NBA | Sacramento Kings @ Dallas Mavericks | **[Sacramento Kings +9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.95 decimal | 115 · 100 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909913>) |
+| 07:30 PM EST | NBA | Atlanta Hawks @ Indiana Pacers | **[Atlanta Hawks -9.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02>)**<br>1.93 decimal | 108 · 104 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909909>) |
 
 #### 2026-11-01
 
