@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T19:32:47.996089+00:00",
+  "checked_at": "2026-11-03T17:07:35.860848+00:00",
   "picks": [
     {
       "game_id": "401909917",
@@ -100,8 +100,12 @@
       ],
       "published_at": "2026-11-02T18:57:47Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "24": 119,
+        "26": 97
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909917",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -241,8 +245,12 @@
       ],
       "published_at": "2026-11-02T18:57:47Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "win",
+      "scores": {
+        "6": 100,
+        "23": 115
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909913",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -384,8 +392,12 @@
       ],
       "published_at": "2026-11-02T18:57:47Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "16": 112,
+        "15": 100
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909915",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -526,8 +538,12 @@
       ],
       "published_at": "2026-11-02T18:57:47Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-02",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "11": 104,
+        "1": 108
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909909",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
