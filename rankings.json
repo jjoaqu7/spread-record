@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "model_version": "season-strength-v1",
-  "generated_at": "2026-11-04T17:19:36.303720+00:00",
+  "generated_at": "2026-11-04T22:41:52.174738+00:00",
   "leagues": {
     "nba": {
       "model_version": "season-strength-v1",
       "league": "nba",
       "season": 2027,
-      "as_of": "2026-11-04T17:19:36.303720+00:00",
+      "as_of": "2026-11-04T22:41:52.174738+00:00",
       "parameters": {
         "half_life_days": 30,
         "margin_cap": 25,
@@ -15,21 +15,21 @@
         "home_ridge": 5,
         "provisional_games": 8
       },
-      "home_advantage": 1.250057,
+      "home_advantage": 1.250143,
       "teams": [
         {
           "id": "10",
           "name": "Houston Rockets",
           "abbreviation": "HOU",
           "rank": 1,
-          "rating": 8.378824,
+          "rating": 8.365022,
           "games": 8,
           "wins": 7,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 12.875,
-          "opponent_rating": 0.034,
-          "weighted_games": 6.725,
+          "opponent_rating": 0.033,
+          "weighted_games": 6.69,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -39,7 +39,7 @@
               "result": "win",
               "opponent": "Boston Celtics",
               "score": "109-93",
-              "weight": 0.962384
+              "weight": 0.957421
             },
             {
               "game_id": "401909902",
@@ -47,7 +47,7 @@
               "result": "win",
               "opponent": "Oklahoma City Thunder",
               "score": "119-98",
-              "weight": 0.91804
+              "weight": 0.913306
             },
             {
               "game_id": "401909283",
@@ -55,7 +55,7 @@
               "result": "loss",
               "opponent": "Dallas Mavericks",
               "score": "111-116",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909887",
@@ -63,7 +63,7 @@
               "result": "win",
               "opponent": "Milwaukee Bucks",
               "score": "132-100",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909874",
@@ -71,7 +71,7 @@
               "result": "win",
               "opponent": "Atlanta Hawks",
               "score": "120-110",
-              "weight": 0.817881
+              "weight": 0.813663
             }
           ]
         },
@@ -80,14 +80,14 @@
           "name": "Minnesota Timberwolves",
           "abbreviation": "MIN",
           "rank": 2,
-          "rating": 6.945684,
+          "rating": 6.934888,
           "games": 8,
           "wins": 5,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 11.375,
-          "opponent_rating": -0.623,
-          "weighted_games": 6.737,
+          "opponent_rating": -0.622,
+          "weighted_games": 6.702,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -97,7 +97,7 @@
               "result": "win",
               "opponent": "Milwaukee Bucks",
               "score": "112-100",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909901",
@@ -105,7 +105,7 @@
               "result": "loss",
               "opponent": "San Antonio Spurs",
               "score": "111-121",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909284",
@@ -113,7 +113,7 @@
               "result": "win",
               "opponent": "LA Clippers",
               "score": "127-101",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909888",
@@ -121,7 +121,7 @@
               "result": "loss",
               "opponent": "Golden State Warriors",
               "score": "114-119",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909869",
@@ -129,7 +129,7 @@
               "result": "loss",
               "opponent": "Cleveland Cavaliers",
               "score": "125-127",
-              "weight": 0.816701
+              "weight": 0.812489
             }
           ]
         },
@@ -138,14 +138,14 @@
           "name": "Memphis Grizzlies",
           "abbreviation": "MEM",
           "rank": 3,
-          "rating": 6.898818,
+          "rating": 6.886074,
           "games": 7,
           "wins": 6,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 12.857,
-          "opponent_rating": -1.67,
-          "weighted_games": 5.868,
+          "opponent_rating": -1.671,
+          "weighted_games": 5.837,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -155,7 +155,7 @@
               "result": "loss",
               "opponent": "New Orleans Pelicans",
               "score": "134-135",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909899",
@@ -163,7 +163,7 @@
               "result": "win",
               "opponent": "Sacramento Kings",
               "score": "136-105",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909895",
@@ -171,7 +171,7 @@
               "result": "win",
               "opponent": "Portland Trail Blazers",
               "score": "124-103",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401909875",
@@ -179,7 +179,7 @@
               "result": "win",
               "opponent": "Utah Jazz",
               "score": "110-105",
-              "weight": 0.818275
+              "weight": 0.814055
             },
             {
               "game_id": "401909867",
@@ -187,7 +187,7 @@
               "result": "win",
               "opponent": "Sacramento Kings",
               "score": "123-112",
-              "weight": 0.799585
+              "weight": 0.795462
             }
           ]
         },
@@ -196,14 +196,14 @@
           "name": "San Antonio Spurs",
           "abbreviation": "SA",
           "rank": 4,
-          "rating": 6.146737,
+          "rating": 6.133786,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 9.286,
-          "opponent_rating": 0.033,
-          "weighted_games": 5.831,
+          "opponent_rating": 0.03,
+          "weighted_games": 5.801,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -213,7 +213,7 @@
               "result": "win",
               "opponent": "Utah Jazz",
               "score": "119-97",
-              "weight": 0.962384
+              "weight": 0.957421
             },
             {
               "game_id": "401909901",
@@ -221,7 +221,7 @@
               "result": "win",
               "opponent": "Minnesota Timberwolves",
               "score": "121-111",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909890",
@@ -229,7 +229,7 @@
               "result": "win",
               "opponent": "Utah Jazz",
               "score": "117-111",
-              "weight": 0.856974
+              "weight": 0.852555
             },
             {
               "game_id": "401909879",
@@ -237,7 +237,7 @@
               "result": "win",
               "opponent": "Sacramento Kings",
               "score": "130-103",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401909858",
@@ -245,7 +245,7 @@
               "result": "win",
               "opponent": "Dallas Mavericks",
               "score": "122-106",
-              "weight": 0.780571
+              "weight": 0.776545
             }
           ]
         },
@@ -254,14 +254,14 @@
           "name": "Detroit Pistons",
           "abbreviation": "DET",
           "rank": 5,
-          "rating": 5.916403,
+          "rating": 5.910073,
           "games": 7,
           "wins": 6,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 11.571,
-          "opponent_rating": -2.355,
-          "weighted_games": 5.819,
+          "opponent_rating": -2.349,
+          "weighted_games": 5.789,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -271,7 +271,7 @@
               "result": "win",
               "opponent": "Charlotte Hornets",
               "score": "124-91",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909279",
@@ -279,7 +279,7 @@
               "result": "win",
               "opponent": "Brooklyn Nets",
               "score": "110-94",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909883",
@@ -287,7 +287,7 @@
               "result": "win",
               "opponent": "Charlotte Hornets",
               "score": "97-89",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909878",
@@ -295,7 +295,7 @@
               "result": "loss",
               "opponent": "New York Knicks",
               "score": "97-111",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401909866",
@@ -303,7 +303,7 @@
               "result": "win",
               "opponent": "Philadelphia 76ers",
               "score": "106-93",
-              "weight": 0.798432
+              "weight": 0.794314
             }
           ]
         },
@@ -312,14 +312,14 @@
           "name": "Portland Trail Blazers",
           "abbreviation": "POR",
           "rank": 6,
-          "rating": 5.026729,
+          "rating": 5.015411,
           "games": 6,
           "wins": 5,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 10.833,
-          "opponent_rating": -0.251,
-          "weighted_games": 5.087,
+          "opponent_rating": -0.254,
+          "weighted_games": 5.061,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -329,7 +329,7 @@
               "result": "win",
               "opponent": "Denver Nuggets",
               "score": "118-110",
-              "weight": 0.962848
+              "weight": 0.957882
             },
             {
               "game_id": "401909896",
@@ -337,7 +337,7 @@
               "result": "win",
               "opponent": "Utah Jazz",
               "score": "112-90",
-              "weight": 0.913192
+              "weight": 0.908483
             },
             {
               "game_id": "401909895",
@@ -345,7 +345,7 @@
               "result": "loss",
               "opponent": "Memphis Grizzlies",
               "score": "103-124",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401909880",
@@ -353,7 +353,7 @@
               "result": "win",
               "opponent": "Los Angeles Lakers",
               "score": "136-129",
-              "weight": 0.839015
+              "weight": 0.834688
             },
             {
               "game_id": "401909852",
@@ -361,7 +361,7 @@
               "result": "win",
               "opponent": "Sacramento Kings",
               "score": "128-120",
-              "weight": 0.764213
+              "weight": 0.760271
             }
           ]
         },
@@ -370,14 +370,14 @@
           "name": "Los Angeles Lakers",
           "abbreviation": "LAL",
           "rank": 7,
-          "rating": 4.605115,
+          "rating": 4.59621,
           "games": 8,
           "wins": 6,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 7.25,
-          "opponent_rating": -0.09,
-          "weighted_games": 6.791,
+          "opponent_rating": -0.093,
+          "weighted_games": 6.756,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -387,7 +387,7 @@
               "result": "win",
               "opponent": "Miami Heat",
               "score": "138-117",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909906",
@@ -395,7 +395,7 @@
               "result": "win",
               "opponent": "Toronto Raptors",
               "score": "131-125",
-              "weight": 0.940856
+              "weight": 0.936004
             },
             {
               "game_id": "401909285",
@@ -403,7 +403,7 @@
               "result": "loss",
               "opponent": "Golden State Warriors",
               "score": "95-112",
-              "weight": 0.898369
+              "weight": 0.893735
             },
             {
               "game_id": "401909892",
@@ -411,7 +411,7 @@
               "result": "win",
               "opponent": "LA Clippers",
               "score": "103-87",
-              "weight": 0.858213
+              "weight": 0.853787
             },
             {
               "game_id": "401909880",
@@ -419,7 +419,7 @@
               "result": "loss",
               "opponent": "Portland Trail Blazers",
               "score": "129-136",
-              "weight": 0.839015
+              "weight": 0.834688
             }
           ]
         },
@@ -428,14 +428,14 @@
           "name": "Golden State Warriors",
           "abbreviation": "GS",
           "rank": 8,
-          "rating": 3.575962,
+          "rating": 3.567187,
           "games": 8,
           "wins": 5,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 2.875,
-          "opponent_rating": 1.574,
-          "weighted_games": 6.754,
+          "opponent_rating": 1.569,
+          "weighted_games": 6.719,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -445,7 +445,7 @@
               "result": "win",
               "opponent": "Phoenix Suns",
               "score": "116-113",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909905",
@@ -453,7 +453,7 @@
               "result": "win",
               "opponent": "LA Clippers",
               "score": "124-112",
-              "weight": 0.940403
+              "weight": 0.935553
             },
             {
               "game_id": "401909285",
@@ -461,7 +461,7 @@
               "result": "win",
               "opponent": "Los Angeles Lakers",
               "score": "112-95",
-              "weight": 0.898369
+              "weight": 0.893735
             },
             {
               "game_id": "401909888",
@@ -469,7 +469,7 @@
               "result": "win",
               "opponent": "Minnesota Timberwolves",
               "score": "119-114",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909876",
@@ -477,7 +477,7 @@
               "result": "win",
               "opponent": "Denver Nuggets",
               "score": "134-114",
-              "weight": 0.819063
+              "weight": 0.814839
             }
           ]
         },
@@ -486,14 +486,14 @@
           "name": "Philadelphia 76ers",
           "abbreviation": "PHI",
           "rank": 9,
-          "rating": 2.302744,
+          "rating": 2.303435,
           "games": 8,
           "wins": 7,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 5.75,
-          "opponent_rating": -2.349,
-          "weighted_games": 6.663,
+          "opponent_rating": -2.343,
+          "weighted_games": 6.629,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -503,7 +503,7 @@
               "result": "win",
               "opponent": "Chicago Bulls",
               "score": "126-107",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909897",
@@ -511,7 +511,7 @@
               "result": "win",
               "opponent": "Charlotte Hornets",
               "score": "109-104",
-              "weight": 0.915834
+              "weight": 0.91111
             },
             {
               "game_id": "401909280",
@@ -519,7 +519,7 @@
               "result": "win",
               "opponent": "New York Knicks",
               "score": "98-93",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909884",
@@ -527,7 +527,7 @@
               "result": "win",
               "opponent": "Indiana Pacers",
               "score": "114-109",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909866",
@@ -535,7 +535,7 @@
               "result": "loss",
               "opponent": "Detroit Pistons",
               "score": "93-106",
-              "weight": 0.798432
+              "weight": 0.794314
             }
           ]
         },
@@ -544,14 +544,14 @@
           "name": "Toronto Raptors",
           "abbreviation": "TOR",
           "rank": 10,
-          "rating": 1.908155,
+          "rating": 1.906583,
           "games": 7,
           "wins": 4,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 7.714,
-          "opponent_rating": -1.32,
-          "weighted_games": 5.945,
+          "opponent_rating": -1.318,
+          "weighted_games": 5.914,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -561,7 +561,7 @@
               "result": "win",
               "opponent": "LA Clippers",
               "score": "125-118",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909906",
@@ -569,7 +569,7 @@
               "result": "loss",
               "opponent": "Los Angeles Lakers",
               "score": "125-131",
-              "weight": 0.940856
+              "weight": 0.936004
             },
             {
               "game_id": "401909281",
@@ -577,7 +577,7 @@
               "result": "loss",
               "opponent": "Orlando Magic",
               "score": "114-121",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909885",
@@ -585,7 +585,7 @@
               "result": "win",
               "opponent": "Orlando Magic",
               "score": "129-99",
-              "weight": 0.855738
+              "weight": 0.851324
             },
             {
               "game_id": "401909864",
@@ -593,7 +593,7 @@
               "result": "loss",
               "opponent": "Minnesota Timberwolves",
               "score": "94-117",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -602,14 +602,14 @@
           "name": "Cleveland Cavaliers",
           "abbreviation": "CLE",
           "rank": 11,
-          "rating": 1.895767,
+          "rating": 1.894406,
           "games": 7,
           "wins": 4,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 3.571,
-          "opponent_rating": -0.805,
-          "weighted_games": 5.952,
+          "opponent_rating": -0.802,
+          "weighted_games": 5.921,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -619,7 +619,7 @@
               "result": "loss",
               "opponent": "Oklahoma City Thunder",
               "score": "112-117",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401909900",
@@ -627,7 +627,7 @@
               "result": "win",
               "opponent": "Milwaukee Bucks",
               "score": "136-111",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909893",
@@ -635,7 +635,7 @@
               "result": "loss",
               "opponent": "Atlanta Hawks",
               "score": "111-114",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401909882",
@@ -643,7 +643,7 @@
               "result": "win",
               "opponent": "Washington Wizards",
               "score": "121-111",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909869",
@@ -651,7 +651,7 @@
               "result": "win",
               "opponent": "Minnesota Timberwolves",
               "score": "127-125",
-              "weight": 0.816701
+              "weight": 0.812489
             }
           ]
         },
@@ -660,14 +660,14 @@
           "name": "Boston Celtics",
           "abbreviation": "BOS",
           "rank": 12,
-          "rating": 1.723161,
+          "rating": 1.723385,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 5.857,
-          "opponent_rating": -1.663,
-          "weighted_games": 5.918,
+          "opponent_rating": -1.658,
+          "weighted_games": 5.888,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -677,7 +677,7 @@
               "result": "loss",
               "opponent": "Houston Rockets",
               "score": "93-109",
-              "weight": 0.962384
+              "weight": 0.957421
             },
             {
               "game_id": "401909903",
@@ -685,7 +685,7 @@
               "result": "win",
               "opponent": "Orlando Magic",
               "score": "108-97",
-              "weight": 0.935888
+              "weight": 0.931061
             },
             {
               "game_id": "401909278",
@@ -693,7 +693,7 @@
               "result": "win",
               "opponent": "Chicago Bulls",
               "score": "125-111",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909877",
@@ -701,7 +701,7 @@
               "result": "win",
               "opponent": "Brooklyn Nets",
               "score": "125-124",
-              "weight": 0.836193
+              "weight": 0.83188
             },
             {
               "game_id": "401909870",
@@ -709,7 +709,7 @@
               "result": "win",
               "opponent": "Chicago Bulls",
               "score": "134-99",
-              "weight": 0.817094
+              "weight": 0.81288
             }
           ]
         },
@@ -718,14 +718,14 @@
           "name": "Oklahoma City Thunder",
           "abbreviation": "OKC",
           "rank": 13,
-          "rating": 0.877081,
+          "rating": 0.872784,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 0.286,
-          "opponent_rating": 1.605,
-          "weighted_games": 5.811,
+          "opponent_rating": 1.601,
+          "weighted_games": 5.781,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -735,7 +735,7 @@
               "result": "win",
               "opponent": "Cleveland Cavaliers",
               "score": "117-112",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401909902",
@@ -743,7 +743,7 @@
               "result": "loss",
               "opponent": "Houston Rockets",
               "score": "98-119",
-              "weight": 0.91804
+              "weight": 0.913306
             },
             {
               "game_id": "401909891",
@@ -751,7 +751,7 @@
               "result": "loss",
               "opponent": "Dallas Mavericks",
               "score": "96-120",
-              "weight": 0.857387
+              "weight": 0.852965
             },
             {
               "game_id": "401909873",
@@ -759,7 +759,7 @@
               "result": "win",
               "opponent": "Phoenix Suns",
               "score": "125-114",
-              "weight": 0.817487
+              "weight": 0.813271
             },
             {
               "game_id": "401909865",
@@ -767,7 +767,7 @@
               "result": "win",
               "opponent": "LA Clippers",
               "score": "108-101",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -776,14 +776,14 @@
           "name": "Dallas Mavericks",
           "abbreviation": "DAL",
           "rank": 14,
-          "rating": 0.753266,
+          "rating": 0.74979,
           "games": 7,
           "wins": 4,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 0.0,
-          "opponent_rating": 1.315,
-          "weighted_games": 5.804,
+          "opponent_rating": 1.311,
+          "weighted_games": 5.774,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -793,7 +793,7 @@
               "result": "loss",
               "opponent": "Sacramento Kings",
               "score": "100-115",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909283",
@@ -801,7 +801,7 @@
               "result": "win",
               "opponent": "Houston Rockets",
               "score": "116-111",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909891",
@@ -809,7 +809,7 @@
               "result": "win",
               "opponent": "Oklahoma City Thunder",
               "score": "120-96",
-              "weight": 0.857387
+              "weight": 0.852965
             },
             {
               "game_id": "401909871",
@@ -817,7 +817,7 @@
               "result": "win",
               "opponent": "Miami Heat",
               "score": "113-109",
-              "weight": 0.817094
+              "weight": 0.81288
             },
             {
               "game_id": "401909858",
@@ -825,7 +825,7 @@
               "result": "loss",
               "opponent": "San Antonio Spurs",
               "score": "106-122",
-              "weight": 0.780571
+              "weight": 0.776545
             }
           ]
         },
@@ -834,14 +834,14 @@
           "name": "New Orleans Pelicans",
           "abbreviation": "NO",
           "rank": 15,
-          "rating": 0.486765,
+          "rating": 0.486036,
           "games": 7,
           "wins": 3,
           "losses": 4,
           "ties": 0,
           "margin_per_game": 1.714,
-          "opponent_rating": -1.269,
-          "weighted_games": 5.884,
+          "opponent_rating": -1.268,
+          "weighted_games": 5.854,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -851,7 +851,7 @@
               "result": "win",
               "opponent": "Memphis Grizzlies",
               "score": "135-134",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909898",
@@ -859,7 +859,7 @@
               "result": "win",
               "opponent": "Atlanta Hawks",
               "score": "121-99",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401909894",
@@ -867,7 +867,7 @@
               "result": "win",
               "opponent": "Sacramento Kings",
               "score": "132-120",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401909889",
@@ -875,7 +875,7 @@
               "result": "loss",
               "opponent": "Denver Nuggets",
               "score": "91-104",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909859",
@@ -883,7 +883,7 @@
               "result": "loss",
               "opponent": "Denver Nuggets",
               "score": "135-141",
-              "weight": 0.781323
+              "weight": 0.777293
             }
           ]
         },
@@ -892,14 +892,14 @@
           "name": "New York Knicks",
           "abbreviation": "NY",
           "rank": 16,
-          "rating": 0.403159,
+          "rating": 0.405577,
           "games": 7,
           "wins": 3,
           "losses": 4,
           "ties": 0,
           "margin_per_game": 1.286,
-          "opponent_rating": -1.0,
-          "weighted_games": 5.821,
+          "opponent_rating": -0.996,
+          "weighted_games": 5.791,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -909,7 +909,7 @@
               "result": "win",
               "opponent": "Brooklyn Nets",
               "score": "103-90",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909280",
@@ -917,7 +917,7 @@
               "result": "loss",
               "opponent": "Philadelphia 76ers",
               "score": "93-98",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909886",
@@ -925,7 +925,7 @@
               "result": "win",
               "opponent": "Chicago Bulls",
               "score": "133-127",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909878",
@@ -933,7 +933,7 @@
               "result": "win",
               "opponent": "Detroit Pistons",
               "score": "111-97",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401909863",
@@ -941,7 +941,7 @@
               "result": "loss",
               "opponent": "Orlando Magic",
               "score": "102-111",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -950,14 +950,14 @@
           "name": "Denver Nuggets",
           "abbreviation": "DEN",
           "rank": 17,
-          "rating": -0.503524,
+          "rating": -0.505172,
           "games": 6,
           "wins": 3,
           "losses": 3,
           "ties": 0,
           "margin_per_game": -2.333,
-          "opponent_rating": 1.373,
-          "weighted_games": 5.064,
+          "opponent_rating": 1.369,
+          "weighted_games": 5.038,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -967,7 +967,7 @@
               "result": "loss",
               "opponent": "Portland Trail Blazers",
               "score": "110-118",
-              "weight": 0.962848
+              "weight": 0.957882
             },
             {
               "game_id": "401909286",
@@ -975,7 +975,7 @@
               "result": "win",
               "opponent": "Phoenix Suns",
               "score": "127-120",
-              "weight": 0.898369
+              "weight": 0.893735
             },
             {
               "game_id": "401909889",
@@ -983,7 +983,7 @@
               "result": "win",
               "opponent": "New Orleans Pelicans",
               "score": "104-91",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909876",
@@ -991,7 +991,7 @@
               "result": "loss",
               "opponent": "Golden State Warriors",
               "score": "114-134",
-              "weight": 0.819063
+              "weight": 0.814839
             },
             {
               "game_id": "401909859",
@@ -999,7 +999,7 @@
               "result": "win",
               "opponent": "New Orleans Pelicans",
               "score": "141-135",
-              "weight": 0.781323
+              "weight": 0.777293
             }
           ]
         },
@@ -1008,14 +1008,14 @@
           "name": "Washington Wizards",
           "abbreviation": "WSH",
           "rank": 18,
-          "rating": -0.892853,
+          "rating": -0.886196,
           "games": 7,
           "wins": 4,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 2.0,
-          "opponent_rating": -3.809,
-          "weighted_games": 5.799,
+          "opponent_rating": -3.801,
+          "weighted_games": 5.77,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1025,7 +1025,7 @@
               "result": "win",
               "opponent": "Orlando Magic",
               "score": "103-94",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909277",
@@ -1033,7 +1033,7 @@
               "result": "win",
               "opponent": "Charlotte Hornets",
               "score": "95-79",
-              "weight": 0.895778
+              "weight": 0.891158
             },
             {
               "game_id": "401909882",
@@ -1041,7 +1041,7 @@
               "result": "loss",
               "opponent": "Cleveland Cavaliers",
               "score": "111-121",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909868",
@@ -1049,7 +1049,7 @@
               "result": "loss",
               "opponent": "Charlotte Hornets",
               "score": "103-110",
-              "weight": 0.816701
+              "weight": 0.812489
             },
             {
               "game_id": "401909857",
@@ -1057,7 +1057,7 @@
               "result": "win",
               "opponent": "Chicago Bulls",
               "score": "124-120",
-              "weight": 0.780571
+              "weight": 0.776545
             }
           ]
         },
@@ -1066,14 +1066,14 @@
           "name": "Atlanta Hawks",
           "abbreviation": "ATL",
           "rank": 19,
-          "rating": -1.079724,
+          "rating": -1.077513,
           "games": 8,
           "wins": 4,
           "losses": 4,
           "ties": 0,
           "margin_per_game": 1.25,
-          "opponent_rating": 0.134,
-          "weighted_games": 6.698,
+          "opponent_rating": 0.135,
+          "weighted_games": 6.664,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -1083,7 +1083,7 @@
               "result": "win",
               "opponent": "Indiana Pacers",
               "score": "108-104",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909898",
@@ -1091,7 +1091,7 @@
               "result": "loss",
               "opponent": "New Orleans Pelicans",
               "score": "99-121",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401909893",
@@ -1099,7 +1099,7 @@
               "result": "win",
               "opponent": "Cleveland Cavaliers",
               "score": "114-111",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401909881",
@@ -1107,7 +1107,7 @@
               "result": "loss",
               "opponent": "Miami Heat",
               "score": "117-129",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909874",
@@ -1115,7 +1115,7 @@
               "result": "loss",
               "opponent": "Houston Rockets",
               "score": "110-120",
-              "weight": 0.817881
+              "weight": 0.813663
             }
           ]
         },
@@ -1124,14 +1124,14 @@
           "name": "Phoenix Suns",
           "abbreviation": "PHX",
           "rank": 20,
-          "rating": -2.525539,
+          "rating": -2.524043,
           "games": 5,
           "wins": 1,
           "losses": 4,
           "ties": 0,
           "margin_per_game": -10.6,
-          "opponent_rating": 2.428,
-          "weighted_games": 4.191,
+          "opponent_rating": 2.421,
+          "weighted_games": 4.17,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1141,7 +1141,7 @@
               "result": "loss",
               "opponent": "Golden State Warriors",
               "score": "113-116",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909286",
@@ -1149,7 +1149,7 @@
               "result": "loss",
               "opponent": "Denver Nuggets",
               "score": "120-127",
-              "weight": 0.898369
+              "weight": 0.893735
             },
             {
               "game_id": "401909873",
@@ -1157,7 +1157,7 @@
               "result": "loss",
               "opponent": "Oklahoma City Thunder",
               "score": "114-125",
-              "weight": 0.817487
+              "weight": 0.813271
             },
             {
               "game_id": "401909860",
@@ -1165,7 +1165,7 @@
               "result": "win",
               "opponent": "Golden State Warriors",
               "score": "131-122",
-              "weight": 0.782075
+              "weight": 0.778042
             },
             {
               "game_id": "401909841",
@@ -1173,7 +1173,7 @@
               "result": "loss",
               "opponent": "Portland Trail Blazers",
               "score": "83-124",
-              "weight": 0.729702
+              "weight": 0.725939
             }
           ]
         },
@@ -1182,14 +1182,14 @@
           "name": "Miami Heat",
           "abbreviation": "MIA",
           "rank": 21,
-          "rating": -2.949732,
+          "rating": -2.944998,
           "games": 7,
           "wins": 2,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -5.714,
-          "opponent_rating": 0.89,
-          "weighted_games": 5.803,
+          "opponent_rating": 0.889,
+          "weighted_games": 5.773,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1199,7 +1199,7 @@
               "result": "loss",
               "opponent": "Los Angeles Lakers",
               "score": "117-138",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909282",
@@ -1207,7 +1207,7 @@
               "result": "win",
               "opponent": "Indiana Pacers",
               "score": "145-125",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909881",
@@ -1215,7 +1215,7 @@
               "result": "win",
               "opponent": "Atlanta Hawks",
               "score": "129-117",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909871",
@@ -1223,7 +1223,7 @@
               "result": "loss",
               "opponent": "Dallas Mavericks",
               "score": "109-113",
-              "weight": 0.817094
+              "weight": 0.81288
             },
             {
               "game_id": "401909853",
@@ -1231,7 +1231,7 @@
               "result": "loss",
               "opponent": "Charlotte Hornets",
               "score": "110-115",
-              "weight": 0.77907
+              "weight": 0.775052
             }
           ]
         },
@@ -1240,14 +1240,14 @@
           "name": "LA Clippers",
           "abbreviation": "LAC",
           "rank": 22,
-          "rating": -3.473442,
+          "rating": -3.471165,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -7.286,
-          "opponent_rating": 2.6,
-          "weighted_games": 5.951,
+          "opponent_rating": 2.595,
+          "weighted_games": 5.921,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1257,7 +1257,7 @@
               "result": "loss",
               "opponent": "Toronto Raptors",
               "score": "118-125",
-              "weight": 0.963775
+              "weight": 0.958804
             },
             {
               "game_id": "401909905",
@@ -1265,7 +1265,7 @@
               "result": "loss",
               "opponent": "Golden State Warriors",
               "score": "112-124",
-              "weight": 0.940403
+              "weight": 0.935553
             },
             {
               "game_id": "401909284",
@@ -1273,7 +1273,7 @@
               "result": "loss",
               "opponent": "Minnesota Timberwolves",
               "score": "101-127",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909892",
@@ -1281,7 +1281,7 @@
               "result": "loss",
               "opponent": "Los Angeles Lakers",
               "score": "87-103",
-              "weight": 0.858213
+              "weight": 0.853787
             },
             {
               "game_id": "401909865",
@@ -1289,7 +1289,7 @@
               "result": "loss",
               "opponent": "Oklahoma City Thunder",
               "score": "101-108",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -1298,14 +1298,14 @@
           "name": "Orlando Magic",
           "abbreviation": "ORL",
           "rank": 23,
-          "rating": -4.57237,
+          "rating": -4.564528,
           "games": 7,
           "wins": 2,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -9.0,
           "opponent_rating": 1.503,
-          "weighted_games": 5.937,
+          "weighted_games": 5.906,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1315,7 +1315,7 @@
               "result": "loss",
               "opponent": "Washington Wizards",
               "score": "94-103",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909903",
@@ -1323,7 +1323,7 @@
               "result": "loss",
               "opponent": "Boston Celtics",
               "score": "97-108",
-              "weight": 0.935888
+              "weight": 0.931061
             },
             {
               "game_id": "401909281",
@@ -1331,7 +1331,7 @@
               "result": "win",
               "opponent": "Toronto Raptors",
               "score": "121-114",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909885",
@@ -1339,7 +1339,7 @@
               "result": "loss",
               "opponent": "Toronto Raptors",
               "score": "99-129",
-              "weight": 0.855738
+              "weight": 0.851324
             },
             {
               "game_id": "401909863",
@@ -1347,7 +1347,7 @@
               "result": "win",
               "opponent": "New York Knicks",
               "score": "111-102",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -1356,14 +1356,14 @@
           "name": "Indiana Pacers",
           "abbreviation": "IND",
           "rank": 24,
-          "rating": -4.845498,
+          "rating": -4.834059,
           "games": 8,
           "wins": 2,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -3.875,
-          "opponent_rating": -2.481,
-          "weighted_games": 6.756,
+          "opponent_rating": -2.475,
+          "weighted_games": 6.721,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -1373,7 +1373,7 @@
               "result": "loss",
               "opponent": "Atlanta Hawks",
               "score": "104-108",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909904",
@@ -1381,7 +1381,7 @@
               "result": "loss",
               "opponent": "Brooklyn Nets",
               "score": "90-98",
-              "weight": 0.93724
+              "weight": 0.932406
             },
             {
               "game_id": "401909282",
@@ -1389,7 +1389,7 @@
               "result": "loss",
               "opponent": "Miami Heat",
               "score": "125-145",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401909884",
@@ -1397,7 +1397,7 @@
               "result": "loss",
               "opponent": "Philadelphia 76ers",
               "score": "109-114",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909872",
@@ -1405,7 +1405,7 @@
               "result": "loss",
               "opponent": "Milwaukee Bucks",
               "score": "102-110",
-              "weight": 0.817487
+              "weight": 0.813271
             }
           ]
         },
@@ -1414,14 +1414,14 @@
           "name": "Utah Jazz",
           "abbreviation": "UTAH",
           "rank": 25,
-          "rating": -4.984067,
+          "rating": -4.982255,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -11.857,
-          "opponent_rating": 5.22,
-          "weighted_games": 5.839,
+          "opponent_rating": 5.21,
+          "weighted_games": 5.809,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1431,7 +1431,7 @@
               "result": "loss",
               "opponent": "San Antonio Spurs",
               "score": "97-119",
-              "weight": 0.962384
+              "weight": 0.957421
             },
             {
               "game_id": "401909896",
@@ -1439,7 +1439,7 @@
               "result": "loss",
               "opponent": "Portland Trail Blazers",
               "score": "90-112",
-              "weight": 0.913192
+              "weight": 0.908483
             },
             {
               "game_id": "401909890",
@@ -1447,7 +1447,7 @@
               "result": "loss",
               "opponent": "San Antonio Spurs",
               "score": "111-117",
-              "weight": 0.856974
+              "weight": 0.852555
             },
             {
               "game_id": "401909875",
@@ -1455,7 +1455,7 @@
               "result": "loss",
               "opponent": "Memphis Grizzlies",
               "score": "105-110",
-              "weight": 0.818275
+              "weight": 0.814055
             },
             {
               "game_id": "401909861",
@@ -1463,7 +1463,7 @@
               "result": "loss",
               "opponent": "Los Angeles Lakers",
               "score": "123-132",
-              "weight": 0.796512
+              "weight": 0.792404
             }
           ]
         },
@@ -1472,14 +1472,14 @@
           "name": "Charlotte Hornets",
           "abbreviation": "CHA",
           "rank": 26,
-          "rating": -5.378505,
+          "rating": -5.368386,
           "games": 8,
           "wins": 3,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -11.25,
-          "opponent_rating": 0.608,
-          "weighted_games": 6.714,
+          "opponent_rating": 0.61,
+          "weighted_games": 6.679,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -1489,7 +1489,7 @@
               "result": "loss",
               "opponent": "Detroit Pistons",
               "score": "91-124",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909897",
@@ -1497,7 +1497,7 @@
               "result": "loss",
               "opponent": "Philadelphia 76ers",
               "score": "104-109",
-              "weight": 0.915834
+              "weight": 0.91111
             },
             {
               "game_id": "401909277",
@@ -1505,7 +1505,7 @@
               "result": "loss",
               "opponent": "Washington Wizards",
               "score": "79-95",
-              "weight": 0.895778
+              "weight": 0.891158
             },
             {
               "game_id": "401909883",
@@ -1513,7 +1513,7 @@
               "result": "loss",
               "opponent": "Detroit Pistons",
               "score": "89-97",
-              "weight": 0.855326
+              "weight": 0.850915
             },
             {
               "game_id": "401909868",
@@ -1521,7 +1521,7 @@
               "result": "win",
               "opponent": "Washington Wizards",
               "score": "110-103",
-              "weight": 0.816701
+              "weight": 0.812489
             }
           ]
         },
@@ -1530,14 +1530,14 @@
           "name": "Sacramento Kings",
           "abbreviation": "SAC",
           "rank": 27,
-          "rating": -5.649985,
+          "rating": -5.644995,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -14.143,
-          "opponent_rating": 3.304,
-          "weighted_games": 5.886,
+          "opponent_rating": 3.296,
+          "weighted_games": 5.856,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1547,7 +1547,7 @@
               "result": "win",
               "opponent": "Dallas Mavericks",
               "score": "115-100",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909899",
@@ -1555,7 +1555,7 @@
               "result": "loss",
               "opponent": "Memphis Grizzlies",
               "score": "105-136",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909894",
@@ -1563,7 +1563,7 @@
               "result": "loss",
               "opponent": "New Orleans Pelicans",
               "score": "120-132",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401909879",
@@ -1571,7 +1571,7 @@
               "result": "loss",
               "opponent": "San Antonio Spurs",
               "score": "103-130",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401909867",
@@ -1579,7 +1579,7 @@
               "result": "loss",
               "opponent": "Memphis Grizzlies",
               "score": "112-123",
-              "weight": 0.799585
+              "weight": 0.795462
             }
           ]
         },
@@ -1588,14 +1588,14 @@
           "name": "Brooklyn Nets",
           "abbreviation": "BKN",
           "rank": 28,
-          "rating": -5.669746,
+          "rating": -5.657318,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -8.571,
-          "opponent_rating": -0.625,
-          "weighted_games": 5.937,
+          "opponent_rating": -0.621,
+          "weighted_games": 5.906,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1605,7 +1605,7 @@
               "result": "loss",
               "opponent": "New York Knicks",
               "score": "90-103",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909904",
@@ -1613,7 +1613,7 @@
               "result": "win",
               "opponent": "Indiana Pacers",
               "score": "98-90",
-              "weight": 0.93724
+              "weight": 0.932406
             },
             {
               "game_id": "401909279",
@@ -1621,7 +1621,7 @@
               "result": "loss",
               "opponent": "Detroit Pistons",
               "score": "94-110",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909877",
@@ -1629,7 +1629,7 @@
               "result": "loss",
               "opponent": "Boston Celtics",
               "score": "124-125",
-              "weight": 0.836193
+              "weight": 0.83188
             },
             {
               "game_id": "401909862",
@@ -1637,7 +1637,7 @@
               "result": "loss",
               "opponent": "Indiana Pacers",
               "score": "109-136",
-              "weight": 0.797279
+              "weight": 0.793167
             }
           ]
         },
@@ -1646,14 +1646,14 @@
           "name": "Milwaukee Bucks",
           "abbreviation": "MIL",
           "rank": 29,
-          "rating": -7.508979,
+          "rating": -7.4954,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -13.0,
-          "opponent_rating": 1.176,
-          "weighted_games": 5.821,
+          "opponent_rating": 1.177,
+          "weighted_games": 5.791,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1663,7 +1663,7 @@
               "result": "loss",
               "opponent": "Minnesota Timberwolves",
               "score": "100-112",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401909900",
@@ -1671,7 +1671,7 @@
               "result": "loss",
               "opponent": "Cleveland Cavaliers",
               "score": "111-136",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401909887",
@@ -1679,7 +1679,7 @@
               "result": "loss",
               "opponent": "Houston Rockets",
               "score": "100-132",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909872",
@@ -1687,7 +1687,7 @@
               "result": "win",
               "opponent": "Indiana Pacers",
               "score": "110-102",
-              "weight": 0.817487
+              "weight": 0.813271
             },
             {
               "game_id": "401909855",
@@ -1695,7 +1695,7 @@
               "result": "loss",
               "opponent": "Philadelphia 76ers",
               "score": "116-127",
-              "weight": 0.780195
+              "weight": 0.776172
             }
           ]
         },
@@ -1704,14 +1704,14 @@
           "name": "Chicago Bulls",
           "abbreviation": "CHI",
           "rank": 30,
-          "rating": -7.810406,
+          "rating": -7.794617,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -16.286,
-          "opponent_rating": 0.086,
-          "weighted_games": 5.799,
+          "opponent_rating": 0.089,
+          "weighted_games": 5.769,
           "provisional": true,
           "rank_change": 0,
           "recent": [
@@ -1721,7 +1721,7 @@
               "result": "loss",
               "opponent": "Philadelphia 76ers",
               "score": "107-126",
-              "weight": 0.961458
+              "weight": 0.9565
             },
             {
               "game_id": "401909278",
@@ -1729,7 +1729,7 @@
               "result": "loss",
               "opponent": "Boston Celtics",
               "score": "111-125",
-              "weight": 0.896209
+              "weight": 0.891587
             },
             {
               "game_id": "401909886",
@@ -1737,7 +1737,7 @@
               "result": "loss",
               "opponent": "New York Knicks",
               "score": "127-133",
-              "weight": 0.85615
+              "weight": 0.851734
             },
             {
               "game_id": "401909870",
@@ -1745,7 +1745,7 @@
               "result": "loss",
               "opponent": "Boston Celtics",
               "score": "99-134",
-              "weight": 0.817094
+              "weight": 0.81288
             },
             {
               "game_id": "401909857",
@@ -1753,22 +1753,22 @@
               "result": "loss",
               "opponent": "Washington Wizards",
               "score": "120-124",
-              "weight": 0.780571
+              "weight": 0.776545
             }
           ]
         }
       ],
       "games_used": 107,
       "input_sha256": "54089c13ae04c3c4c686e8ad9b13c26012e1c8c68ba60a40ff0b5bbc1459d97a",
-      "weighted_training_rmse": 10.8395,
-      "comparison_as_of": "2026-11-03T22:20:35.711366+00:00",
+      "weighted_training_rmse": 10.8427,
+      "comparison_as_of": "2026-11-04T17:19:36.303720+00:00",
       "season_label": "2026-27",
       "inputs": {
         "league": "nba",
         "season": 2027,
         "season_label": "2026-27",
-        "observed_at": "2026-11-04T17:19:31.924231+00:00",
-        "as_of": "2026-11-04T17:19:36.303720+00:00",
+        "observed_at": "2026-11-04T22:41:46.458367+00:00",
+        "as_of": "2026-11-04T22:41:52.174738+00:00",
         "teams": {
           "1": {
             "id": "1",
@@ -29853,7 +29853,7 @@
       "model_version": "season-strength-v1",
       "league": "nfl",
       "season": 2026,
-      "as_of": "2026-11-04T17:19:36.303720+00:00",
+      "as_of": "2026-11-04T22:41:52.174738+00:00",
       "parameters": {
         "half_life_days": 42,
         "margin_cap": 28,
@@ -29861,21 +29861,21 @@
         "home_ridge": 5,
         "provisional_games": 4
       },
-      "home_advantage": 0.550283,
+      "home_advantage": 0.550825,
       "teams": [
         {
           "id": "30",
           "name": "Jacksonville Jaguars",
           "abbreviation": "JAX",
           "rank": 1,
-          "rating": 6.167796,
+          "rating": 6.159184,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 12.143,
-          "opponent_rating": -0.988,
-          "weighted_games": 4.411,
+          "opponent_rating": -0.987,
+          "weighted_games": 4.394,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -29885,7 +29885,7 @@
               "result": "win",
               "opponent": "Indianapolis Colts",
               "score": "42-7",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401872996",
@@ -29893,7 +29893,7 @@
               "result": "loss",
               "opponent": "Houston Texans",
               "score": "31-34",
-              "weight": 0.753376
+              "weight": 0.750598
             },
             {
               "game_id": "401872981",
@@ -29901,7 +29901,7 @@
               "result": "win",
               "opponent": "Philadelphia Eagles",
               "score": "19-17",
-              "weight": 0.671182
+              "weight": 0.668707
             },
             {
               "game_id": "401872969",
@@ -29909,7 +29909,7 @@
               "result": "win",
               "opponent": "Cincinnati Bengals",
               "score": "22-17",
-              "weight": 0.599396
+              "weight": 0.597186
             },
             {
               "game_id": "401872957",
@@ -29917,7 +29917,7 @@
               "result": "win",
               "opponent": "New England Patriots",
               "score": "35-6",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -29926,14 +29926,14 @@
           "name": "Buffalo Bills",
           "abbreviation": "BUF",
           "rank": 2,
-          "rating": 4.600025,
+          "rating": 4.593847,
           "games": 7,
           "wins": 6,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 7.429,
-          "opponent_rating": -0.858,
-          "weighted_games": 4.409,
+          "opponent_rating": -0.856,
+          "weighted_games": 4.393,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -29943,7 +29943,7 @@
               "result": "win",
               "opponent": "Baltimore Ravens",
               "score": "36-10",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873005",
@@ -29951,7 +29951,7 @@
               "result": "win",
               "opponent": "Las Vegas Raiders",
               "score": "33-30",
-              "weight": 0.756968
+              "weight": 0.754177
             },
             {
               "game_id": "401872994",
@@ -29959,7 +29959,7 @@
               "result": "win",
               "opponent": "Los Angeles Rams",
               "score": "37-34",
-              "weight": 0.687413
+              "weight": 0.684879
             },
             {
               "game_id": "401872971",
@@ -29967,7 +29967,7 @@
               "result": "loss",
               "opponent": "New England Patriots",
               "score": "26-29",
-              "weight": 0.599396
+              "weight": 0.597186
             },
             {
               "game_id": "401872953",
@@ -29975,7 +29975,7 @@
               "result": "win",
               "opponent": "Los Angeles Chargers",
               "score": "24-16",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -29984,14 +29984,14 @@
           "name": "Chicago Bears",
           "abbreviation": "CHI",
           "rank": 3,
-          "rating": 4.454241,
+          "rating": 4.447596,
           "games": 8,
           "wins": 6,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 6.75,
-          "opponent_rating": 0.245,
-          "weighted_games": 5.256,
+          "opponent_rating": 0.244,
+          "weighted_games": 5.237,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30001,7 +30001,7 @@
               "result": "win",
               "opponent": "Seattle Seahawks",
               "score": "34-17",
-              "weight": 0.972818
+              "weight": 0.969231
             },
             {
               "game_id": "401873010",
@@ -30009,7 +30009,7 @@
               "result": "win",
               "opponent": "New England Patriots",
               "score": "30-24",
-              "weight": 0.810759
+              "weight": 0.80777
             },
             {
               "game_id": "401872999",
@@ -30017,7 +30017,7 @@
               "result": "win",
               "opponent": "Atlanta Falcons",
               "score": "31-23",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872990",
@@ -30025,7 +30025,7 @@
               "result": "loss",
               "opponent": "Green Bay Packers",
               "score": "7-31",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872972",
@@ -30033,7 +30033,7 @@
               "result": "win",
               "opponent": "New York Jets",
               "score": "23-12",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30042,14 +30042,14 @@
           "name": "Cincinnati Bengals",
           "abbreviation": "CIN",
           "rank": 4,
-          "rating": 4.262782,
+          "rating": 4.257072,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 6.857,
-          "opponent_rating": -0.652,
-          "weighted_games": 4.506,
+          "opponent_rating": -0.651,
+          "weighted_games": 4.489,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30059,7 +30059,7 @@
               "result": "win",
               "opponent": "Tennessee Titans",
               "score": "43-36",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873012",
@@ -30067,7 +30067,7 @@
               "result": "win",
               "opponent": "Baltimore Ravens",
               "score": "35-13",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872982",
@@ -30075,7 +30075,7 @@
               "result": "win",
               "opponent": "Miami Dolphins",
               "score": "31-24",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872969",
@@ -30083,7 +30083,7 @@
               "result": "loss",
               "opponent": "Jacksonville Jaguars",
               "score": "17-22",
-              "weight": 0.599396
+              "weight": 0.597186
             },
             {
               "game_id": "401872950",
@@ -30091,7 +30091,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Steelers",
               "score": "27-30",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -30100,14 +30100,14 @@
           "name": "Tampa Bay Buccaneers",
           "abbreviation": "TB",
           "rank": 5,
-          "rating": 3.931331,
+          "rating": 3.92497,
           "games": 8,
           "wins": 3,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 3.375,
-          "opponent_rating": 0.821,
-          "weighted_games": 5.233,
+          "opponent_rating": 0.82,
+          "weighted_games": 5.213,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30117,7 +30117,7 @@
               "result": "win",
               "opponent": "Atlanta Falcons",
               "score": "16-0",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873018",
@@ -30125,7 +30125,7 @@
               "result": "win",
               "opponent": "Carolina Panthers",
               "score": "43-13",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873002",
@@ -30133,7 +30133,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Steelers",
               "score": "19-26",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872980",
@@ -30141,7 +30141,7 @@
               "result": "win",
               "opponent": "Dallas Cowboys",
               "score": "24-16",
-              "weight": 0.6435
+              "weight": 0.641127
             },
             {
               "game_id": "401872968",
@@ -30149,7 +30149,7 @@
               "result": "loss",
               "opponent": "Green Bay Packers",
               "score": "14-17",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30158,14 +30158,14 @@
           "name": "Pittsburgh Steelers",
           "abbreviation": "PIT",
           "rank": 6,
-          "rating": 3.658782,
+          "rating": 3.653938,
           "games": 8,
           "wins": 6,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 4.5,
-          "opponent_rating": -0.505,
-          "weighted_games": 5.233,
+          "opponent_rating": -0.504,
+          "weighted_games": 5.213,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30175,7 +30175,7 @@
               "result": "win",
               "opponent": "Cleveland Browns",
               "score": "27-6",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873011",
@@ -30183,7 +30183,7 @@
               "result": "win",
               "opponent": "New Orleans Saints",
               "score": "16-10",
-              "weight": 0.845636
+              "weight": 0.842518
             },
             {
               "game_id": "401873002",
@@ -30191,7 +30191,7 @@
               "result": "win",
               "opponent": "Tampa Bay Buccaneers",
               "score": "26-19",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872985",
@@ -30199,7 +30199,7 @@
               "result": "win",
               "opponent": "Indianapolis Colts",
               "score": "34-22",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872964",
@@ -30207,7 +30207,7 @@
               "result": "loss",
               "opponent": "Cleveland Browns",
               "score": "24-27",
-              "weight": 0.573293
+              "weight": 0.571179
             }
           ]
         },
@@ -30216,14 +30216,14 @@
           "name": "Minnesota Vikings",
           "abbreviation": "MIN",
           "rank": 7,
-          "rating": 3.384818,
+          "rating": 3.379375,
           "games": 7,
           "wins": 6,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 6.714,
-          "opponent_rating": 0.037,
-          "weighted_games": 4.509,
+          "opponent_rating": 0.036,
+          "weighted_games": 4.492,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30233,7 +30233,7 @@
               "result": "loss",
               "opponent": "Detroit Lions",
               "score": "15-19",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873014",
@@ -30241,7 +30241,7 @@
               "result": "win",
               "opponent": "Indianapolis Colts",
               "score": "16-10",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872987",
@@ -30249,7 +30249,7 @@
               "result": "win",
               "opponent": "New Orleans Saints",
               "score": "23-13",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872974",
@@ -30257,7 +30257,7 @@
               "result": "win",
               "opponent": "Miami Dolphins",
               "score": "15-10",
-              "weight": 0.600668
+              "weight": 0.598453
             },
             {
               "game_id": "401872959",
@@ -30265,7 +30265,7 @@
               "result": "win",
               "opponent": "Tampa Bay Buccaneers",
               "score": "23-16",
-              "weight": 0.535134
+              "weight": 0.533161
             }
           ]
         },
@@ -30274,14 +30274,14 @@
           "name": "San Francisco 49ers",
           "abbreviation": "SF",
           "rank": 8,
-          "rating": 3.147031,
+          "rating": 3.14285,
           "games": 7,
           "wins": 6,
           "losses": 1,
           "ties": 0,
           "margin_per_game": 8.286,
-          "opponent_rating": -0.779,
-          "weighted_games": 4.312,
+          "opponent_rating": -0.778,
+          "weighted_games": 4.296,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30291,7 +30291,7 @@
               "result": "loss",
               "opponent": "Atlanta Falcons",
               "score": "20-29",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873008",
@@ -30299,7 +30299,7 @@
               "result": "win",
               "opponent": "Washington Commanders",
               "score": "23-17",
-              "weight": 0.771595
+              "weight": 0.768751
             },
             {
               "game_id": "401872992",
@@ -30307,7 +30307,7 @@
               "result": "win",
               "opponent": "Seattle Seahawks",
               "score": "32-29",
-              "weight": 0.674381
+              "weight": 0.671895
             },
             {
               "game_id": "401872975",
@@ -30315,7 +30315,7 @@
               "result": "win",
               "opponent": "Denver Broncos",
               "score": "24-14",
-              "weight": 0.600806
+              "weight": 0.598591
             },
             {
               "game_id": "401872958",
@@ -30323,7 +30323,7 @@
               "result": "win",
               "opponent": "Arizona Cardinals",
               "score": "36-30",
-              "weight": 0.535134
+              "weight": 0.533161
             }
           ]
         },
@@ -30332,14 +30332,14 @@
           "name": "New England Patriots",
           "abbreviation": "NE",
           "rank": 9,
-          "rating": 2.9814,
+          "rating": 2.976268,
           "games": 8,
           "wins": 5,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 2.75,
-          "opponent_rating": 1.137,
-          "weighted_games": 5.201,
+          "opponent_rating": 1.135,
+          "weighted_games": 5.182,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30349,7 +30349,7 @@
               "result": "win",
               "opponent": "Miami Dolphins",
               "score": "24-19",
-              "weight": 0.954375
+              "weight": 0.950857
             },
             {
               "game_id": "401873010",
@@ -30357,7 +30357,7 @@
               "result": "loss",
               "opponent": "Chicago Bears",
               "score": "24-30",
-              "weight": 0.810759
+              "weight": 0.80777
             },
             {
               "game_id": "401873001",
@@ -30365,7 +30365,7 @@
               "result": "win",
               "opponent": "New York Jets",
               "score": "26-19",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872986",
@@ -30373,7 +30373,7 @@
               "result": "win",
               "opponent": "Las Vegas Raiders",
               "score": "45-17",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872971",
@@ -30381,7 +30381,7 @@
               "result": "win",
               "opponent": "Buffalo Bills",
               "score": "29-26",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30390,14 +30390,14 @@
           "name": "Detroit Lions",
           "abbreviation": "DET",
           "rank": 10,
-          "rating": 2.549566,
+          "rating": 2.545174,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 3.286,
-          "opponent_rating": 0.251,
-          "weighted_games": 4.491,
+          "opponent_rating": 0.25,
+          "weighted_games": 4.475,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30407,7 +30407,7 @@
               "result": "win",
               "opponent": "Minnesota Vikings",
               "score": "19-15",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873020",
@@ -30415,7 +30415,7 @@
               "result": "win",
               "opponent": "Green Bay Packers",
               "score": "20-17",
-              "weight": 0.849667
+              "weight": 0.846535
             },
             {
               "game_id": "401872991",
@@ -30423,7 +30423,7 @@
               "result": "win",
               "opponent": "Arizona Cardinals",
               "score": "45-21",
-              "weight": 0.674381
+              "weight": 0.671895
             },
             {
               "game_id": "401872978",
@@ -30431,7 +30431,7 @@
               "result": "loss",
               "opponent": "Carolina Panthers",
               "score": "26-32",
-              "weight": 0.602426
+              "weight": 0.600205
             },
             {
               "game_id": "401872954",
@@ -30439,7 +30439,7 @@
               "result": "win",
               "opponent": "New York Jets",
               "score": "31-24",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -30448,14 +30448,14 @@
           "name": "Green Bay Packers",
           "abbreviation": "GB",
           "rank": 11,
-          "rating": 2.349075,
+          "rating": 2.344597,
           "games": 8,
           "wins": 5,
           "losses": 3,
           "ties": 0,
           "margin_per_game": 0.875,
-          "opponent_rating": 1.115,
-          "weighted_games": 5.202,
+          "opponent_rating": 1.113,
+          "weighted_games": 5.183,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30465,7 +30465,7 @@
               "result": "win",
               "opponent": "Carolina Panthers",
               "score": "27-19",
-              "weight": 0.910046
+              "weight": 0.906691
             },
             {
               "game_id": "401873020",
@@ -30473,7 +30473,7 @@
               "result": "loss",
               "opponent": "Detroit Lions",
               "score": "17-20",
-              "weight": 0.849667
+              "weight": 0.846535
             },
             {
               "game_id": "401873007",
@@ -30481,7 +30481,7 @@
               "result": "win",
               "opponent": "Dallas Cowboys",
               "score": "23-13",
-              "weight": 0.759009
+              "weight": 0.756211
             },
             {
               "game_id": "401872990",
@@ -30489,7 +30489,7 @@
               "result": "win",
               "opponent": "Chicago Bears",
               "score": "31-7",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872968",
@@ -30497,7 +30497,7 @@
               "result": "win",
               "opponent": "Tampa Bay Buccaneers",
               "score": "17-14",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30506,14 +30506,14 @@
           "name": "Los Angeles Rams",
           "abbreviation": "LAR",
           "rank": 12,
-          "rating": 1.895598,
+          "rating": 1.89472,
           "games": 8,
           "wins": 4,
           "losses": 4,
           "ties": 0,
           "margin_per_game": 3.25,
-          "opponent_rating": -1.76,
-          "weighted_games": 5.276,
+          "opponent_rating": -1.757,
+          "weighted_games": 5.256,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30523,7 +30523,7 @@
               "result": "win",
               "opponent": "Los Angeles Chargers",
               "score": "24-9",
-              "weight": 0.954157
+              "weight": 0.950639
             },
             {
               "game_id": "401873021",
@@ -30531,7 +30531,7 @@
               "result": "win",
               "opponent": "Las Vegas Raiders",
               "score": "35-21",
-              "weight": 0.849667
+              "weight": 0.846535
             },
             {
               "game_id": "401873004",
@@ -30539,7 +30539,7 @@
               "result": "loss",
               "opponent": "Arizona Cardinals",
               "score": "16-18",
-              "weight": 0.756794
+              "weight": 0.754004
             },
             {
               "game_id": "401872994",
@@ -30547,7 +30547,7 @@
               "result": "loss",
               "opponent": "Buffalo Bills",
               "score": "34-37",
-              "weight": 0.687413
+              "weight": 0.684879
             },
             {
               "game_id": "401872970",
@@ -30555,7 +30555,7 @@
               "result": "win",
               "opponent": "Philadelphia Eagles",
               "score": "24-20",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30564,14 +30564,14 @@
           "name": "Denver Broncos",
           "abbreviation": "DEN",
           "rank": 13,
-          "rating": 1.545977,
+          "rating": 1.544065,
           "games": 8,
           "wins": 6,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 0.875,
           "opponent_rating": 0.099,
-          "weighted_games": 5.248,
+          "weighted_games": 5.228,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30581,7 +30581,7 @@
               "result": "win",
               "opponent": "Kansas City Chiefs",
               "score": "28-24",
-              "weight": 0.954375
+              "weight": 0.950857
             },
             {
               "game_id": "401873019",
@@ -30589,7 +30589,7 @@
               "result": "win",
               "opponent": "Arizona Cardinals",
               "score": "30-16",
-              "weight": 0.849473
+              "weight": 0.846341
             },
             {
               "game_id": "401872995",
@@ -30597,7 +30597,7 @@
               "result": "win",
               "opponent": "Seattle Seahawks",
               "score": "17-14",
-              "weight": 0.722304
+              "weight": 0.719641
             },
             {
               "game_id": "401872989",
@@ -30605,7 +30605,7 @@
               "result": "win",
               "opponent": "Los Angeles Chargers",
               "score": "23-17",
-              "weight": 0.674227
+              "weight": 0.671741
             },
             {
               "game_id": "401872975",
@@ -30613,7 +30613,7 @@
               "result": "loss",
               "opponent": "San Francisco 49ers",
               "score": "14-24",
-              "weight": 0.600806
+              "weight": 0.598591
             }
           ]
         },
@@ -30622,14 +30622,14 @@
           "name": "Seattle Seahawks",
           "abbreviation": "SEA",
           "rank": 14,
-          "rating": 1.385659,
+          "rating": 1.383372,
           "games": 8,
           "wins": 4,
           "losses": 4,
           "ties": 0,
           "margin_per_game": 3.25,
-          "opponent_rating": 0.544,
-          "weighted_games": 5.232,
+          "opponent_rating": 0.543,
+          "weighted_games": 5.213,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30639,7 +30639,7 @@
               "result": "loss",
               "opponent": "Chicago Bears",
               "score": "17-34",
-              "weight": 0.972818
+              "weight": 0.969231
             },
             {
               "game_id": "401873022",
@@ -30647,7 +30647,7 @@
               "result": "win",
               "opponent": "Kansas City Chiefs",
               "score": "20-3",
-              "weight": 0.851959
+              "weight": 0.848818
             },
             {
               "game_id": "401872995",
@@ -30655,7 +30655,7 @@
               "result": "loss",
               "opponent": "Denver Broncos",
               "score": "14-17",
-              "weight": 0.722304
+              "weight": 0.719641
             },
             {
               "game_id": "401872992",
@@ -30663,7 +30663,7 @@
               "result": "loss",
               "opponent": "San Francisco 49ers",
               "score": "29-32",
-              "weight": 0.674381
+              "weight": 0.671895
             },
             {
               "game_id": "401872977",
@@ -30671,7 +30671,7 @@
               "result": "win",
               "opponent": "Los Angeles Chargers",
               "score": "30-23",
-              "weight": 0.600806
+              "weight": 0.598591
             }
           ]
         },
@@ -30680,14 +30680,14 @@
           "name": "Kansas City Chiefs",
           "abbreviation": "KC",
           "rank": 15,
-          "rating": 1.06198,
+          "rating": 1.06156,
           "games": 7,
           "wins": 5,
           "losses": 2,
           "ties": 0,
           "margin_per_game": 5.143,
-          "opponent_rating": -1.353,
-          "weighted_games": 4.609,
+          "opponent_rating": -1.351,
+          "weighted_games": 4.592,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30697,7 +30697,7 @@
               "result": "loss",
               "opponent": "Denver Broncos",
               "score": "24-28",
-              "weight": 0.954375
+              "weight": 0.950857
             },
             {
               "game_id": "401873022",
@@ -30705,7 +30705,7 @@
               "result": "loss",
               "opponent": "Seattle Seahawks",
               "score": "3-20",
-              "weight": 0.851959
+              "weight": 0.848818
             },
             {
               "game_id": "401873006",
@@ -30713,7 +30713,7 @@
               "result": "win",
               "opponent": "Los Angeles Chargers",
               "score": "22-6",
-              "weight": 0.756968
+              "weight": 0.754177
             },
             {
               "game_id": "401872976",
@@ -30721,7 +30721,7 @@
               "result": "win",
               "opponent": "Las Vegas Raiders",
               "score": "30-27",
-              "weight": 0.600806
+              "weight": 0.598591
             },
             {
               "game_id": "401872952",
@@ -30729,7 +30729,7 @@
               "result": "win",
               "opponent": "Miami Dolphins",
               "score": "24-10",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -30738,14 +30738,14 @@
           "name": "Houston Texans",
           "abbreviation": "HOU",
           "rank": 16,
-          "rating": 0.247466,
+          "rating": 0.247032,
           "games": 7,
           "wins": 2,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -0.714,
           "opponent_rating": 0.472,
-          "weighted_games": 4.307,
+          "weighted_games": 4.291,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30755,7 +30755,7 @@
               "result": "loss",
               "opponent": "New York Giants",
               "score": "21-27",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872996",
@@ -30763,7 +30763,7 @@
               "result": "win",
               "opponent": "Jacksonville Jaguars",
               "score": "34-31",
-              "weight": 0.753376
+              "weight": 0.750598
             },
             {
               "game_id": "401872984",
@@ -30771,7 +30771,7 @@
               "result": "win",
               "opponent": "Tennessee Titans",
               "score": "26-3",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872967",
@@ -30779,7 +30779,7 @@
               "result": "loss",
               "opponent": "Dallas Cowboys",
               "score": "30-34",
-              "weight": 0.599396
+              "weight": 0.597186
             },
             {
               "game_id": "401872951",
@@ -30787,7 +30787,7 @@
               "result": "loss",
               "opponent": "Indianapolis Colts",
               "score": "17-19",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -30796,14 +30796,14 @@
           "name": "Dallas Cowboys",
           "abbreviation": "DAL",
           "rank": 17,
-          "rating": -0.415195,
+          "rating": -0.413192,
           "games": 8,
           "wins": 3,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 0.75,
-          "opponent_rating": -1.591,
-          "weighted_games": 5.258,
+          "opponent_rating": -1.589,
+          "weighted_games": 5.239,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30813,7 +30813,7 @@
               "result": "loss",
               "opponent": "Arizona Cardinals",
               "score": "30-33",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873009",
@@ -30821,7 +30821,7 @@
               "result": "win",
               "opponent": "Philadelphia Eagles",
               "score": "38-21",
-              "weight": 0.866086
+              "weight": 0.862893
             },
             {
               "game_id": "401873007",
@@ -30829,7 +30829,7 @@
               "result": "loss",
               "opponent": "Green Bay Packers",
               "score": "13-23",
-              "weight": 0.759009
+              "weight": 0.756211
             },
             {
               "game_id": "401872980",
@@ -30837,7 +30837,7 @@
               "result": "loss",
               "opponent": "Tampa Bay Buccaneers",
               "score": "16-24",
-              "weight": 0.6435
+              "weight": 0.641127
             },
             {
               "game_id": "401872967",
@@ -30845,7 +30845,7 @@
               "result": "win",
               "opponent": "Houston Texans",
               "score": "34-30",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -30854,14 +30854,14 @@
           "name": "Atlanta Falcons",
           "abbreviation": "ATL",
           "rank": 18,
-          "rating": -0.44054,
+          "rating": -0.44149,
           "games": 8,
           "wins": 3,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -2.25,
-          "opponent_rating": 1.444,
-          "weighted_games": 5.254,
+          "opponent_rating": 1.441,
+          "weighted_games": 5.235,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30871,7 +30871,7 @@
               "result": "loss",
               "opponent": "Tampa Bay Buccaneers",
               "score": "0-16",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873017",
@@ -30879,7 +30879,7 @@
               "result": "win",
               "opponent": "San Francisco 49ers",
               "score": "29-20",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872999",
@@ -30887,7 +30887,7 @@
               "result": "loss",
               "opponent": "Chicago Bears",
               "score": "23-31",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872993",
@@ -30895,7 +30895,7 @@
               "result": "loss",
               "opponent": "Baltimore Ravens",
               "score": "23-30",
-              "weight": 0.6762
+              "weight": 0.673707
             },
             {
               "game_id": "401872979",
@@ -30903,7 +30903,7 @@
               "result": "win",
               "opponent": "New Orleans Saints",
               "score": "45-24",
-              "weight": 0.612415
+              "weight": 0.610158
             }
           ]
         },
@@ -30912,14 +30912,14 @@
           "name": "New York Giants",
           "abbreviation": "NYG",
           "rank": 19,
-          "rating": -0.735708,
+          "rating": -0.732773,
           "games": 7,
           "wins": 4,
           "losses": 2,
           "ties": 1,
           "margin_per_game": 0.286,
-          "opponent_rating": -1.757,
-          "weighted_games": 4.321,
+          "opponent_rating": -1.754,
+          "weighted_games": 4.305,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30929,7 +30929,7 @@
               "result": "win",
               "opponent": "Houston Texans",
               "score": "27-21",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873000",
@@ -30937,7 +30937,7 @@
               "result": "loss",
               "opponent": "New Orleans Saints",
               "score": "27-34",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872988",
@@ -30945,7 +30945,7 @@
               "result": "tie",
               "opponent": "Washington Commanders",
               "score": "27-27",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872966",
@@ -30953,7 +30953,7 @@
               "result": "win",
               "opponent": "Arizona Cardinals",
               "score": "36-24",
-              "weight": 0.599396
+              "weight": 0.597186
             },
             {
               "game_id": "401872956",
@@ -30961,7 +30961,7 @@
               "result": "win",
               "opponent": "Tennessee Titans",
               "score": "12-7",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -30970,14 +30970,14 @@
           "name": "Las Vegas Raiders",
           "abbreviation": "LV",
           "rank": 20,
-          "rating": -1.691981,
+          "rating": -1.689627,
           "games": 8,
           "wins": 4,
           "losses": 4,
           "ties": 0,
           "margin_per_game": -1.125,
           "opponent_rating": 0.019,
-          "weighted_games": 5.269,
+          "weighted_games": 5.25,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -30987,7 +30987,7 @@
               "result": "win",
               "opponent": "New York Jets",
               "score": "38-33",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873021",
@@ -30995,7 +30995,7 @@
               "result": "loss",
               "opponent": "Los Angeles Rams",
               "score": "21-35",
-              "weight": 0.849667
+              "weight": 0.846535
             },
             {
               "game_id": "401873005",
@@ -31003,7 +31003,7 @@
               "result": "loss",
               "opponent": "Buffalo Bills",
               "score": "30-33",
-              "weight": 0.756968
+              "weight": 0.754177
             },
             {
               "game_id": "401872986",
@@ -31011,7 +31011,7 @@
               "result": "loss",
               "opponent": "New England Patriots",
               "score": "17-45",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872976",
@@ -31019,7 +31019,7 @@
               "result": "loss",
               "opponent": "Kansas City Chiefs",
               "score": "27-30",
-              "weight": 0.600806
+              "weight": 0.598591
             }
           ]
         },
@@ -31028,14 +31028,14 @@
           "name": "Carolina Panthers",
           "abbreviation": "CAR",
           "rank": 21,
-          "rating": -1.805776,
+          "rating": -1.803985,
           "games": 7,
           "wins": 3,
           "losses": 4,
           "ties": 0,
           "margin_per_game": -2.143,
-          "opponent_rating": 0.577,
-          "weighted_games": 4.549,
+          "opponent_rating": 0.576,
+          "weighted_games": 4.532,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31045,7 +31045,7 @@
               "result": "loss",
               "opponent": "Green Bay Packers",
               "score": "19-27",
-              "weight": 0.910046
+              "weight": 0.906691
             },
             {
               "game_id": "401873018",
@@ -31053,7 +31053,7 @@
               "result": "loss",
               "opponent": "Tampa Bay Buccaneers",
               "score": "13-43",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872998",
@@ -31061,7 +31061,7 @@
               "result": "win",
               "opponent": "Philadelphia Eagles",
               "score": "25-14",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872978",
@@ -31069,7 +31069,7 @@
               "result": "win",
               "opponent": "Detroit Lions",
               "score": "32-26",
-              "weight": 0.602426
+              "weight": 0.600205
             },
             {
               "game_id": "401872949",
@@ -31077,7 +31077,7 @@
               "result": "loss",
               "opponent": "Cleveland Browns",
               "score": "18-21",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -31086,14 +31086,14 @@
           "name": "New York Jets",
           "abbreviation": "NYJ",
           "rank": 22,
-          "rating": -2.051071,
+          "rating": -2.048484,
           "games": 8,
           "wins": 2,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -2.25,
           "opponent_rating": -0.213,
-          "weighted_games": 5.261,
+          "weighted_games": 5.241,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31103,7 +31103,7 @@
               "result": "loss",
               "opponent": "Las Vegas Raiders",
               "score": "33-38",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873015",
@@ -31111,7 +31111,7 @@
               "result": "loss",
               "opponent": "Miami Dolphins",
               "score": "25-28",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873001",
@@ -31119,7 +31119,7 @@
               "result": "loss",
               "opponent": "New England Patriots",
               "score": "19-26",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872983",
@@ -31127,7 +31127,7 @@
               "result": "win",
               "opponent": "Cleveland Browns",
               "score": "17-12",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872972",
@@ -31135,7 +31135,7 @@
               "result": "loss",
               "opponent": "Chicago Bears",
               "score": "12-23",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -31144,14 +31144,14 @@
           "name": "Washington Commanders",
           "abbreviation": "WSH",
           "rank": 23,
-          "rating": -2.057903,
+          "rating": -2.053052,
           "games": 7,
           "wins": 2,
           "losses": 4,
           "ties": 1,
           "margin_per_game": -3.286,
-          "opponent_rating": -1.943,
-          "weighted_games": 4.435,
+          "opponent_rating": -1.94,
+          "weighted_games": 4.419,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31161,7 +31161,7 @@
               "result": "win",
               "opponent": "Philadelphia Eagles",
               "score": "27-10",
-              "weight": 0.956949
+              "weight": 0.953421
             },
             {
               "game_id": "401873008",
@@ -31169,7 +31169,7 @@
               "result": "loss",
               "opponent": "San Francisco 49ers",
               "score": "17-23",
-              "weight": 0.771595
+              "weight": 0.768751
             },
             {
               "game_id": "401872988",
@@ -31177,7 +31177,7 @@
               "result": "tie",
               "opponent": "New York Giants",
               "score": "27-27",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872965",
@@ -31185,7 +31185,7 @@
               "result": "loss",
               "opponent": "Indianapolis Colts",
               "score": "13-30",
-              "weight": 0.597955
+              "weight": 0.59575
             },
             {
               "game_id": "401872955",
@@ -31193,7 +31193,7 @@
               "result": "win",
               "opponent": "Seattle Seahawks",
               "score": "33-31",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -31202,14 +31202,14 @@
           "name": "New Orleans Saints",
           "abbreviation": "NO",
           "rank": 24,
-          "rating": -2.450148,
+          "rating": -2.447023,
           "games": 7,
           "wins": 2,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -4.571,
-          "opponent_rating": 0.673,
-          "weighted_games": 4.321,
+          "opponent_rating": 0.672,
+          "weighted_games": 4.305,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31219,7 +31219,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Steelers",
               "score": "10-16",
-              "weight": 0.845636
+              "weight": 0.842518
             },
             {
               "game_id": "401873000",
@@ -31227,7 +31227,7 @@
               "result": "win",
               "opponent": "New York Giants",
               "score": "34-27",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872987",
@@ -31235,7 +31235,7 @@
               "result": "loss",
               "opponent": "Minnesota Vikings",
               "score": "13-23",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872979",
@@ -31243,7 +31243,7 @@
               "result": "loss",
               "opponent": "Atlanta Falcons",
               "score": "24-45",
-              "weight": 0.612415
+              "weight": 0.610158
             },
             {
               "game_id": "401872961",
@@ -31251,7 +31251,7 @@
               "result": "loss",
               "opponent": "Las Vegas Raiders",
               "score": "27-35",
-              "weight": 0.535257
+              "weight": 0.533284
             }
           ]
         },
@@ -31260,14 +31260,14 @@
           "name": "Cleveland Browns",
           "abbreviation": "CLE",
           "rank": 25,
-          "rating": -2.681036,
+          "rating": -2.677385,
           "games": 8,
           "wins": 5,
           "losses": 3,
           "ties": 0,
           "margin_per_game": -4.25,
-          "opponent_rating": 0.113,
-          "weighted_games": 5.235,
+          "opponent_rating": 0.112,
+          "weighted_games": 5.215,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31277,7 +31277,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Steelers",
               "score": "6-27",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873013",
@@ -31285,7 +31285,7 @@
               "result": "win",
               "opponent": "Tennessee Titans",
               "score": "27-24",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872997",
@@ -31293,7 +31293,7 @@
               "result": "win",
               "opponent": "Baltimore Ravens",
               "score": "13-10",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872983",
@@ -31301,7 +31301,7 @@
               "result": "loss",
               "opponent": "New York Jets",
               "score": "12-17",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872964",
@@ -31309,7 +31309,7 @@
               "result": "win",
               "opponent": "Pittsburgh Steelers",
               "score": "27-24",
-              "weight": 0.573293
+              "weight": 0.571179
             }
           ]
         },
@@ -31318,14 +31318,14 @@
           "name": "Miami Dolphins",
           "abbreviation": "MIA",
           "rank": 26,
-          "rating": -3.51416,
+          "rating": -3.510428,
           "games": 7,
           "wins": 1,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -9.143,
-          "opponent_rating": 1.631,
-          "weighted_games": 4.511,
+          "opponent_rating": 1.628,
+          "weighted_games": 4.495,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31335,7 +31335,7 @@
               "result": "loss",
               "opponent": "New England Patriots",
               "score": "19-24",
-              "weight": 0.954375
+              "weight": 0.950857
             },
             {
               "game_id": "401873015",
@@ -31343,7 +31343,7 @@
               "result": "win",
               "opponent": "New York Jets",
               "score": "28-25",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872982",
@@ -31351,7 +31351,7 @@
               "result": "loss",
               "opponent": "Cincinnati Bengals",
               "score": "24-31",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872974",
@@ -31359,7 +31359,7 @@
               "result": "loss",
               "opponent": "Minnesota Vikings",
               "score": "10-15",
-              "weight": 0.600668
+              "weight": 0.598453
             },
             {
               "game_id": "401872952",
@@ -31367,7 +31367,7 @@
               "result": "loss",
               "opponent": "Kansas City Chiefs",
               "score": "10-24",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -31376,14 +31376,14 @@
           "name": "Baltimore Ravens",
           "abbreviation": "BAL",
           "rank": 27,
-          "rating": -3.815116,
+          "rating": -3.80981,
           "games": 8,
           "wins": 4,
           "losses": 4,
           "ties": 0,
           "margin_per_game": -3.0,
           "opponent_rating": -0.111,
-          "weighted_games": 5.265,
+          "weighted_games": 5.246,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31393,7 +31393,7 @@
               "result": "loss",
               "opponent": "Buffalo Bills",
               "score": "10-36",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873012",
@@ -31401,7 +31401,7 @@
               "result": "loss",
               "opponent": "Cincinnati Bengals",
               "score": "13-35",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401872997",
@@ -31409,7 +31409,7 @@
               "result": "loss",
               "opponent": "Cleveland Browns",
               "score": "10-13",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872993",
@@ -31417,7 +31417,7 @@
               "result": "win",
               "opponent": "Atlanta Falcons",
               "score": "30-23",
-              "weight": 0.6762
+              "weight": 0.673707
             },
             {
               "game_id": "401872973",
@@ -31425,7 +31425,7 @@
               "result": "win",
               "opponent": "Tennessee Titans",
               "score": "24-18",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -31434,14 +31434,14 @@
           "name": "Indianapolis Colts",
           "abbreviation": "IND",
           "rank": 28,
-          "rating": -4.392672,
+          "rating": -4.387328,
           "games": 8,
           "wins": 2,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -7.625,
-          "opponent_rating": 0.99,
-          "weighted_games": 5.262,
+          "opponent_rating": 0.989,
+          "weighted_games": 5.242,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31451,7 +31451,7 @@
               "result": "loss",
               "opponent": "Jacksonville Jaguars",
               "score": "7-42",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873014",
@@ -31459,7 +31459,7 @@
               "result": "loss",
               "opponent": "Minnesota Vikings",
               "score": "10-16",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873003",
@@ -31467,7 +31467,7 @@
               "result": "loss",
               "opponent": "Tennessee Titans",
               "score": "20-26",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872985",
@@ -31475,7 +31475,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Steelers",
               "score": "22-34",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872965",
@@ -31483,7 +31483,7 @@
               "result": "win",
               "opponent": "Washington Commanders",
               "score": "30-13",
-              "weight": 0.597955
+              "weight": 0.59575
             }
           ]
         },
@@ -31492,14 +31492,14 @@
           "name": "Arizona Cardinals",
           "abbreviation": "ARI",
           "rank": 29,
-          "rating": -4.395804,
+          "rating": -4.389978,
           "games": 8,
           "wins": 3,
           "losses": 5,
           "ties": 0,
           "margin_per_game": -7.875,
           "opponent_rating": 0.647,
-          "weighted_games": 5.269,
+          "weighted_games": 5.25,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31509,7 +31509,7 @@
               "result": "win",
               "opponent": "Dallas Cowboys",
               "score": "33-30",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873019",
@@ -31517,7 +31517,7 @@
               "result": "loss",
               "opponent": "Denver Broncos",
               "score": "16-30",
-              "weight": 0.849473
+              "weight": 0.846341
             },
             {
               "game_id": "401873004",
@@ -31525,7 +31525,7 @@
               "result": "win",
               "opponent": "Los Angeles Rams",
               "score": "18-16",
-              "weight": 0.756794
+              "weight": 0.754004
             },
             {
               "game_id": "401872991",
@@ -31533,7 +31533,7 @@
               "result": "loss",
               "opponent": "Detroit Lions",
               "score": "21-45",
-              "weight": 0.674381
+              "weight": 0.671895
             },
             {
               "game_id": "401872966",
@@ -31541,7 +31541,7 @@
               "result": "loss",
               "opponent": "New York Giants",
               "score": "24-36",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -31550,14 +31550,14 @@
           "name": "Tennessee Titans",
           "abbreviation": "TEN",
           "rank": 30,
-          "rating": -5.014879,
+          "rating": -5.006752,
           "games": 8,
           "wins": 1,
           "losses": 7,
           "ties": 0,
           "margin_per_game": -6.875,
-          "opponent_rating": -1.488,
-          "weighted_games": 5.261,
+          "opponent_rating": -1.486,
+          "weighted_games": 5.241,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31567,7 +31567,7 @@
               "result": "loss",
               "opponent": "Cincinnati Bengals",
               "score": "36-43",
-              "weight": 0.952136
+              "weight": 0.948626
             },
             {
               "game_id": "401873013",
@@ -31575,7 +31575,7 @@
               "result": "loss",
               "opponent": "Cleveland Browns",
               "score": "24-27",
-              "weight": 0.847674
+              "weight": 0.844548
             },
             {
               "game_id": "401873003",
@@ -31583,7 +31583,7 @@
               "result": "win",
               "opponent": "Indianapolis Colts",
               "score": "26-20",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872984",
@@ -31591,7 +31591,7 @@
               "result": "loss",
               "opponent": "Houston Texans",
               "score": "3-26",
-              "weight": 0.672799
+              "weight": 0.670319
             },
             {
               "game_id": "401872973",
@@ -31599,7 +31599,7 @@
               "result": "loss",
               "opponent": "Baltimore Ravens",
               "score": "18-24",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         },
@@ -31608,14 +31608,14 @@
           "name": "Los Angeles Chargers",
           "abbreviation": "LAC",
           "rank": 31,
-          "rating": -6.035943,
+          "rating": -6.02731,
           "games": 7,
           "wins": 0,
           "losses": 7,
           "ties": 0,
           "margin_per_game": -10.857,
-          "opponent_rating": 0.966,
-          "weighted_games": 4.422,
+          "opponent_rating": 0.965,
+          "weighted_games": 4.405,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31625,7 +31625,7 @@
               "result": "loss",
               "opponent": "Los Angeles Rams",
               "score": "9-24",
-              "weight": 0.954157
+              "weight": 0.950639
             },
             {
               "game_id": "401873006",
@@ -31633,7 +31633,7 @@
               "result": "loss",
               "opponent": "Kansas City Chiefs",
               "score": "6-22",
-              "weight": 0.756968
+              "weight": 0.754177
             },
             {
               "game_id": "401872989",
@@ -31641,7 +31641,7 @@
               "result": "loss",
               "opponent": "Denver Broncos",
               "score": "17-23",
-              "weight": 0.674227
+              "weight": 0.671741
             },
             {
               "game_id": "401872977",
@@ -31649,7 +31649,7 @@
               "result": "loss",
               "opponent": "Seattle Seahawks",
               "score": "23-30",
-              "weight": 0.600806
+              "weight": 0.598591
             },
             {
               "game_id": "401872953",
@@ -31657,7 +31657,7 @@
               "result": "loss",
               "opponent": "Buffalo Bills",
               "score": "16-24",
-              "weight": 0.534001
+              "weight": 0.532032
             }
           ]
         },
@@ -31666,14 +31666,14 @@
           "name": "Philadelphia Eagles",
           "abbreviation": "PHI",
           "rank": 32,
-          "rating": -6.125596,
+          "rating": -6.117004,
           "games": 8,
           "wins": 2,
           "losses": 6,
           "ties": 0,
           "margin_per_game": -8.125,
-          "opponent_rating": 0.142,
-          "weighted_games": 5.295,
+          "opponent_rating": 0.143,
+          "weighted_games": 5.275,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -31683,7 +31683,7 @@
               "result": "loss",
               "opponent": "Washington Commanders",
               "score": "10-27",
-              "weight": 0.956949
+              "weight": 0.953421
             },
             {
               "game_id": "401873009",
@@ -31691,7 +31691,7 @@
               "result": "loss",
               "opponent": "Dallas Cowboys",
               "score": "21-38",
-              "weight": 0.866086
+              "weight": 0.862893
             },
             {
               "game_id": "401872998",
@@ -31699,7 +31699,7 @@
               "result": "loss",
               "opponent": "Carolina Panthers",
               "score": "14-25",
-              "weight": 0.755191
+              "weight": 0.752407
             },
             {
               "game_id": "401872981",
@@ -31707,7 +31707,7 @@
               "result": "loss",
               "opponent": "Jacksonville Jaguars",
               "score": "17-19",
-              "weight": 0.671182
+              "weight": 0.668707
             },
             {
               "game_id": "401872970",
@@ -31715,22 +31715,22 @@
               "result": "loss",
               "opponent": "Los Angeles Rams",
               "score": "20-24",
-              "weight": 0.599396
+              "weight": 0.597186
             }
           ]
         }
       ],
       "games_used": 121,
       "input_sha256": "c0d5ebbd060917a5c68f059c2a4e252d00480b60241c401208f01710e15d3f1d",
-      "weighted_training_rmse": 10.4424,
-      "comparison_as_of": "2026-11-03T22:20:35.711366+00:00",
+      "weighted_training_rmse": 10.4443,
+      "comparison_as_of": "2026-11-04T17:19:36.303720+00:00",
       "season_label": "2026",
       "inputs": {
         "league": "nfl",
         "season": 2026,
         "season_label": "2026",
-        "observed_at": "2026-11-04T17:19:33.813850+00:00",
-        "as_of": "2026-11-04T17:19:36.303720+00:00",
+        "observed_at": "2026-11-04T22:41:48.685817+00:00",
+        "as_of": "2026-11-04T22:41:52.174738+00:00",
         "teams": {
           "22": {
             "id": "22",
@@ -38523,7 +38523,7 @@
       "model_version": "season-strength-v1",
       "league": "nhl",
       "season": 2027,
-      "as_of": "2026-11-04T17:19:36.303720+00:00",
+      "as_of": "2026-11-04T22:41:52.174738+00:00",
       "parameters": {
         "half_life_days": 30,
         "margin_cap": 4,
@@ -38531,21 +38531,21 @@
         "home_ridge": 5,
         "provisional_games": 8
       },
-      "home_advantage": 0.214438,
+      "home_advantage": 0.214386,
       "teams": [
         {
           "id": "6",
           "name": "Edmonton Oilers",
           "abbreviation": "EDM",
           "rank": 1,
-          "rating": 0.988517,
+          "rating": 0.987393,
           "games": 16,
           "wins": 11,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 1.188,
           "opponent_rating": 0.012,
-          "weighted_games": 11.124,
+          "weighted_games": 11.067,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -38555,7 +38555,7 @@
               "result": "loss",
               "opponent": "New Jersey Devils",
               "score": "3-4",
-              "weight": 0.983931
+              "weight": 0.978857
             },
             {
               "game_id": "401892627",
@@ -38563,7 +38563,7 @@
               "result": "win",
               "opponent": "New York Rangers",
               "score": "4-1",
-              "weight": 0.938143
+              "weight": 0.933304
             },
             {
               "game_id": "401892617",
@@ -38571,7 +38571,7 @@
               "result": "win",
               "opponent": "New York Islanders",
               "score": "4-0",
-              "weight": 0.912314
+              "weight": 0.907608
             },
             {
               "game_id": "401892597",
@@ -38579,7 +38579,7 @@
               "result": "win",
               "opponent": "Calgary Flames",
               "score": "4-0",
-              "weight": 0.856562
+              "weight": 0.852144
             },
             {
               "game_id": "401892584",
@@ -38587,7 +38587,7 @@
               "result": "loss",
               "opponent": "Detroit Red Wings",
               "score": "3-4",
-              "weight": 0.818669
+              "weight": 0.814447
             }
           ]
         },
@@ -38596,16 +38596,16 @@
           "name": "Minnesota Wild",
           "abbreviation": "MIN",
           "rank": 2,
-          "rating": 0.926089,
+          "rating": 0.925117,
           "games": 17,
           "wins": 11,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 1.059,
           "opponent_rating": -0.079,
-          "weighted_games": 11.739,
+          "weighted_games": 11.679,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892638",
@@ -38613,7 +38613,7 @@
               "result": "win",
               "opponent": "Philadelphia Flyers",
               "score": "4-2",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892625",
@@ -38621,7 +38621,7 @@
               "result": "win",
               "opponent": "Washington Capitals",
               "score": "5-1",
-              "weight": 0.935888
+              "weight": 0.931061
             },
             {
               "game_id": "401892607",
@@ -38629,7 +38629,7 @@
               "result": "loss",
               "opponent": "New York Islanders",
               "score": "3-4",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892592",
@@ -38637,7 +38637,7 @@
               "result": "win",
               "opponent": "Utah Mammoth",
               "score": "3-1",
-              "weight": 0.837401
+              "weight": 0.833082
             },
             {
               "game_id": "401892581",
@@ -38645,7 +38645,7 @@
               "result": "win",
               "opponent": "Vancouver Canucks",
               "score": "4-2",
-              "weight": 0.800355
+              "weight": 0.796228
             }
           ]
         },
@@ -38654,16 +38654,16 @@
           "name": "Carolina Hurricanes",
           "abbreviation": "CAR",
           "rank": 3,
-          "rating": 0.790517,
+          "rating": 0.789804,
           "games": 17,
           "wins": 12,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 1.412,
           "opponent_rating": -0.219,
-          "weighted_games": 11.395,
+          "weighted_games": 11.336,
           "provisional": false,
-          "rank_change": -1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892642",
@@ -38671,7 +38671,7 @@
               "result": "loss",
               "opponent": "Nashville Predators",
               "score": "1-4",
-              "weight": 0.984405
+              "weight": 0.979328
             },
             {
               "game_id": "401892624",
@@ -38679,7 +38679,7 @@
               "result": "win",
               "opponent": "Winnipeg Jets",
               "score": "7-0",
-              "weight": 0.933638
+              "weight": 0.928823
             },
             {
               "game_id": "401892603",
@@ -38687,7 +38687,7 @@
               "result": "win",
               "opponent": "Columbus Blue Jackets",
               "score": "3-2",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892586",
@@ -38695,7 +38695,7 @@
               "result": "win",
               "opponent": "Boston Bruins",
               "score": "2-1",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892573",
@@ -38703,7 +38703,7 @@
               "result": "win",
               "opponent": "St. Louis Blues",
               "score": "4-0",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -38712,16 +38712,16 @@
           "name": "Boston Bruins",
           "abbreviation": "BOS",
           "rank": 4,
-          "rating": 0.687409,
+          "rating": 0.686719,
           "games": 16,
           "wins": 11,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 1.25,
-          "opponent_rating": -0.104,
-          "weighted_games": 10.734,
+          "opponent_rating": -0.103,
+          "weighted_games": 10.679,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892629",
@@ -38729,7 +38729,7 @@
               "result": "win",
               "opponent": "Vegas Golden Knights",
               "score": "3-2",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401892614",
@@ -38737,7 +38737,7 @@
               "result": "win",
               "opponent": "Chicago Blackhawks",
               "score": "5-4",
-              "weight": 0.911436
+              "weight": 0.906735
             },
             {
               "game_id": "401892604",
@@ -38745,7 +38745,7 @@
               "result": "loss",
               "opponent": "St. Louis Blues",
               "score": "1-4",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892586",
@@ -38753,7 +38753,7 @@
               "result": "loss",
               "opponent": "Carolina Hurricanes",
               "score": "1-2",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892568",
@@ -38761,7 +38761,7 @@
               "result": "win",
               "opponent": "San Jose Sharks",
               "score": "6-4",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -38770,16 +38770,16 @@
           "name": "New Jersey Devils",
           "abbreviation": "NJ",
           "rank": 5,
-          "rating": 0.652234,
+          "rating": 0.651397,
           "games": 15,
           "wins": 10,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 0.6,
           "opponent_rating": 0.082,
-          "weighted_games": 10.309,
+          "weighted_games": 10.256,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892636",
@@ -38787,7 +38787,7 @@
               "result": "win",
               "opponent": "Edmonton Oilers",
               "score": "4-3",
-              "weight": 0.983931
+              "weight": 0.978857
             },
             {
               "game_id": "401892611",
@@ -38795,7 +38795,7 @@
               "result": "win",
               "opponent": "Vegas Golden Knights",
               "score": "5-2",
-              "weight": 0.894916
+              "weight": 0.8903
             },
             {
               "game_id": "401892598",
@@ -38803,7 +38803,7 @@
               "result": "loss",
               "opponent": "Colorado Avalanche",
               "score": "2-5",
-              "weight": 0.856974
+              "weight": 0.852555
             },
             {
               "game_id": "401892590",
@@ -38811,7 +38811,7 @@
               "result": "win",
               "opponent": "Dallas Stars",
               "score": "5-1",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892567",
@@ -38819,7 +38819,7 @@
               "result": "win",
               "opponent": "Los Angeles Kings",
               "score": "3-1",
-              "weight": 0.777197
+              "weight": 0.773188
             }
           ]
         },
@@ -38828,16 +38828,16 @@
           "name": "Colorado Avalanche",
           "abbreviation": "COL",
           "rank": 6,
-          "rating": 0.47769,
+          "rating": 0.477193,
           "games": 16,
           "wins": 9,
           "losses": 7,
           "ties": 0,
           "margin_per_game": 0.812,
           "opponent_rating": -0.083,
-          "weighted_games": 11.126,
+          "weighted_games": 11.069,
           "provisional": false,
-          "rank_change": -2,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892641",
@@ -38845,7 +38845,7 @@
               "result": "loss",
               "opponent": "Columbus Blue Jackets",
               "score": "2-7",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892631",
@@ -38853,7 +38853,7 @@
               "result": "win",
               "opponent": "Chicago Blackhawks",
               "score": "5-2",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401892623",
@@ -38861,7 +38861,7 @@
               "result": "win",
               "opponent": "Calgary Flames",
               "score": "5-2",
-              "weight": 0.919367
+              "weight": 0.914625
             },
             {
               "game_id": "401892598",
@@ -38869,7 +38869,7 @@
               "result": "win",
               "opponent": "New Jersey Devils",
               "score": "5-2",
-              "weight": 0.856974
+              "weight": 0.852555
             },
             {
               "game_id": "401892580",
@@ -38877,7 +38877,7 @@
               "result": "loss",
               "opponent": "Nashville Predators",
               "score": "2-6",
-              "weight": 0.798816
+              "weight": 0.794696
             }
           ]
         },
@@ -38886,16 +38886,16 @@
           "name": "Tampa Bay Lightning",
           "abbreviation": "TB",
           "rank": 7,
-          "rating": 0.357572,
+          "rating": 0.357132,
           "games": 14,
           "wins": 9,
           "losses": 5,
           "ties": 0,
           "margin_per_game": 0.5,
           "opponent_rating": -0.063,
-          "weighted_games": 9.474,
+          "weighted_games": 9.425,
           "provisional": false,
-          "rank_change": 3,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892635",
@@ -38903,7 +38903,7 @@
               "result": "win",
               "opponent": "Detroit Red Wings",
               "score": "4-2",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892616",
@@ -38911,7 +38911,7 @@
               "result": "loss",
               "opponent": "Nashville Predators",
               "score": "4-5",
-              "weight": 0.912314
+              "weight": 0.907608
             },
             {
               "game_id": "401892601",
@@ -38919,7 +38919,7 @@
               "result": "win",
               "opponent": "Winnipeg Jets",
               "score": "6-4",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892575",
@@ -38927,7 +38927,7 @@
               "result": "loss",
               "opponent": "Utah Mammoth",
               "score": "4-5",
-              "weight": 0.781323
+              "weight": 0.777293
             },
             {
               "game_id": "401892565",
@@ -38935,7 +38935,7 @@
               "result": "loss",
               "opponent": "Colorado Avalanche",
               "score": "3-6",
-              "weight": 0.763477
+              "weight": 0.75954
             }
           ]
         },
@@ -38944,16 +38944,16 @@
           "name": "Dallas Stars",
           "abbreviation": "DAL",
           "rank": 8,
-          "rating": 0.28592,
+          "rating": 0.285607,
           "games": 15,
           "wins": 9,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 0.533,
           "opponent_rating": -0.023,
-          "weighted_games": 10.314,
+          "weighted_games": 10.261,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892640",
@@ -38961,7 +38961,7 @@
               "result": "win",
               "opponent": "Washington Capitals",
               "score": "6-5",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892622",
@@ -38969,7 +38969,7 @@
               "result": "win",
               "opponent": "Columbus Blue Jackets",
               "score": "3-1",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401892606",
@@ -38977,7 +38977,7 @@
               "result": "loss",
               "opponent": "Montreal Canadiens",
               "score": "2-5",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892590",
@@ -38985,7 +38985,7 @@
               "result": "loss",
               "opponent": "New Jersey Devils",
               "score": "1-5",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892579",
@@ -38993,7 +38993,7 @@
               "result": "win",
               "opponent": "New York Islanders",
               "score": "6-3",
-              "weight": 0.797279
+              "weight": 0.793167
             }
           ]
         },
@@ -39002,16 +39002,16 @@
           "name": "Vegas Golden Knights",
           "abbreviation": "VGK",
           "rank": 9,
-          "rating": 0.246569,
+          "rating": 0.246293,
           "games": 17,
           "wins": 10,
           "losses": 7,
           "ties": 0,
           "margin_per_game": 0.529,
           "opponent_rating": -0.0,
-          "weighted_games": 11.438,
+          "weighted_games": 11.379,
           "provisional": false,
-          "rank_change": 3,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892639",
@@ -39019,7 +39019,7 @@
               "result": "win",
               "opponent": "Pittsburgh Penguins",
               "score": "3-2",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892629",
@@ -39027,7 +39027,7 @@
               "result": "loss",
               "opponent": "Boston Bruins",
               "score": "2-3",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401892611",
@@ -39035,7 +39035,7 @@
               "result": "loss",
               "opponent": "New Jersey Devils",
               "score": "2-5",
-              "weight": 0.894916
+              "weight": 0.8903
             },
             {
               "game_id": "401892593",
@@ -39043,7 +39043,7 @@
               "result": "win",
               "opponent": "Ottawa Senators",
               "score": "4-1",
-              "weight": 0.838208
+              "weight": 0.833885
             },
             {
               "game_id": "401892572",
@@ -39051,7 +39051,7 @@
               "result": "loss",
               "opponent": "Columbus Blue Jackets",
               "score": "1-2",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39060,16 +39060,16 @@
           "name": "Toronto Maple Leafs",
           "abbreviation": "TOR",
           "rank": 10,
-          "rating": 0.216391,
+          "rating": 0.216156,
           "games": 17,
           "wins": 8,
           "losses": 9,
           "ties": 0,
           "margin_per_game": 0.353,
           "opponent_rating": -0.047,
-          "weighted_games": 11.394,
+          "weighted_games": 11.335,
           "provisional": false,
-          "rank_change": -2,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892633",
@@ -39077,7 +39077,7 @@
               "result": "loss",
               "opponent": "Utah Mammoth",
               "score": "2-3",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892621",
@@ -39085,7 +39085,7 @@
               "result": "win",
               "opponent": "Vancouver Canucks",
               "score": "4-2",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401892599",
@@ -39093,7 +39093,7 @@
               "result": "loss",
               "opponent": "Seattle Kraken",
               "score": "4-5",
-              "weight": 0.8578
+              "weight": 0.853376
             },
             {
               "game_id": "401892583",
@@ -39101,7 +39101,7 @@
               "result": "loss",
               "opponent": "Calgary Flames",
               "score": "2-5",
-              "weight": 0.817881
+              "weight": 0.813663
             },
             {
               "game_id": "401892574",
@@ -39109,7 +39109,7 @@
               "result": "win",
               "opponent": "Edmonton Oilers",
               "score": "7-2",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39118,16 +39118,16 @@
           "name": "Nashville Predators",
           "abbreviation": "NSH",
           "rank": 11,
-          "rating": 0.19484,
+          "rating": 0.194456,
           "games": 15,
           "wins": 6,
           "losses": 9,
           "ties": 0,
           "margin_per_game": -0.133,
           "opponent_rating": 0.217,
-          "weighted_games": 10.393,
+          "weighted_games": 10.34,
           "provisional": false,
-          "rank_change": 6,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892642",
@@ -39135,7 +39135,7 @@
               "result": "win",
               "opponent": "Carolina Hurricanes",
               "score": "4-1",
-              "weight": 0.984405
+              "weight": 0.979328
             },
             {
               "game_id": "401892616",
@@ -39143,7 +39143,7 @@
               "result": "win",
               "opponent": "Tampa Bay Lightning",
               "score": "5-4",
-              "weight": 0.912314
+              "weight": 0.907608
             },
             {
               "game_id": "401892605",
@@ -39151,7 +39151,7 @@
               "result": "loss",
               "opponent": "Washington Capitals",
               "score": "3-4",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892589",
@@ -39159,7 +39159,7 @@
               "result": "loss",
               "opponent": "New York Islanders",
               "score": "3-4",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892580",
@@ -39167,7 +39167,7 @@
               "result": "win",
               "opponent": "Colorado Avalanche",
               "score": "6-2",
-              "weight": 0.798816
+              "weight": 0.794696
             }
           ]
         },
@@ -39176,16 +39176,16 @@
           "name": "Montreal Canadiens",
           "abbreviation": "MTL",
           "rank": 12,
-          "rating": 0.175947,
+          "rating": 0.175973,
           "games": 15,
           "wins": 9,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 0.333,
           "opponent_rating": -0.257,
-          "weighted_games": 10.307,
+          "weighted_games": 10.254,
           "provisional": false,
-          "rank_change": -5,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892634",
@@ -39193,7 +39193,7 @@
               "result": "loss",
               "opponent": "Winnipeg Jets",
               "score": "4-5",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892620",
@@ -39201,7 +39201,7 @@
               "result": "win",
               "opponent": "Pittsburgh Penguins",
               "score": "5-4",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401892606",
@@ -39209,7 +39209,7 @@
               "result": "win",
               "opponent": "Dallas Stars",
               "score": "5-2",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892588",
@@ -39217,7 +39217,7 @@
               "result": "win",
               "opponent": "St. Louis Blues",
               "score": "2-0",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401891807",
@@ -39225,7 +39225,7 @@
               "result": "win",
               "opponent": "Winnipeg Jets",
               "score": "2-1",
-              "weight": 0.798047
+              "weight": 0.793931
             }
           ]
         },
@@ -39234,16 +39234,16 @@
           "name": "Utah Mammoth",
           "abbreviation": "UTAH",
           "rank": 13,
-          "rating": 0.103711,
+          "rating": 0.103462,
           "games": 16,
           "wins": 10,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 0.188,
           "opponent_rating": 0.131,
-          "weighted_games": 10.81,
+          "weighted_games": 10.755,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892633",
@@ -39251,7 +39251,7 @@
               "result": "win",
               "opponent": "Toronto Maple Leafs",
               "score": "3-2",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892626",
@@ -39259,7 +39259,7 @@
               "result": "loss",
               "opponent": "Philadelphia Flyers",
               "score": "3-6",
-              "weight": 0.936338
+              "weight": 0.931509
             },
             {
               "game_id": "401892602",
@@ -39267,7 +39267,7 @@
               "result": "win",
               "opponent": "Pittsburgh Penguins",
               "score": "4-3",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892592",
@@ -39275,7 +39275,7 @@
               "result": "loss",
               "opponent": "Minnesota Wild",
               "score": "1-3",
-              "weight": 0.837401
+              "weight": 0.833082
             },
             {
               "game_id": "401892575",
@@ -39283,7 +39283,7 @@
               "result": "win",
               "opponent": "Tampa Bay Lightning",
               "score": "5-4",
-              "weight": 0.781323
+              "weight": 0.777293
             }
           ]
         },
@@ -39292,16 +39292,16 @@
           "name": "St. Louis Blues",
           "abbreviation": "STL",
           "rank": 14,
-          "rating": 0.060007,
+          "rating": 0.059879,
           "games": 15,
           "wins": 7,
           "losses": 8,
           "ties": 0,
           "margin_per_game": 0.0,
           "opponent_rating": 0.094,
-          "weighted_games": 10.317,
+          "weighted_games": 10.264,
           "provisional": false,
-          "rank_change": -3,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892637",
@@ -39309,7 +39309,7 @@
               "result": "loss",
               "opponent": "New York Rangers",
               "score": "1-3",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892615",
@@ -39317,7 +39317,7 @@
               "result": "win",
               "opponent": "Detroit Red Wings",
               "score": "5-4",
-              "weight": 0.911436
+              "weight": 0.906735
             },
             {
               "game_id": "401892604",
@@ -39325,7 +39325,7 @@
               "result": "win",
               "opponent": "Boston Bruins",
               "score": "4-1",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892588",
@@ -39333,7 +39333,7 @@
               "result": "loss",
               "opponent": "Montreal Canadiens",
               "score": "0-2",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892573",
@@ -39341,7 +39341,7 @@
               "result": "loss",
               "opponent": "Carolina Hurricanes",
               "score": "0-4",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39350,16 +39350,16 @@
           "name": "Washington Capitals",
           "abbreviation": "WSH",
           "rank": 15,
-          "rating": 0.017904,
+          "rating": 0.017758,
           "games": 14,
           "wins": 8,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 0.071,
           "opponent_rating": 0.177,
-          "weighted_games": 9.629,
+          "weighted_games": 9.58,
           "provisional": false,
-          "rank_change": -2,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892640",
@@ -39367,7 +39367,7 @@
               "result": "loss",
               "opponent": "Dallas Stars",
               "score": "5-6",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892625",
@@ -39375,7 +39375,7 @@
               "result": "loss",
               "opponent": "Minnesota Wild",
               "score": "1-5",
-              "weight": 0.935888
+              "weight": 0.931061
             },
             {
               "game_id": "401892605",
@@ -39383,7 +39383,7 @@
               "result": "win",
               "opponent": "Nashville Predators",
               "score": "4-3",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892596",
@@ -39391,7 +39391,7 @@
               "result": "win",
               "opponent": "Philadelphia Flyers",
               "score": "5-2",
-              "weight": 0.855738
+              "weight": 0.851324
             },
             {
               "game_id": "401892571",
@@ -39399,7 +39399,7 @@
               "result": "win",
               "opponent": "Buffalo Sabres",
               "score": "4-3",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39408,16 +39408,16 @@
           "name": "New York Rangers",
           "abbreviation": "NYR",
           "rank": 16,
-          "rating": 0.014087,
+          "rating": 0.013968,
           "games": 16,
           "wins": 8,
           "losses": 8,
           "ties": 0,
           "margin_per_game": 0.062,
           "opponent_rating": 0.103,
-          "weighted_games": 10.358,
+          "weighted_games": 10.305,
           "provisional": false,
-          "rank_change": 5,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892637",
@@ -39425,7 +39425,7 @@
               "result": "win",
               "opponent": "St. Louis Blues",
               "score": "3-1",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892627",
@@ -39433,7 +39433,7 @@
               "result": "loss",
               "opponent": "Edmonton Oilers",
               "score": "1-4",
-              "weight": 0.938143
+              "weight": 0.933304
             },
             {
               "game_id": "401892582",
@@ -39441,7 +39441,7 @@
               "result": "loss",
               "opponent": "Los Angeles Kings",
               "score": "3-6",
-              "weight": 0.816701
+              "weight": 0.812489
             },
             {
               "game_id": "401892569",
@@ -39449,7 +39449,7 @@
               "result": "loss",
               "opponent": "Ottawa Senators",
               "score": "4-7",
-              "weight": 0.77982
+              "weight": 0.775798
             },
             {
               "game_id": "401892553",
@@ -39457,7 +39457,7 @@
               "result": "loss",
               "opponent": "Toronto Maple Leafs",
               "score": "4-5",
-              "weight": 0.744604
+              "weight": 0.740764
             }
           ]
         },
@@ -39466,16 +39466,16 @@
           "name": "Ottawa Senators",
           "abbreviation": "OTT",
           "rank": 17,
-          "rating": -0.022032,
+          "rating": -0.021929,
           "games": 16,
           "wins": 9,
           "losses": 7,
           "ties": 0,
           "margin_per_game": 0.062,
           "opponent_rating": -0.102,
-          "weighted_games": 10.916,
+          "weighted_games": 10.86,
           "provisional": false,
-          "rank_change": -1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892628",
@@ -39483,7 +39483,7 @@
               "result": "loss",
               "opponent": "Anaheim Ducks",
               "score": "3-6",
-              "weight": 0.939951
+              "weight": 0.935103
             },
             {
               "game_id": "401892619",
@@ -39491,7 +39491,7 @@
               "result": "win",
               "opponent": "San Jose Sharks",
               "score": "5-1",
-              "weight": 0.914072
+              "weight": 0.909358
             },
             {
               "game_id": "401892609",
@@ -39499,7 +39499,7 @@
               "result": "loss",
               "opponent": "Los Angeles Kings",
               "score": "5-6",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892593",
@@ -39507,7 +39507,7 @@
               "result": "loss",
               "opponent": "Vegas Golden Knights",
               "score": "1-4",
-              "weight": 0.838208
+              "weight": 0.833885
             },
             {
               "game_id": "401892569",
@@ -39515,7 +39515,7 @@
               "result": "win",
               "opponent": "New York Rangers",
               "score": "7-4",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39524,14 +39524,14 @@
           "name": "New York Islanders",
           "abbreviation": "NYI",
           "rank": 18,
-          "rating": -0.061167,
+          "rating": -0.061208,
           "games": 14,
           "wins": 7,
           "losses": 7,
           "ties": 0,
           "margin_per_game": 0.071,
           "opponent_rating": 0.127,
-          "weighted_games": 9.327,
+          "weighted_games": 9.279,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -39541,7 +39541,7 @@
               "result": "loss",
               "opponent": "Edmonton Oilers",
               "score": "0-4",
-              "weight": 0.912314
+              "weight": 0.907608
             },
             {
               "game_id": "401892607",
@@ -39549,7 +39549,7 @@
               "result": "win",
               "opponent": "Minnesota Wild",
               "score": "4-3",
-              "weight": 0.876161
+              "weight": 0.871643
             },
             {
               "game_id": "401892589",
@@ -39557,7 +39557,7 @@
               "result": "win",
               "opponent": "Nashville Predators",
               "score": "4-3",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892579",
@@ -39565,7 +39565,7 @@
               "result": "loss",
               "opponent": "Dallas Stars",
               "score": "3-6",
-              "weight": 0.797279
+              "weight": 0.793167
             },
             {
               "game_id": "401892557",
@@ -39573,7 +39573,7 @@
               "result": "loss",
               "opponent": "Los Angeles Kings",
               "score": "2-3",
-              "weight": 0.744963
+              "weight": 0.741121
             }
           ]
         },
@@ -39582,14 +39582,14 @@
           "name": "Florida Panthers",
           "abbreviation": "FLA",
           "rank": 19,
-          "rating": -0.074843,
+          "rating": -0.074459,
           "games": 15,
           "wins": 8,
           "losses": 7,
           "ties": 0,
           "margin_per_game": 0.2,
           "opponent_rating": -0.338,
-          "weighted_games": 9.917,
+          "weighted_games": 9.866,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -39599,7 +39599,7 @@
               "result": "loss",
               "opponent": "Detroit Red Wings",
               "score": "3-5",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401892612",
@@ -39607,7 +39607,7 @@
               "result": "win",
               "opponent": "Winnipeg Jets",
               "score": "5-2",
-              "weight": 0.895778
+              "weight": 0.891158
             },
             {
               "game_id": "401892591",
@@ -39615,7 +39615,7 @@
               "result": "win",
               "opponent": "Winnipeg Jets",
               "score": "5-1",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892578",
@@ -39623,7 +39623,7 @@
               "result": "win",
               "opponent": "Chicago Blackhawks",
               "score": "3-2",
-              "weight": 0.79498
+              "weight": 0.79088
             },
             {
               "game_id": "401892556",
@@ -39631,7 +39631,7 @@
               "result": "loss",
               "opponent": "Pittsburgh Penguins",
               "score": "0-4",
-              "weight": 0.744604
+              "weight": 0.740764
             }
           ]
         },
@@ -39640,16 +39640,16 @@
           "name": "Detroit Red Wings",
           "abbreviation": "DET",
           "rank": 20,
-          "rating": -0.13981,
+          "rating": -0.139529,
           "games": 16,
           "wins": 7,
           "losses": 9,
           "ties": 0,
           "margin_per_game": -0.125,
           "opponent_rating": -0.152,
-          "weighted_games": 11.281,
+          "weighted_games": 11.223,
           "provisional": false,
-          "rank_change": -5,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892635",
@@ -39657,7 +39657,7 @@
               "result": "loss",
               "opponent": "Tampa Bay Lightning",
               "score": "2-4",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892630",
@@ -39665,7 +39665,7 @@
               "result": "win",
               "opponent": "Florida Panthers",
               "score": "5-3",
-              "weight": 0.960996
+              "weight": 0.956039
             },
             {
               "game_id": "401892615",
@@ -39673,7 +39673,7 @@
               "result": "loss",
               "opponent": "St. Louis Blues",
               "score": "4-5",
-              "weight": 0.911436
+              "weight": 0.906735
             },
             {
               "game_id": "401892600",
@@ -39681,7 +39681,7 @@
               "result": "win",
               "opponent": "Chicago Blackhawks",
               "score": "4-1",
-              "weight": 0.87574
+              "weight": 0.871223
             },
             {
               "game_id": "401892584",
@@ -39689,7 +39689,7 @@
               "result": "win",
               "opponent": "Edmonton Oilers",
               "score": "4-3",
-              "weight": 0.818669
+              "weight": 0.814447
             }
           ]
         },
@@ -39698,16 +39698,16 @@
           "name": "Columbus Blue Jackets",
           "abbreviation": "CBJ",
           "rank": 21,
-          "rating": -0.142513,
+          "rating": -0.142458,
           "games": 13,
           "wins": 6,
           "losses": 7,
           "ties": 0,
           "margin_per_game": -0.385,
           "opponent_rating": 0.181,
-          "weighted_games": 9.103,
+          "weighted_games": 9.056,
           "provisional": false,
-          "rank_change": 7,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892641",
@@ -39715,7 +39715,7 @@
               "result": "win",
               "opponent": "Colorado Avalanche",
               "score": "7-2",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892622",
@@ -39723,7 +39723,7 @@
               "result": "loss",
               "opponent": "Dallas Stars",
               "score": "1-3",
-              "weight": 0.917599
+              "weight": 0.912866
             },
             {
               "game_id": "401892603",
@@ -39731,7 +39731,7 @@
               "result": "loss",
               "opponent": "Carolina Hurricanes",
               "score": "2-3",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892585",
@@ -39739,7 +39739,7 @@
               "result": "win",
               "opponent": "Philadelphia Flyers",
               "score": "4-3",
-              "weight": 0.83579
+              "weight": 0.83148
             },
             {
               "game_id": "401892572",
@@ -39747,7 +39747,7 @@
               "result": "win",
               "opponent": "Vegas Golden Knights",
               "score": "2-1",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -39756,16 +39756,16 @@
           "name": "Seattle Kraken",
           "abbreviation": "SEA",
           "rank": 22,
-          "rating": -0.157683,
+          "rating": -0.157549,
           "games": 14,
           "wins": 8,
           "losses": 6,
           "ties": 0,
           "margin_per_game": 0.0,
           "opponent_rating": 0.077,
-          "weighted_games": 8.972,
+          "weighted_games": 8.925,
           "provisional": false,
-          "rank_change": -2,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892613",
@@ -39773,7 +39773,7 @@
               "result": "loss",
               "opponent": "Calgary Flames",
               "score": "2-6",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401892599",
@@ -39781,7 +39781,7 @@
               "result": "win",
               "opponent": "Toronto Maple Leafs",
               "score": "5-4",
-              "weight": 0.8578
+              "weight": 0.853376
             },
             {
               "game_id": "401892577",
@@ -39789,7 +39789,7 @@
               "result": "loss",
               "opponent": "Minnesota Wild",
               "score": "1-5",
-              "weight": 0.782075
+              "weight": 0.778042
             },
             {
               "game_id": "401892562",
@@ -39797,7 +39797,7 @@
               "result": "win",
               "opponent": "Utah Mammoth",
               "score": "5-3",
-              "weight": 0.746758
+              "weight": 0.742907
             },
             {
               "game_id": "401892547",
@@ -39805,7 +39805,7 @@
               "result": "win",
               "opponent": "Detroit Red Wings",
               "score": "4-3",
-              "weight": 0.712807
+              "weight": 0.709131
             }
           ]
         },
@@ -39814,14 +39814,14 @@
           "name": "Buffalo Sabres",
           "abbreviation": "BUF",
           "rank": 23,
-          "rating": -0.242996,
+          "rating": -0.242576,
           "games": 14,
           "wins": 7,
           "losses": 7,
           "ties": 0,
           "margin_per_game": -0.429,
           "opponent_rating": -0.11,
-          "weighted_games": 9.183,
+          "weighted_games": 9.136,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -39831,7 +39831,7 @@
               "result": "win",
               "opponent": "Los Angeles Kings",
               "score": "3-2",
-              "weight": 0.914072
+              "weight": 0.909358
             },
             {
               "game_id": "401892608",
@@ -39839,7 +39839,7 @@
               "result": "win",
               "opponent": "Anaheim Ducks",
               "score": "7-6",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892595",
@@ -39847,7 +39847,7 @@
               "result": "win",
               "opponent": "San Jose Sharks",
               "score": "2-0",
-              "weight": 0.838611
+              "weight": 0.834286
             },
             {
               "game_id": "401892571",
@@ -39855,7 +39855,7 @@
               "result": "loss",
               "opponent": "Washington Capitals",
               "score": "3-4",
-              "weight": 0.77982
+              "weight": 0.775798
             },
             {
               "game_id": "401892550",
@@ -39863,7 +39863,7 @@
               "result": "loss",
               "opponent": "Philadelphia Flyers",
               "score": "1-3",
-              "weight": 0.727948
+              "weight": 0.724194
             }
           ]
         },
@@ -39872,16 +39872,16 @@
           "name": "Anaheim Ducks",
           "abbreviation": "ANA",
           "rank": 24,
-          "rating": -0.274421,
+          "rating": -0.273983,
           "games": 15,
           "wins": 7,
           "losses": 8,
           "ties": 0,
           "margin_per_game": -0.2,
           "opponent_rating": -0.177,
-          "weighted_games": 10.432,
+          "weighted_games": 10.378,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892643",
@@ -39889,7 +39889,7 @@
               "result": "win",
               "opponent": "Vancouver Canucks",
               "score": "5-4",
-              "weight": 0.985353
+              "weight": 0.980271
             },
             {
               "game_id": "401892628",
@@ -39897,7 +39897,7 @@
               "result": "win",
               "opponent": "Ottawa Senators",
               "score": "6-3",
-              "weight": 0.939951
+              "weight": 0.935103
             },
             {
               "game_id": "401892608",
@@ -39905,7 +39905,7 @@
               "result": "loss",
               "opponent": "Buffalo Sabres",
               "score": "6-7",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892594",
@@ -39913,7 +39913,7 @@
               "result": "loss",
               "opponent": "Vancouver Canucks",
               "score": "5-6",
-              "weight": 0.838208
+              "weight": 0.833885
             },
             {
               "game_id": "401892566",
@@ -39921,7 +39921,7 @@
               "result": "win",
               "opponent": "Philadelphia Flyers",
               "score": "5-4",
-              "weight": 0.775328
+              "weight": 0.77133
             }
           ]
         },
@@ -39930,16 +39930,16 @@
           "name": "Los Angeles Kings",
           "abbreviation": "LA",
           "rank": 25,
-          "rating": -0.294123,
+          "rating": -0.293772,
           "games": 13,
           "wins": 4,
           "losses": 9,
           "ties": 0,
           "margin_per_game": -0.692,
           "opponent_rating": 0.041,
-          "weighted_games": 8.963,
+          "weighted_games": 8.916,
           "provisional": false,
-          "rank_change": -1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892618",
@@ -39947,7 +39947,7 @@
               "result": "loss",
               "opponent": "Buffalo Sabres",
               "score": "2-3",
-              "weight": 0.914072
+              "weight": 0.909358
             },
             {
               "game_id": "401892609",
@@ -39955,7 +39955,7 @@
               "result": "win",
               "opponent": "Ottawa Senators",
               "score": "6-5",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892587",
@@ -39963,7 +39963,7 @@
               "result": "loss",
               "opponent": "Chicago Blackhawks",
               "score": "1-2",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892582",
@@ -39971,7 +39971,7 @@
               "result": "win",
               "opponent": "New York Rangers",
               "score": "6-3",
-              "weight": 0.816701
+              "weight": 0.812489
             },
             {
               "game_id": "401892567",
@@ -39979,7 +39979,7 @@
               "result": "loss",
               "opponent": "New Jersey Devils",
               "score": "1-3",
-              "weight": 0.777197
+              "weight": 0.773188
             }
           ]
         },
@@ -39988,16 +39988,16 @@
           "name": "Calgary Flames",
           "abbreviation": "CGY",
           "rank": 26,
-          "rating": -0.301417,
+          "rating": -0.301156,
           "games": 15,
           "wins": 7,
           "losses": 8,
           "ties": 0,
           "margin_per_game": -1.0,
           "opponent_rating": 0.128,
-          "weighted_games": 10.441,
+          "weighted_games": 10.387,
           "provisional": false,
-          "rank_change": -4,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892632",
@@ -40005,7 +40005,7 @@
               "result": "win",
               "opponent": "San Jose Sharks",
               "score": "2-1",
-              "weight": 0.962848
+              "weight": 0.957882
             },
             {
               "game_id": "401892623",
@@ -40013,7 +40013,7 @@
               "result": "loss",
               "opponent": "Colorado Avalanche",
               "score": "2-5",
-              "weight": 0.919367
+              "weight": 0.914625
             },
             {
               "game_id": "401892613",
@@ -40021,7 +40021,7 @@
               "result": "win",
               "opponent": "Seattle Kraken",
               "score": "6-2",
-              "weight": 0.896641
+              "weight": 0.892016
             },
             {
               "game_id": "401892597",
@@ -40029,7 +40029,7 @@
               "result": "loss",
               "opponent": "Edmonton Oilers",
               "score": "0-4",
-              "weight": 0.856562
+              "weight": 0.852144
             },
             {
               "game_id": "401892583",
@@ -40037,7 +40037,7 @@
               "result": "win",
               "opponent": "Toronto Maple Leafs",
               "score": "5-2",
-              "weight": 0.817881
+              "weight": 0.813663
             }
           ]
         },
@@ -40046,16 +40046,16 @@
           "name": "Pittsburgh Penguins",
           "abbreviation": "PIT",
           "rank": 27,
-          "rating": -0.37068,
+          "rating": -0.370231,
           "games": 15,
           "wins": 5,
           "losses": 10,
           "ties": 0,
           "margin_per_game": -0.2,
           "opponent_rating": -0.004,
-          "weighted_games": 9.99,
+          "weighted_games": 9.938,
           "provisional": false,
-          "rank_change": -1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892639",
@@ -40063,7 +40063,7 @@
               "result": "loss",
               "opponent": "Vegas Golden Knights",
               "score": "2-3",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892620",
@@ -40071,7 +40071,7 @@
               "result": "loss",
               "opponent": "Montreal Canadiens",
               "score": "4-5",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401892602",
@@ -40079,7 +40079,7 @@
               "result": "loss",
               "opponent": "Utah Mammoth",
               "score": "3-4",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892570",
@@ -40087,7 +40087,7 @@
               "result": "win",
               "opponent": "Nashville Predators",
               "score": "3-2",
-              "weight": 0.77982
+              "weight": 0.775798
             },
             {
               "game_id": "401892556",
@@ -40095,7 +40095,7 @@
               "result": "win",
               "opponent": "Florida Panthers",
               "score": "4-0",
-              "weight": 0.744604
+              "weight": 0.740764
             }
           ]
         },
@@ -40104,16 +40104,16 @@
           "name": "San Jose Sharks",
           "abbreviation": "SJ",
           "rank": 28,
-          "rating": -0.565572,
+          "rating": -0.564944,
           "games": 16,
           "wins": 7,
           "losses": 9,
           "ties": 0,
           "margin_per_game": -0.75,
           "opponent_rating": 0.034,
-          "weighted_games": 10.975,
+          "weighted_games": 10.918,
           "provisional": false,
-          "rank_change": 1,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892632",
@@ -40121,7 +40121,7 @@
               "result": "loss",
               "opponent": "Calgary Flames",
               "score": "1-2",
-              "weight": 0.962848
+              "weight": 0.957882
             },
             {
               "game_id": "401892619",
@@ -40129,7 +40129,7 @@
               "result": "loss",
               "opponent": "Ottawa Senators",
               "score": "1-5",
-              "weight": 0.914072
+              "weight": 0.909358
             },
             {
               "game_id": "401892610",
@@ -40137,7 +40137,7 @@
               "result": "win",
               "opponent": "Vancouver Canucks",
               "score": "3-2",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892595",
@@ -40145,7 +40145,7 @@
               "result": "loss",
               "opponent": "Buffalo Sabres",
               "score": "0-2",
-              "weight": 0.838611
+              "weight": 0.834286
             },
             {
               "game_id": "401892568",
@@ -40153,7 +40153,7 @@
               "result": "loss",
               "opponent": "Boston Bruins",
               "score": "4-6",
-              "weight": 0.77982
+              "weight": 0.775798
             }
           ]
         },
@@ -40162,16 +40162,16 @@
           "name": "Philadelphia Flyers",
           "abbreviation": "PHI",
           "rank": 29,
-          "rating": -0.57889,
+          "rating": -0.5784,
           "games": 17,
           "wins": 4,
           "losses": 13,
           "ties": 0,
           "margin_per_game": -1.235,
           "opponent_rating": 0.192,
-          "weighted_games": 11.278,
+          "weighted_games": 11.22,
           "provisional": false,
-          "rank_change": -2,
+          "rank_change": 0,
           "recent": [
             {
               "game_id": "401892638",
@@ -40179,7 +40179,7 @@
               "result": "loss",
               "opponent": "Minnesota Wild",
               "score": "2-4",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892626",
@@ -40187,7 +40187,7 @@
               "result": "win",
               "opponent": "Utah Mammoth",
               "score": "6-3",
-              "weight": 0.936338
+              "weight": 0.931509
             },
             {
               "game_id": "401892596",
@@ -40195,7 +40195,7 @@
               "result": "loss",
               "opponent": "Washington Capitals",
               "score": "2-5",
-              "weight": 0.855738
+              "weight": 0.851324
             },
             {
               "game_id": "401892585",
@@ -40203,7 +40203,7 @@
               "result": "loss",
               "opponent": "Columbus Blue Jackets",
               "score": "3-4",
-              "weight": 0.83579
+              "weight": 0.83148
             },
             {
               "game_id": "401892566",
@@ -40211,7 +40211,7 @@
               "result": "loss",
               "opponent": "Anaheim Ducks",
               "score": "4-5",
-              "weight": 0.775328
+              "weight": 0.77133
             }
           ]
         },
@@ -40220,14 +40220,14 @@
           "name": "Winnipeg Jets",
           "abbreviation": "WPG",
           "rank": 30,
-          "rating": -0.768442,
+          "rating": -0.767669,
           "games": 16,
           "wins": 5,
           "losses": 11,
           "ties": 0,
           "margin_per_game": -1.188,
-          "opponent_rating": 0.179,
-          "weighted_games": 11.22,
+          "opponent_rating": 0.178,
+          "weighted_games": 11.162,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -40237,7 +40237,7 @@
               "result": "win",
               "opponent": "Montreal Canadiens",
               "score": "5-4",
-              "weight": 0.983458
+              "weight": 0.978386
             },
             {
               "game_id": "401892624",
@@ -40245,7 +40245,7 @@
               "result": "loss",
               "opponent": "Carolina Hurricanes",
               "score": "0-7",
-              "weight": 0.933638
+              "weight": 0.928823
             },
             {
               "game_id": "401892612",
@@ -40253,7 +40253,7 @@
               "result": "loss",
               "opponent": "Florida Panthers",
               "score": "2-5",
-              "weight": 0.895778
+              "weight": 0.891158
             },
             {
               "game_id": "401892601",
@@ -40261,7 +40261,7 @@
               "result": "loss",
               "opponent": "Tampa Bay Lightning",
               "score": "4-6",
-              "weight": 0.875318
+              "weight": 0.870804
             },
             {
               "game_id": "401892591",
@@ -40269,7 +40269,7 @@
               "result": "loss",
               "opponent": "Florida Panthers",
               "score": "1-5",
-              "weight": 0.836595
+              "weight": 0.832281
             }
           ]
         },
@@ -40278,14 +40278,14 @@
           "name": "Vancouver Canucks",
           "abbreviation": "VAN",
           "rank": 31,
-          "rating": -1.034961,
+          "rating": -1.033976,
           "games": 17,
           "wins": 3,
           "losses": 14,
           "ties": 0,
           "margin_per_game": -1.529,
           "opponent_rating": 0.196,
-          "weighted_games": 11.329,
+          "weighted_games": 11.27,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -40295,7 +40295,7 @@
               "result": "loss",
               "opponent": "Anaheim Ducks",
               "score": "4-5",
-              "weight": 0.985353
+              "weight": 0.980271
             },
             {
               "game_id": "401892621",
@@ -40303,7 +40303,7 @@
               "result": "loss",
               "opponent": "Toronto Maple Leafs",
               "score": "2-4",
-              "weight": 0.916716
+              "weight": 0.911988
             },
             {
               "game_id": "401892610",
@@ -40311,7 +40311,7 @@
               "result": "loss",
               "opponent": "San Jose Sharks",
               "score": "2-3",
-              "weight": 0.87785
+              "weight": 0.873322
             },
             {
               "game_id": "401892594",
@@ -40319,7 +40319,7 @@
               "result": "win",
               "opponent": "Anaheim Ducks",
               "score": "6-5",
-              "weight": 0.838208
+              "weight": 0.833885
             },
             {
               "game_id": "401892581",
@@ -40327,7 +40327,7 @@
               "result": "loss",
               "opponent": "Minnesota Wild",
               "score": "2-4",
-              "weight": 0.800355
+              "weight": 0.796228
             }
           ]
         },
@@ -40336,14 +40336,14 @@
           "name": "Chicago Blackhawks",
           "abbreviation": "CHI",
           "rank": 32,
-          "rating": -1.165852,
+          "rating": -1.164469,
           "games": 15,
           "wins": 4,
           "losses": 11,
           "ties": 0,
           "margin_per_game": -1.667,
           "opponent_rating": 0.075,
-          "weighted_games": 10.043,
+          "weighted_games": 9.992,
           "provisional": false,
           "rank_change": 0,
           "recent": [
@@ -40353,7 +40353,7 @@
               "result": "loss",
               "opponent": "Colorado Avalanche",
               "score": "2-5",
-              "weight": 0.961921
+              "weight": 0.95696
             },
             {
               "game_id": "401892614",
@@ -40361,7 +40361,7 @@
               "result": "loss",
               "opponent": "Boston Bruins",
               "score": "4-5",
-              "weight": 0.911436
+              "weight": 0.906735
             },
             {
               "game_id": "401892600",
@@ -40369,7 +40369,7 @@
               "result": "loss",
               "opponent": "Detroit Red Wings",
               "score": "1-4",
-              "weight": 0.87574
+              "weight": 0.871223
             },
             {
               "game_id": "401892587",
@@ -40377,7 +40377,7 @@
               "result": "win",
               "opponent": "Los Angeles Kings",
               "score": "2-1",
-              "weight": 0.836595
+              "weight": 0.832281
             },
             {
               "game_id": "401892578",
@@ -40385,7 +40385,7 @@
               "result": "loss",
               "opponent": "Florida Panthers",
               "score": "2-3",
-              "weight": 0.79498
+              "weight": 0.79088
             }
           ]
         }
@@ -40393,14 +40393,14 @@
       "games_used": 246,
       "input_sha256": "b07cbbfbd6e6cd47ceb7874bfd014bb3824987ed108e850af6999e812ff55396",
       "weighted_training_rmse": 2.2761,
-      "comparison_as_of": "2026-11-03T22:20:35.711366+00:00",
+      "comparison_as_of": "2026-11-04T17:19:36.303720+00:00",
       "season_label": "2026-27",
       "inputs": {
         "league": "nhl",
         "season": 2027,
         "season_label": "2026-27",
-        "observed_at": "2026-11-04T17:19:36.294659+00:00",
-        "as_of": "2026-11-04T17:19:36.303720+00:00",
+        "observed_at": "2026-11-04T22:41:52.167072+00:00",
+        "as_of": "2026-11-04T22:41:52.174738+00:00",
         "teams": {
           "25": {
             "id": "25",
