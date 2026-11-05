@@ -1,6 +1,223 @@
 {
-  "checked_at": "2026-11-04T22:41:57.774303+00:00",
+  "checked_at": "2026-11-05T17:28:08.871684+00:00",
   "picks": [
+    {
+      "game_id": "401892658",
+      "league": "nhl",
+      "starts_at": "2026-11-06T02:30:00+00:00",
+      "teams": {
+        "home": {
+          "id": "17",
+          "name": "Colorado Avalanche",
+          "leader_ids": [
+            "3041969",
+            "3042050"
+          ]
+        },
+        "away": {
+          "id": "27",
+          "name": "Nashville Predators",
+          "leader_ids": [
+            "2968772",
+            "5037",
+            "5436"
+          ]
+        }
+      },
+      "team_id": "17",
+      "team": "Colorado Avalanche",
+      "side": "home",
+      "spread": -1.5,
+      "decimal_odds": 2.2,
+      "quotes": [
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-05T16:55:07+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "17",
+              "handicap": -1.5,
+              "decimal_price": 2.15
+            },
+            "away": {
+              "team_id": "27",
+              "handicap": 1.5,
+              "decimal_price": 1.7
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-05T16:55:36+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "17",
+              "handicap": -1.5,
+              "decimal_price": 2.2
+            },
+            "away": {
+              "team_id": "27",
+              "handicap": 1.5,
+              "decimal_price": 1.68
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-05T16:54:46+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "17",
+              "handicap": -1.5,
+              "decimal_price": 2.08
+            },
+            "away": {
+              "team_id": "27",
+              "handicap": 1.5,
+              "decimal_price": 1.6
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-05T16:55:31+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "17",
+              "handicap": -1.5,
+              "decimal_price": 2.1
+            },
+            "away": {
+              "team_id": "27",
+              "handicap": 1.5,
+              "decimal_price": 1.74
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-05T16:55:51Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-05",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "Colorado Avalanche -1.5",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
+    {
+      "game_id": "401873037",
+      "league": "nfl",
+      "starts_at": "2026-11-06T01:15:00+00:00",
+      "teams": {
+        "home": {
+          "id": "33",
+          "name": "Baltimore Ravens",
+          "leader_ids": [
+            "3043078",
+            "4429582",
+            "4429615"
+          ]
+        },
+        "away": {
+          "id": "30",
+          "name": "Jacksonville Jaguars",
+          "leader_ids": [
+            "4360310",
+            "4432620",
+            "4882093"
+          ]
+        }
+      },
+      "team_id": "33",
+      "team": "Baltimore Ravens",
+      "side": "home",
+      "spread": 10.0,
+      "decimal_odds": 1.92,
+      "quotes": [
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-05T16:55:36+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "33",
+              "handicap": 10.0,
+              "decimal_price": 1.82
+            },
+            "away": {
+              "team_id": "30",
+              "handicap": -10.0,
+              "decimal_price": 1.8
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-05T16:54:51+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "33",
+              "handicap": 10.0,
+              "decimal_price": 1.92
+            },
+            "away": {
+              "team_id": "30",
+              "handicap": -10.0,
+              "decimal_price": 1.89
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-05T16:54:48+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "33",
+              "handicap": 10.0,
+              "decimal_price": 1.89
+            },
+            "away": {
+              "team_id": "30",
+              "handicap": -10.0,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-05T16:55:33+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "33",
+              "handicap": 10.0,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "30",
+              "handicap": -10.0,
+              "decimal_price": 1.93
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-05T16:55:51Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-05",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "Baltimore Ravens +10",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
     {
       "game_id": "401909935",
       "league": "nba",
@@ -100,8 +317,12 @@
       ],
       "published_at": "2026-11-04T16:40:14Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "12": 116,
+        "14": 117
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909935",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -224,8 +445,12 @@
       ],
       "published_at": "2026-11-04T16:40:14Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "win",
+      "scores": {
+        "124292": 2,
+        "3": 1
+      },
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892647",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -366,8 +591,12 @@
       ],
       "published_at": "2026-11-04T16:40:14Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "3": 120,
+        "26": 113
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909928",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -507,8 +736,12 @@
       ],
       "published_at": "2026-11-04T16:40:14Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "17": 114,
+        "30": 104
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909925",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
