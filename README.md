@@ -6,31 +6,38 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **7** | **8** | **0** | **4** | **46.7%** |
+| **8** | **11** | **0** | **2** | **42.1%** |
 
-19 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+21 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 04, 2026 · 11:40 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 05, 2026 · 11:55 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 5 | 6 | 0 | 3 | 0 | 0 | 45.5% |
-| **NFL** | 1 | 2 | 0 | 0 | 0 | 0 | 33.3% |
-| **NHL** | 1 | 0 | 0 | 1 | 0 | 0 | 100.0% |
+| **NBA** | 5 | 9 | 0 | 0 | 0 | 0 | 35.7% |
+| **NFL** | 1 | 2 | 0 | 1 | 0 | 0 | 33.3% |
+| **NHL** | 2 | 0 | 0 | 1 | 0 | 0 | 100.0% |
 
 ### All picks
 
+
+#### 2026-11-05
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 09:30 PM EST | NHL | Nashville Predators @ Colorado Avalanche | **[Colorado Avalanche -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-05>)**<br>2.20 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:15 PM EST | NFL | Jacksonville Jaguars @ Baltimore Ravens | **[Baltimore Ravens +10](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-05>)**<br>1.92 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
 
 #### 2026-11-04
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 10:30 PM EST | NBA | Miami Heat @ LA Clippers | **[Miami Heat -5.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 10:00 PM EST | NHL | Calgary Flames @ Seattle Kraken | **[Calgary Flames +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.48 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 08:00 PM EST | NBA | Utah Jazz @ New Orleans Pelicans | **[Utah Jazz +5.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:30 PM EST | NBA | Charlotte Hornets @ Brooklyn Nets | **[Charlotte Hornets -3.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 10:30 PM EST | NBA | Miami Heat @ LA Clippers | **[Miami Heat -5.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.91 decimal | 117 · 116 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909935>) |
+| 10:00 PM EST | NHL | Calgary Flames @ Seattle Kraken | **[Calgary Flames +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.48 decimal | 1 · 2 | [🟢 Won](<https://www.espn.com/nhl/game/_/gameId/401892647>) |
+| 08:00 PM EST | NBA | Utah Jazz @ New Orleans Pelicans | **[Utah Jazz +5.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.95 decimal | 113 · 120 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909928>) |
+| 07:30 PM EST | NBA | Charlotte Hornets @ Brooklyn Nets | **[Charlotte Hornets -3.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-04>)**<br>1.91 decimal | 104 · 114 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909925>) |
 
 #### 2026-11-02
 
