@@ -1,6 +1,252 @@
 {
-  "checked_at": "2026-11-06T22:09:31.473093+00:00",
+  "checked_at": "2026-11-07T15:42:50.915096+00:00",
   "picks": [
+    {
+      "game_id": "401892669",
+      "league": "nhl",
+      "starts_at": "2026-11-08T01:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "9",
+          "name": "Dallas Stars",
+          "leader_ids": [
+            "3899938",
+            "4874740"
+          ]
+        },
+        "away": {
+          "id": "18",
+          "name": "San Jose Sharks",
+          "leader_ids": [
+            "5206628"
+          ]
+        }
+      },
+      "team_id": "18",
+      "team": "San Jose Sharks",
+      "side": "away",
+      "spread": 1.5,
+      "decimal_odds": 2.0,
+      "quotes": [
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-07T15:15:21+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -1.5,
+              "decimal_price": 1.87
+            },
+            "away": {
+              "team_id": "18",
+              "handicap": 1.5,
+              "decimal_price": 1.95
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-07T15:14:31+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -1.5,
+              "decimal_price": 1.85
+            },
+            "away": {
+              "team_id": "18",
+              "handicap": 1.5,
+              "decimal_price": 1.93
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-07T15:15:20+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -1.5,
+              "decimal_price": 1.77
+            },
+            "away": {
+              "team_id": "18",
+              "handicap": 1.5,
+              "decimal_price": 1.85
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-07T15:15:20+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -1.5,
+              "decimal_price": 1.83
+            },
+            "away": {
+              "team_id": "18",
+              "handicap": 1.5,
+              "decimal_price": 2.0
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-07T15:15:25+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "9",
+              "handicap": -1.5,
+              "decimal_price": 1.83
+            },
+            "away": {
+              "team_id": "18",
+              "handicap": 1.5,
+              "decimal_price": 2.0
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-07T15:15:30Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "San Jose Sharks +1.5",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
+    {
+      "game_id": "401892667",
+      "league": "nhl",
+      "starts_at": "2026-11-08T00:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "12",
+          "name": "New York Islanders",
+          "leader_ids": [
+            "3042002",
+            "5291933"
+          ]
+        },
+        "away": {
+          "id": "11",
+          "name": "New Jersey Devils",
+          "leader_ids": [
+            "4565222"
+          ]
+        }
+      },
+      "team_id": "11",
+      "team": "New Jersey Devils",
+      "side": "away",
+      "spread": -1.5,
+      "decimal_odds": 2.63,
+      "quotes": [
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-07T15:15:21+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "12",
+              "handicap": 1.5,
+              "decimal_price": 1.5
+            },
+            "away": {
+              "team_id": "11",
+              "handicap": -1.5,
+              "decimal_price": 2.6
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-07T15:15:20+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "12",
+              "handicap": 1.5,
+              "decimal_price": 1.42
+            },
+            "away": {
+              "team_id": "11",
+              "handicap": -1.5,
+              "decimal_price": 2.5
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-07T15:14:31+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "12",
+              "handicap": 1.5,
+              "decimal_price": 1.49
+            },
+            "away": {
+              "team_id": "11",
+              "handicap": -1.5,
+              "decimal_price": 2.63
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-07T15:15:20+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "12",
+              "handicap": 1.5,
+              "decimal_price": 1.53
+            },
+            "away": {
+              "team_id": "11",
+              "handicap": -1.5,
+              "decimal_price": 2.55
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-07T15:15:24+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "12",
+              "handicap": 1.5,
+              "decimal_price": 1.53
+            },
+            "away": {
+              "team_id": "11",
+              "handicap": -1.5,
+              "decimal_price": 2.55
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-07T15:15:30Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "New Jersey Devils -1.5",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
     {
       "game_id": "401909295",
       "league": "nba",
@@ -134,8 +380,12 @@
       ],
       "published_at": "2026-11-06T16:28:12Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "win",
+      "scores": {
+        "23": 109,
+        "24": 124
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909295",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -257,8 +507,12 @@
       ],
       "published_at": "2026-11-06T16:28:12Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "30": 4,
+        "18": 1
+      },
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892660",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
