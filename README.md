@@ -6,29 +6,36 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **8** | **13** | **0** | **2** | **38.1%** |
+| **9** | **14** | **0** | **2** | **39.1%** |
 
-23 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+25 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 06, 2026 · 11:28 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 07, 2026 · 10:15 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 5 | 9 | 0 | 1 | 0 | 0 | 35.7% |
+| **NBA** | 6 | 9 | 0 | 0 | 0 | 0 | 40.0% |
 | **NFL** | 1 | 3 | 0 | 0 | 0 | 0 | 25.0% |
-| **NHL** | 2 | 1 | 0 | 1 | 0 | 0 | 66.7% |
+| **NHL** | 2 | 2 | 0 | 2 | 0 | 0 | 50.0% |
 
 ### All picks
 
+
+#### 2026-11-07
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 08:00 PM EST | NHL | San Jose Sharks @ Dallas Stars | **[San Jose Sharks +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.00 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 07:00 PM EST | NHL | New Jersey Devils @ New York Islanders | **[New Jersey Devils -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.63 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
 
 #### 2026-11-06
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 10:00 PM EST | NBA | San Antonio Spurs @ Sacramento Kings | **[Sacramento Kings +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 08:00 PM EST | NHL | San Jose Sharks @ Minnesota Wild | **[San Jose Sharks +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 10:00 PM EST | NBA | San Antonio Spurs @ Sacramento Kings | **[Sacramento Kings +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06>)**<br>1.93 decimal | 124 · 109 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909295>) |
+| 08:00 PM EST | NHL | San Jose Sharks @ Minnesota Wild | **[San Jose Sharks +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-06>)**<br>1.91 decimal | 1 · 4 | [🔴 Lost](<https://www.espn.com/nhl/game/_/gameId/401892660>) |
 
 #### 2026-11-05
 
