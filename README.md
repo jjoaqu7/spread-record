@@ -6,29 +6,38 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **9** | **14** | **0** | **2** | **39.1%** |
+| **10** | **15** | **0** | **4** | **40.0%** |
 
-25 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+29 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 07, 2026 · 10:15 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 08, 2026 · 10:39 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 6 | 9 | 0 | 0 | 0 | 0 | 40.0% |
-| **NFL** | 1 | 3 | 0 | 0 | 0 | 0 | 25.0% |
-| **NHL** | 2 | 2 | 0 | 2 | 0 | 0 | 50.0% |
+| **NBA** | 6 | 9 | 0 | 1 | 0 | 0 | 40.0% |
+| **NFL** | 1 | 3 | 0 | 3 | 0 | 0 | 25.0% |
+| **NHL** | 3 | 3 | 0 | 0 | 0 | 0 | 50.0% |
 
 ### All picks
 
+
+#### 2026-11-08
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 09:00 PM EST | NBA | Miami Heat @ Sacramento Kings | **[Miami Heat -10.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-08>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 04:25 PM EST | NFL | Arizona Cardinals @ Seattle Seahawks | **[Arizona Cardinals +8.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-08>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 01:00 PM EST | NFL | Dallas Cowboys @ Indianapolis Colts | **[Indianapolis Colts +4.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-08>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 01:00 PM EST | NFL | Cleveland Browns @ New Orleans Saints | **[Cleveland Browns +3.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-08>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
 
 #### 2026-11-07
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 08:00 PM EST | NHL | San Jose Sharks @ Dallas Stars | **[San Jose Sharks +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.00 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:00 PM EST | NHL | New Jersey Devils @ New York Islanders | **[New Jersey Devils -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.63 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:00 PM EST | NHL | San Jose Sharks @ Dallas Stars | **[San Jose Sharks +1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.00 decimal | 3 · 4 | [🟢 Won](<https://www.espn.com/nhl/game/_/gameId/401892669>) |
+| 07:00 PM EST | NHL | New Jersey Devils @ New York Islanders | **[New Jersey Devils -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-07>)**<br>2.63 decimal | 5 · 4 | [🔴 Lost](<https://www.espn.com/nhl/game/_/gameId/401892667>) |
 
 #### 2026-11-06
 
