@@ -6,30 +6,38 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **12** | **17** | **0** | **3** | **41.4%** |
+| **14** | **18** | **0** | **3** | **43.8%** |
 
-32 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+35 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 09, 2026 · 02:18 PM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 10, 2026 · 11:40 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 6 | 10 | 0 | 3 | 0 | 0 | 37.5% |
+| **NBA** | 8 | 11 | 0 | 3 | 0 | 0 | 42.1% |
 | **NFL** | 3 | 4 | 0 | 0 | 0 | 0 | 42.9% |
 | **NHL** | 3 | 3 | 0 | 0 | 0 | 0 | 50.0% |
 
 ### All picks
 
 
+#### 2026-11-10
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 11:00 PM EST | NBA | Oklahoma City Thunder @ Portland Trail Blazers | **[Portland Trail Blazers +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-10>)**<br>1.87 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 09:00 PM EST | NBA | LA Clippers @ Phoenix Suns | **[Phoenix Suns -3.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-10>)**<br>1.94 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 07:30 PM EST | NBA | Milwaukee Bucks @ New York Knicks | **[Milwaukee Bucks +15.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-10>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+
 #### 2026-11-09
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 07:30 PM EST | NBA | Memphis Grizzlies @ Toronto Raptors | **[Memphis Grizzlies +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:00 PM EST | NBA | Washington Wizards @ Detroit Pistons | **[Washington Wizards +10.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:00 PM EST | NBA | Cleveland Cavaliers @ Charlotte Hornets | **[Charlotte Hornets +8.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 07:30 PM EST | NBA | Memphis Grizzlies @ Toronto Raptors | **[Memphis Grizzlies +2.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.91 decimal | 118 · 102 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909955>) |
+| 07:00 PM EST | NBA | Washington Wizards @ Detroit Pistons | **[Washington Wizards +10.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.91 decimal | 111 · 122 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909954>) |
+| 07:00 PM EST | NBA | Cleveland Cavaliers @ Charlotte Hornets | **[Charlotte Hornets +8.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-09>)**<br>1.95 decimal | 112 · 124 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909953>) |
 
 #### 2026-11-08
 
