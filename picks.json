@@ -1,6 +1,149 @@
 {
-  "checked_at": "2026-11-11T23:29:50.898372+00:00",
+  "checked_at": "2026-11-12T17:38:14.411491+00:00",
   "picks": [
+    {
+      "game_id": "401909976",
+      "league": "nba",
+      "starts_at": "2026-11-13T00:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "20",
+          "name": "Philadelphia 76ers",
+          "leader_ids": [
+            "1966",
+            "3059318",
+            "4431678"
+          ]
+        },
+        "away": {
+          "id": "28",
+          "name": "Toronto Raptors",
+          "leader_ids": [
+            "3134908",
+            "4395625",
+            "4432241"
+          ]
+        }
+      },
+      "team_id": "20",
+      "team": "Philadelphia 76ers",
+      "side": "home",
+      "spread": -8.5,
+      "decimal_odds": 1.95,
+      "quotes": [
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-12T17:13:36+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-12T17:13:34+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.9
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-12T17:13:34+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.88
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-12T17:13:12+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.79
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.81
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-12T17:13:14+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.95
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.87
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-12T17:13:12+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "20",
+              "handicap": -8.5,
+              "decimal_price": 1.95
+            },
+            "away": {
+              "team_id": "28",
+              "handicap": 8.5,
+              "decimal_price": 1.87
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-12T17:13:49Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-12",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "Philadelphia 76ers -8.5",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
     {
       "game_id": "401909975",
       "league": "nba",
@@ -134,8 +277,12 @@
       ],
       "published_at": "2026-11-11T16:44:58Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-11",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "loss",
+      "scores": {
+        "22": 118,
+        "25": 108
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909975",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
@@ -258,8 +405,12 @@
       ],
       "published_at": "2026-11-11T16:44:58Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-11",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "win",
+      "scores": {
+        "15": 112,
+        "13": 123
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909971",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
