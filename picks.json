@@ -1,6 +1,148 @@
 {
-  "checked_at": "2026-11-12T17:38:14.411491+00:00",
+  "checked_at": "2026-11-13T17:15:30.598627+00:00",
   "picks": [
+    {
+      "game_id": "401909300",
+      "league": "nba",
+      "starts_at": "2026-11-14T01:00:00+00:00",
+      "teams": {
+        "home": {
+          "id": "3",
+          "name": "New Orleans Pelicans",
+          "leader_ids": [
+            "4395628",
+            "4869780",
+            "5144091"
+          ]
+        },
+        "away": {
+          "id": "29",
+          "name": "Memphis Grizzlies",
+          "leader_ids": [
+            "4065733",
+            "5041935"
+          ]
+        }
+      },
+      "team_id": "3",
+      "team": "New Orleans Pelicans",
+      "side": "home",
+      "spread": 2.5,
+      "decimal_odds": 1.93,
+      "quotes": [
+        {
+          "bookmaker": "PointsBet (CA - ON)",
+          "key": "pointsbetca",
+          "updated_at": "2026-11-13T16:50:07+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.91
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.91
+            }
+          }
+        },
+        {
+          "bookmaker": "Betano (CA - ON)",
+          "key": "betano_ca_on",
+          "updated_at": "2026-11-13T16:49:49+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.93
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.88
+            }
+          }
+        },
+        {
+          "bookmaker": "BetRivers (CA - ON)",
+          "key": "betrivers_ca_on",
+          "updated_at": "2026-11-13T16:49:50+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.92
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.88
+            }
+          }
+        },
+        {
+          "bookmaker": "PROLINE (CA - ON)",
+          "key": "proline_ca_on",
+          "updated_at": "2026-11-13T16:49:49+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.82
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.79
+            }
+          }
+        },
+        {
+          "bookmaker": "BetMGM (CA - ON)",
+          "key": "betmgm_ca_on",
+          "updated_at": "2026-11-13T16:50:09+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.87
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.95
+            }
+          }
+        },
+        {
+          "bookmaker": "Sports Interaction (CA - ON)",
+          "key": "sportsinteraction_ca_on",
+          "updated_at": "2026-11-13T16:49:49+00:00",
+          "outcomes": {
+            "home": {
+              "team_id": "3",
+              "handicap": 2.5,
+              "decimal_price": 1.87
+            },
+            "away": {
+              "team_id": "29",
+              "handicap": -2.5,
+              "decimal_price": 1.95
+            }
+          }
+        }
+      ],
+      "published_at": "2026-11-13T16:50:43Z",
+      "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-13",
+      "result": "pending",
+      "note": "STATUS_SCHEDULED",
+      "origin": "system",
+      "model": "Blowout spreads",
+      "market": "spread",
+      "selection": "New Orleans Pelicans +2.5",
+      "settlement_rule": "Flagged team covers the published spread; full-game final score including overtime. Pushes recorded separately. Both teams flagged: no pick. Cancelled games void; postponed games remain pending."
+    },
     {
       "game_id": "401909976",
       "league": "nba",
@@ -136,8 +278,12 @@
       ],
       "published_at": "2026-11-12T17:13:49Z",
       "prediction_url": "https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-12",
-      "result": "pending",
-      "note": "STATUS_SCHEDULED",
+      "result": "win",
+      "scores": {
+        "20": 123,
+        "28": 112
+      },
+      "source": "https://www.espn.com/nba/game/_/gameId/401909976",
       "origin": "system",
       "model": "Blowout spreads",
       "market": "spread",
