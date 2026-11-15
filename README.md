@@ -6,31 +6,39 @@ For the visual report, download [results.html](results.html) and double-click th
 
 | Wins | Losses | Pushes | Pending | Win rate |
 |:---:|:---:|:---:|:---:|:---:|
-| **18** | **21** | **0** | **4** | **46.2%** |
+| **20** | **23** | **0** | **3** | **46.5%** |
 
-43 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
+46 published picks · 0 void · 0 ineligible. Win rate = wins ÷ (wins + losses); pushes, pending, void and ineligible picks are excluded.
 
-Last checked: **Nov 14, 2026 · 10:25 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
+Last checked: **Nov 15, 2026 · 10:57 AM EST**. Times below use America/Toronto. Results update when the grading job runs.
 
 ### By league
 
 | League | Won | Lost | Push | Pending | Void | Ineligible | Win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **NBA** | 12 | 14 | 0 | 2 | 0 | 0 | 46.2% |
-| **NFL** | 3 | 4 | 0 | 0 | 0 | 0 | 42.9% |
-| **NHL** | 3 | 3 | 0 | 2 | 0 | 0 | 50.0% |
+| **NBA** | 13 | 15 | 0 | 1 | 0 | 0 | 46.4% |
+| **NFL** | 3 | 4 | 0 | 2 | 0 | 0 | 42.9% |
+| **NHL** | 4 | 4 | 0 | 0 | 0 | 0 | 50.0% |
 
 ### All picks
 
+
+#### 2026-11-15
+
+| Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
+|---|---|---|---|---|---|
+| 05:00 PM EST | NBA | San Antonio Spurs @ Utah Jazz | **[Utah Jazz +16.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-15>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 04:05 PM EST | NFL | Seattle Seahawks @ Las Vegas Raiders | **[Las Vegas Raiders +6.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-15>)**<br>1.95 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 01:00 PM EST | NFL | Buffalo Bills @ New York Jets | **[New York Jets +7.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-15>)**<br>1.93 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
 
 #### 2026-11-14
 
 | Start (Toronto) | League | Away @ home | Published pick | Final (away · home) | Result |
 |---|---|---|---|---|---|
-| 08:00 PM EST | NHL | Buffalo Sabres @ Dallas Stars | **[Dallas Stars -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>2.80 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:30 PM EST | NBA | Dallas Mavericks @ Cleveland Cavaliers | **[Dallas Mavericks -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>1.98 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:00 PM EST | NBA | Denver Nuggets @ New Orleans Pelicans | **[New Orleans Pelicans +12.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>1.91 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
-| 07:00 PM EST | NHL | Edmonton Oilers @ Toronto Maple Leafs | **[Edmonton Oilers -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>2.57 decimal | — | 🟡 Pending<br>STATUS_SCHEDULED |
+| 08:00 PM EST | NHL | Buffalo Sabres @ Dallas Stars | **[Dallas Stars -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>2.80 decimal | 0 · 2 | [🟢 Won](<https://www.espn.com/nhl/game/_/gameId/401892717>) |
+| 07:30 PM EST | NBA | Dallas Mavericks @ Cleveland Cavaliers | **[Dallas Mavericks -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>1.98 decimal | 117 · 127 | [🔴 Lost](<https://www.espn.com/nba/game/_/gameId/401909981>) |
+| 07:00 PM EST | NBA | Denver Nuggets @ New Orleans Pelicans | **[New Orleans Pelicans +12.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>1.91 decimal | 116 · 108 | [🟢 Won](<https://www.espn.com/nba/game/_/gameId/401909980>) |
+| 07:00 PM EST | NHL | Edmonton Oilers @ Toronto Maple Leafs | **[Edmonton Oilers -1.5](<https://github.com/jjoaqu7/spread-record/releases/tag/picks-2026-11-14>)**<br>2.57 decimal | 1 · 0 | [🔴 Lost](<https://www.espn.com/nhl/game/_/gameId/401892710>) |
 
 #### 2026-11-13
 
